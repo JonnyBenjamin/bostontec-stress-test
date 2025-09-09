@@ -61,6 +61,9 @@ def deploy_reports():
             shutil.copy2(html_file, dest_path)
             print(f"  ✅ Copied {html_file.name}")
         
+        # Clean up old reports - keep only the 5 most recent
+        cleanup_old_reports(reports_dir)
+        
         # Update index.html with latest reports
         update_index_html(reports_dir)
         
@@ -92,6 +95,23 @@ def deploy_reports():
         run_command(f'git checkout {current_branch}')
     
     return True
+
+
+def cleanup_old_reports(reports_dir):
+    """Keep only the 5 most recent reports, remove older ones"""
+    reports = list(Path(reports_dir).glob('*.html'))
+    if len(reports) <= 5:
+        return  # No cleanup needed
+    
+    # Sort by modification time, newest first
+    reports.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+    
+    # Remove all but the 5 most recent
+    for old_report in reports[5:]:
+        old_report.unlink()
+        print(f"  🗑️  Removed old report: {old_report.name}")
+    
+    print(f"  ✅ Cleaned up old reports, kept {min(5, len(reports))} most recent")
 
 
 def update_index_html(reports_dir):
