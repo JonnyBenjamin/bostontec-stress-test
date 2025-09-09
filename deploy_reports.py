@@ -144,11 +144,18 @@ def update_index_html(reports_dir):
     with open('index.html', 'r') as f:
         content = f.read()
     
-    # Replace the reports list placeholder
-    content = content.replace(
-        '<div class="text-center text-gray-500 py-8">\n                    <p>No reports available yet.</p>\n                    <p class="text-sm mt-2">Reports will appear here after running stress tests.</p>\n                </div>',
-        reports_html
-    )
+    # Find the reports list section and replace it completely
+    start_marker = '<div id="reports-list" class="space-y-3">'
+    end_marker = '</div>'
+    
+    start_idx = content.find(start_marker)
+    if start_idx != -1:
+        start_idx += len(start_marker)
+        end_idx = content.find(end_marker, start_idx)
+        if end_idx != -1:
+            # Replace the entire reports section
+            new_content = content[:start_idx] + reports_html + content[end_idx:]
+            content = new_content
     
     # Write updated index.html
     with open('index.html', 'w') as f:
