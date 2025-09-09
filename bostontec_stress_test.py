@@ -1496,6 +1496,10 @@ def main():
                        help='Enable verbose logging')
     parser.add_argument('--pdf-report', action='store_true',
                        help='Generate professional PDF report')
+    parser.add_argument('--html-report', action='store_true',
+                       help='Generate modern HTML report with Tailwind CSS')
+    parser.add_argument('--deploy-reports', action='store_true',
+                       help='Deploy HTML reports to GitHub Pages after generation')
     
     args = parser.parse_args()
     
@@ -1521,8 +1525,10 @@ def main():
             headless=args.headless
         )
         
-        # Set PDF report flag
+        # Set report flags
         stress_test.generate_pdf = args.pdf_report
+        stress_test.generate_html = args.html_report
+        stress_test.deploy_reports = args.deploy_reports
         
         stress_test.run_stress_test()
         return 0
