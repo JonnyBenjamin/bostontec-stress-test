@@ -51,3 +51,6 @@ Thumbs.db
 
 # Generated Reports
 pdf_reports/
+bostontec_stress_test.log
+run_*.png
+bostontec_stress_test_data_*.json
