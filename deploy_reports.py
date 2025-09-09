@@ -1,0 +1,142 @@
+#!/usr/bin/env python3
+"""
+Deploy HTML reports to GitHub Pages
+This script copies HTML reports to the gh-pages branch and pushes them to GitHub
+"""
+
+import os
+import shutil
+import subprocess
+import json
+from datetime import datetime
+from pathlib import Path
+
+
+def run_command(cmd, cwd=None):
+    """Run a shell command and return the result"""
+    try:
+        result = subprocess.run(cmd, shell=True, cwd=cwd, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"Error running command: {cmd}")
+            print(f"Error: {result.stderr}")
+            return False
+        return True
+    except Exception as e:
+        print(f"Exception running command {cmd}: {e}")
+        return False
+
+
+def deploy_reports():
+    """Deploy HTML reports to GitHub Pages"""
+    print("🚀 Deploying HTML reports to GitHub Pages...")
+    
+    # Check if we're in a git repository
+    if not os.path.exists('.git'):
+        print("❌ Not in a git repository")
+        return False
+    
+    # Get current branch
+    result = subprocess.run(['git', 'branch', '--show-current'], capture_output=True, text=True)
+    current_branch = result.stdout.strip()
+    print(f"📍 Current branch: {current_branch}")
+    
+    # Switch to gh-pages branch
+    print("🔄 Switching to gh-pages branch...")
+    if not run_command('git checkout gh-pages'):
+        print("❌ Failed to switch to gh-pages branch")
+        return False
+    
+    # Copy HTML reports to root directory
+    html_reports_dir = 'html_reports'
+    if os.path.exists(html_reports_dir):
+        print("📁 Copying HTML reports...")
+        
+        # Create reports directory in gh-pages
+        reports_dir = 'reports'
+        os.makedirs(reports_dir, exist_ok=True)
+        
+        # Copy all HTML files
+        for html_file in Path(html_reports_dir).glob('*.html'):
+            dest_path = Path(reports_dir) / html_file.name
+            shutil.copy2(html_file, dest_path)
+            print(f"  ✅ Copied {html_file.name}")
+        
+        # Update index.html with latest reports
+        update_index_html(reports_dir)
+        
+    else:
+        print("⚠️  No HTML reports directory found")
+    
+    # Add and commit changes
+    print("💾 Committing changes...")
+    if not run_command('git add .'):
+        print("❌ Failed to add files")
+        return False
+    
+    if not run_command('git commit -m "Update HTML reports - ' + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + '"'):
+        print("❌ Failed to commit changes")
+        return False
+    
+    # Push to GitHub
+    print("🌐 Pushing to GitHub...")
+    if not run_command('git push origin gh-pages'):
+        print("❌ Failed to push to GitHub")
+        return False
+    
+    print("✅ Successfully deployed to GitHub Pages!")
+    print("🔗 Your reports will be available at: https://jonnybenjamin.github.io/bostontec_testing/")
+    
+    # Switch back to original branch
+    if current_branch != 'gh-pages':
+        print(f"🔄 Switching back to {current_branch} branch...")
+        run_command(f'git checkout {current_branch}')
+    
+    return True
+
+
+def update_index_html(reports_dir):
+    """Update the index.html file with a list of available reports"""
+    reports = list(Path(reports_dir).glob('*.html'))
+    reports.sort(key=lambda x: x.stat().st_mtime, reverse=True)  # Sort by modification time, newest first
+    
+    if not reports:
+        return
+    
+    # Generate reports list HTML
+    reports_html = ""
+    for report in reports[:10]:  # Show only the 10 most recent reports
+        report_name = report.stem
+        report_date = datetime.fromtimestamp(report.stat().st_mtime).strftime('%B %d, %Y at %I:%M %p')
+        reports_html += f'''
+        <div class="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors">
+            <div class="flex justify-between items-center">
+                <div>
+                    <h4 class="font-semibold text-gray-800">{report_name.replace('_', ' ').title()}</h4>
+                    <p class="text-sm text-gray-500">Generated: {report_date}</p>
+                </div>
+                <a href="reports/{report.name}" target="_blank" 
+                   class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                    View Report
+                </a>
+            </div>
+        </div>'''
+    
+    # Read current index.html
+    with open('index.html', 'r') as f:
+        content = f.read()
+    
+    # Replace the reports list placeholder
+    content = content.replace(
+        '<div class="text-center text-gray-500 py-8">\n                    <p>No reports available yet.</p>\n                    <p class="text-sm mt-2">Reports will appear here after running stress tests.</p>\n                </div>',
+        reports_html
+    )
+    
+    # Write updated index.html
+    with open('index.html', 'w') as f:
+        f.write(content)
+    
+    print(f"📝 Updated index.html with {len(reports)} reports")
+
+
+if __name__ == "__main__":
+    deploy_reports()
