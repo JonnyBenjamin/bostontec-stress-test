@@ -115,12 +115,9 @@ def cleanup_old_reports(reports_dir):
 
 
 def update_index_html(reports_dir):
-    """Update the index.html file with a list of available reports"""
+    """Generate a completely new index.html file with the latest reports"""
     reports = list(Path(reports_dir).glob('*.html'))
     reports.sort(key=lambda x: x.stat().st_mtime, reverse=True)  # Sort by modification time, newest first
-    
-    if not reports:
-        return
     
     # Generate reports list HTML
     reports_html = ""
@@ -140,30 +137,70 @@ def update_index_html(reports_dir):
             </div>
         </div>'''
     
-    # Read current index.html
-    with open('index.html', 'r') as f:
-        content = f.read()
+    # Generate the complete index.html file from scratch
+    index_content = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BostonTec 3D Workbench Builder - Stress Test Reports</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {{
+            theme: {{
+                extend: {{
+                    fontFamily: {{
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }}
+                }}
+            }}
+        }}
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans text-sm text-gray-700">
+    <div class="max-w-screen-lg mx-auto py-8 px-4">
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div class="text-center">
+                <div class="mb-4">
+                    <img src="BOSTONtec-Logo.png" alt="BostonTec" class="h-12 mx-auto">
+                </div>
+                <h1 class="text-2xl font-semibold text-gray-800 mb-2">3D Workbench Builder</h1>
+                <h2 class="text-lg font-medium text-gray-600">Stress Test Reports</h2>
+                <div class="mt-4 text-sm text-gray-500">
+                    Automated testing and analysis reports
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Latest Reports</h3>
+            <div id="reports-list" class="space-y-3">
+                {reports_html}
+            </div>
+        </div>
+
+        <div class="bg-blue-50 rounded-lg p-4 mb-6">
+            <h4 class="font-semibold text-blue-800 mb-2">About These Reports</h4>
+            <p class="text-sm text-blue-700">
+                These reports contain comprehensive analysis of the BostonTec 3D Workbench Builder stress tests, 
+                including performance metrics, memory usage patterns, and error analysis to help identify 
+                potential issues with PDF generation and overall system performance.
+            </p>
+        </div>
+
+        <div class="text-xs text-gray-400 text-center mt-12 pt-4 border-t border-gray-200">
+            BostonTec 3D Workbench Builder - Stress Test Reports | Generated automatically
+        </div>
+    </div>
+</body>
+</html>'''
     
-    # Find the reports list section and replace it completely
-    start_marker = '<div id="reports-list" class="space-y-3">'
-    end_marker = '</div>'
-    
-    start_idx = content.find(start_marker)
-    if start_idx != -1:
-        start_idx += len(start_marker)
-        # Find the closing div for the reports-list section
-        # Look for the </div> that closes the reports-list div specifically
-        end_idx = content.find(end_marker, start_idx)
-        if end_idx != -1:
-            # Replace the entire reports section content
-            new_content = content[:start_idx] + reports_html + content[end_idx:]
-            content = new_content
-    
-    # Write updated index.html
+    # Write the complete new index.html file
     with open('index.html', 'w') as f:
-        f.write(content)
+        f.write(index_content)
     
-    print(f"📝 Updated index.html with {len(reports)} reports")
+    print(f"📝 Generated new index.html with {len(reports)} reports")
 
 
 if __name__ == "__main__":
