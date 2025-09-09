@@ -104,14 +104,13 @@ def update_index_html(reports_dir):
     
     # Generate reports list HTML
     reports_html = ""
-    for report in reports[:10]:  # Show only the 10 most recent reports
-        report_name = report.stem
+    for i, report in enumerate(reports[:10], 1):  # Show only the 10 most recent reports
         report_date = datetime.fromtimestamp(report.stat().st_mtime).strftime('%B %d, %Y at %I:%M %p')
         reports_html += f'''
         <div class="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors">
             <div class="flex justify-between items-center">
                 <div>
-                    <h4 class="font-semibold text-gray-800">{report_name.replace('_', ' ').title()}</h4>
+                    <h4 class="font-semibold text-gray-800">Performance Test #{i}</h4>
                     <p class="text-sm text-gray-500">Generated: {report_date}</p>
                 </div>
                 <a href="reports/{report.name}" target="_blank" 
