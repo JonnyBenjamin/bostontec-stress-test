@@ -1,0 +1,4337 @@
+{
+  "test_summary": {
+    "total_runs": 1,
+    "successful_runs": 1,
+    "failed_runs": 0,
+    "success_rate": 100.0,
+    "run_times": [
+      46.00764608383179
+    ],
+    "average_run_time": 46.00764608383179
+  },
+  "console_logs": [
+    {
+      "timestamp": 1757446576.2059772,
+      "type": "error",
+      "text": "Access to font at 'https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat-400-normal-latin.woff2' from origin 'https://www.bostontec.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "level": "error",
+      "relevance": "zoovu_error"
+    },
+    {
+      "timestamp": 1757446576.208749,
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "level": "error",
+      "relevance": "image_loading"
+    },
+    {
+      "timestamp": 1757446576.3257852,
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "level": "error",
+      "relevance": "image_loading"
+    },
+    {
+      "timestamp": 1757446576.5842502,
+      "type": "log",
+      "text": "## content on default summary update ActionEvent",
+      "level": "info",
+      "relevance": "configurator_error"
+    },
+    {
+      "timestamp": 1757446582.119479,
+      "type": "log",
+      "text": "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.121066,
+      "type": "log",
+      "text": "    \"memorysetup-temp-allocator-size-nav-mesh-worker=65536\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.121258,
+      "type": "log",
+      "text": "    \"memorysetup-allocator-temp-initial-block-size-main=262144\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.121417,
+      "type": "log",
+      "text": "    \"memorysetup-allocator-temp-initial-block-size-worker=262144\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.12157,
+      "type": "log",
+      "text": "    \"memorysetup-temp-allocator-size-audio-worker=65536\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.12171,
+      "type": "log",
+      "text": "    \"memorysetup-temp-allocator-size-cloud-worker=32768\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.122167,
+      "type": "log",
+      "text": "    \"memorysetup-temp-allocator-size-background-worker=32768\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.122516,
+      "type": "log",
+      "text": "    \"memorysetup-bucket-allocator-granularity=16\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.1228642,
+      "type": "log",
+      "text": "    \"memorysetup-bucket-allocator-bucket-count=8\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.123571,
+      "type": "log",
+      "text": "    \"memorysetup-bucket-allocator-block-size=4194304\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.124186,
+      "type": "log",
+      "text": "    \"memorysetup-bucket-allocator-block-count=1\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.124396,
+      "type": "log",
+      "text": "    \"memorysetup-main-allocator-block-size=16777216\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.124934,
+      "type": "log",
+      "text": "    \"memorysetup-thread-allocator-block-size=16777216\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.126016,
+      "type": "log",
+      "text": "    \"memorysetup-gfx-main-allocator-block-size=16777216\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.126359,
+      "type": "log",
+      "text": "    \"memorysetup-gfx-thread-allocator-block-size=16777216\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.1290948,
+      "type": "log",
+      "text": "    \"memorysetup-cache-allocator-block-size=4194304\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.129251,
+      "type": "log",
+      "text": "    \"memorysetup-typetree-allocator-block-size=2097152\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.129399,
+      "type": "log",
+      "text": "    \"memorysetup-profiler-bucket-allocator-granularity=16\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.12959,
+      "type": "log",
+      "text": "    \"memorysetup-profiler-bucket-allocator-bucket-count=8\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.129916,
+      "type": "log",
+      "text": "    \"memorysetup-profiler-bucket-allocator-block-size=4194304\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.130402,
+      "type": "log",
+      "text": "    \"memorysetup-profiler-bucket-allocator-block-count=1\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.130945,
+      "type": "log",
+      "text": "    \"memorysetup-profiler-allocator-block-size=16777216\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.131535,
+      "type": "log",
+      "text": "    \"memorysetup-profiler-editor-allocator-block-size=1048576\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.131922,
+      "type": "log",
+      "text": "    \"memorysetup-temp-allocator-size-main=4194304\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.132682,
+      "type": "log",
+      "text": "    \"memorysetup-job-temp-allocator-block-size=2097152\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.1328819,
+      "type": "log",
+      "text": "    \"memorysetup-job-temp-allocator-block-size-background=1048576\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.133153,
+      "type": "log",
+      "text": "    \"memorysetup-job-temp-allocator-reduction-small-platforms=262144\"\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.135665,
+      "type": "log",
+      "text": "Creating WebGL 2.0 context.",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.1360362,
+      "type": "log",
+      "text": "Renderer: WebKit WebGL\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.136811,
+      "type": "log",
+      "text": "Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.137311,
+      "type": "log",
+      "text": " EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_render_snorm EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge EXT_texture_norm16 KHR_parallel_shader_compile NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear WEBGL_blend_func_extended WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_pvrtc WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_provoking_vertex WEBGL_render_shared_exponent WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.137766,
+      "type": "log",
+      "text": "depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_render_snorm GL_EXT_texture_compression_bptc GL_EXT_texture_compression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_KHR_parallel_shader_compile GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_WEBGL_blend_func_extended GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_pvrtc GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_provoking_vertex GL_WEBGL_render_shared_exponent GL_WEBGL_stencil_texturing\n",
+      "level": "info",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.138114,
+      "type": "warning",
+      "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "level": "warning",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.1383522,
+      "type": "warning",
+      "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "level": "warning",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.138547,
+      "type": "warning",
+      "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "level": "warning",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.138774,
+      "type": "warning",
+      "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "level": "warning",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.1388931,
+      "type": "warning",
+      "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "level": "warning",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446582.138999,
+      "type": "warning",
+      "text": "WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat",
+      "level": "warning",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446605.979873,
+      "type": "error",
+      "text": "TypeError: Cannot read properties of null (reading 'useLazyLoading')\n    at ProductListComponent.loadMoreProducts (https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.min.js:2:1160115)\n    at invokeWithErrorHandling (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2048125)\n    at c.$emit (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2075638)\n    at SectionPanelComponent.onScroll (https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.min.js:2:1133808)\n    at invokeWithErrorHandling (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2048125)\n    at HTMLDivElement.invoker (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2050141)\n    at S._wrapper (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2087889)\n    at HTMLDivElement.r (https://barracuda-components-library.zoovu.com/component-library/1427/LeadgenComponent/1.3.18/leadgen-component.remote-component.v1-3.min.js:58:136555)",
+      "level": "error",
+      "relevance": "zoovu_error"
+    },
+    {
+      "timestamp": 1757446620.9762292,
+      "type": "error",
+      "text": "TypeError: Cannot read properties of undefined (reading 'parameters')\n    at ConfiguratorTriggerModel.eval (eval at CodeContextActionExecutor.execute (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:810185), <anonymous>:181:53)\n    at EventBus.executeCallback (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1569790)\n    at EventBus.triggerEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1569489)\n    at EventBus.triggerEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1569562)\n    at BaseModel.triggerActionEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1584578)\n    at triggerGlobalEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1560188)\n    at afterActionExecuted (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1560836)\n    at actionInvocation (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1560885)\n    at C.value [as select] (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1561538)\n    at target.<computed> (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1610088)\n    at t.handleButtonClick (https://barracuda-components-library.zoovu.com/component-library/1427/SectionNavigationComponent/0.1.47/section-navigation-component.remote-component.v0-1.min.js:2:66931)\n    at click (https://barracuda-components-library.zoovu.com/component-library/1427/SectionNavigationComponent/0.1.47/section-navigation-component.remote-component.v0-1.min.js:2:68564)\n    at invokeWithErrorHandling (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2048125)\n    at HTMLButtonElement.invoker (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2050141)\n    at S._wrapper (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2087889)\n    at HTMLButtonElement.r (https://barracuda-components-library.zoovu.com/component-library/1427/LeadgenComponent/1.3.18/leadgen-component.remote-component.v1-3.min.js:58:136555)",
+      "level": "error",
+      "relevance": "zoovu_error"
+    }
+  ],
+  "network_requests": [
+    {
+      "timestamp": 1757446574.2825851,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/launchers/PxvQZl/production-configurator",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.415689,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/launchers/PxvQZl/production-configurator",
+      "status": 307,
+      "status_text": "",
+      "response_time": 1757446574.4157069,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.415978,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/H9Fn48Zn/js-loader?locale=en-US&launcherId=137",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.721469,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/H9Fn48Zn/js-loader?locale=en-US&launcherId=137",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446574.721474,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.722164,
+      "event": "request",
+      "url": "https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.css",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.722574,
+      "event": "request",
+      "url": "https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-manifest.json",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.727607,
+      "event": "response",
+      "url": "https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.css",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446574.72761,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.7841642,
+      "event": "failed",
+      "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2F&scrsrc=www.googletagmanager.com&frm=0&rnd=1676004748.1757446574&auid=374561048.1757446574&navt=n&npa=0&gtm=45He5980v812273033za200zd812273033xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105367987~105367989~105426769~105426771&tft=1757446574491&tfd=776&apve=1&apvf=f",
+      "failure_text": "net::ERR_ABORTED",
+      "relevance": "other"
+    },
+    {
+      "timestamp": 1757446574.786006,
+      "event": "failed",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-7FV9HY1DMB&gtm=45je5980v874323709z8812273033za200zb812273033zd812273033&_p=1757446574269&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=562218578.1757446575&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.1.1&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAACAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105367987~105367989~105426769~105426771&sid=1757446574&sct=1&seg=1&dl=https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2F&dt=&en=page_view&_et=5&tfd=959",
+      "failure_text": "net::ERR_ABORTED",
+      "relevance": "other"
+    },
+    {
+      "timestamp": 1757446574.786309,
+      "event": "failed",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-7FV9HY1DMB&gtm=45je5980v874323709z8812273033za200zb812273033zd812273033&_p=1757446574269&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=562218578.1757446575&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.1.1&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105367987~105367989~105426769~105426771&sid=1757446574&sct=1&seg=0&dl=https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=927",
+      "failure_text": "net::ERR_ABORTED",
+      "relevance": "other"
+    },
+    {
+      "timestamp": 1757446574.7865868,
+      "event": "response",
+      "url": "https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-manifest.json",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446574.7865899,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.786719,
+      "event": "request",
+      "url": "https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.7868302,
+      "event": "request",
+      "url": "https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.min.js",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.7869508,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/load-advisor?locale=en-US&refererAdvisorCode=H9Fn48Zn&launcherId=137",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.917687,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/load-advisor?locale=en-US&refererAdvisorCode=H9Fn48Zn&launcherId=137",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446574.91769,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446574.93019,
+      "event": "response",
+      "url": "https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.min.js",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446574.930193,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.048359,
+      "event": "response",
+      "url": "https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446575.048409,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.485494,
+      "event": "request",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/LeadgenComponent/1.3.18/leadgen-component.remote-component.v1-3.min.js",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.4875011,
+      "event": "request",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/ProductInfoBox/0.0.4/product-info-box.remote-component.v0-0.min.js",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.4877172,
+      "event": "request",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/ProductInfoBox/0.0.4/product-info-box.remote-component.v0-0.min.css",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.488016,
+      "event": "request",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/addOnsSection/0.1.8/add-ons-section.remote-component.v0-1.min.js",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.488238,
+      "event": "request",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/SectionNavigationComponent/0.1.47/section-navigation-component.remote-component.v0-1.min.js",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.488339,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/model?locale=en-US",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.541497,
+      "event": "response",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/ProductInfoBox/0.0.4/product-info-box.remote-component.v0-0.min.css",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446575.541501,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.548364,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/model?locale=en-US",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446575.548366,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.6467042,
+      "event": "response",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/SectionNavigationComponent/0.1.47/section-navigation-component.remote-component.v0-1.min.js",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446575.6467059,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.646871,
+      "event": "response",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/ProductInfoBox/0.0.4/product-info-box.remote-component.v0-0.min.js",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446575.646873,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.647018,
+      "event": "response",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/addOnsSection/0.1.8/add-ons-section.remote-component.v0-1.min.js",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446575.64702,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.6471622,
+      "event": "response",
+      "url": "https://barracuda-components-library.zoovu.com/component-library/1427/LeadgenComponent/1.3.18/leadgen-component.remote-component.v1-3.min.js",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446575.6471639,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.752955,
+      "event": "request",
+      "url": "https://ev-tel.zoovu.com/events/barracuda/1427/f85ab705-a189-49d6-9ff4-e85cfd494fe8_1757446575585",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.7532952,
+      "event": "request",
+      "url": "https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat.css",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.753813,
+      "event": "request",
+      "url": "https://barracuda-experience.zoovu.com/public-assets/fonts/gf/lato/lato.css",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.754005,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.756306,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446575.8510988,
+      "event": "request",
+      "url": "blob:https://www.bostontec.com/4daa1e02-896e-4dc8-b20b-bbc886b6e6bf",
+      "method": "GET",
+      "resource_type": "script",
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446576.06834,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/35def200-3a94-48ff-b9ce-8ec3b4acd364",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.070341,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/default-products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Afalse%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Base%20Frame%22%2C%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%5D%2C%22ctx_timer%22%3A1%7D&layoutId=43966&locale=en-US&stageId=37602&tm=GLOBAL",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.070602,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1a.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.070722,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1a.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.070836,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/refresh.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.07096,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.071052,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.0711958,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.0713,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.0713978,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.071485,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.071578,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-down-triangle.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.071669,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-down-triangle.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.072054,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-down-triangle.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.072265,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/cross.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.072366,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/cross.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.0724878,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/reset-right.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.073128,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/35def200-3a94-48ff-b9ce-8ec3b4acd364",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.073132,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.073406,
+      "event": "response",
+      "url": "https://barracuda-experience.zoovu.com/public-assets/fonts/gf/lato/lato.css",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.073408,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.073579,
+      "event": "response",
+      "url": "https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat.css",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.073581,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.095287,
+      "event": "request",
+      "url": "https://barracuda-experience.zoovu.com/public-assets/fonts/gf/lato/lato-400-normal-latin.woff2",
+      "method": "GET",
+      "resource_type": "font",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.097654,
+      "event": "request",
+      "url": "https://barracuda-experience.zoovu.com/public-assets/fonts/gf/lato/lato-700-normal-latin.woff2",
+      "method": "GET",
+      "resource_type": "font",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.098123,
+      "event": "request",
+      "url": "https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat-400-normal-latin.woff2",
+      "method": "GET",
+      "resource_type": "font",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.1703491,
+      "event": "response",
+      "url": "blob:https://www.bostontec.com/4daa1e02-896e-4dc8-b20b-bbc886b6e6bf",
+      "status": 200,
+      "status_text": "OK",
+      "response_time": 1757446576.1703522,
+      "relevance": "pdf_generation"
+    },
+    {
+      "timestamp": 1757446576.1726599,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.172663,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.172985,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.172988,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.208193,
+      "event": "request",
+      "url": "https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat-400-normal.woff",
+      "method": "GET",
+      "resource_type": "font",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.2083929,
+      "event": "failed",
+      "url": "https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat-400-normal-latin.woff2",
+      "failure_text": "net::ERR_FAILED",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.2091908,
+      "event": "response",
+      "url": "https://barracuda-experience.zoovu.com/public-assets/fonts/gf/lato/lato-700-normal-latin.woff2",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.209194,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.209471,
+      "event": "response",
+      "url": "https://barracuda-experience.zoovu.com/public-assets/fonts/gf/lato/lato-400-normal-latin.woff2",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.2094731,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.226696,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1a.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.226698,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.2269068,
+      "event": "response",
+      "url": "https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat-400-normal.woff",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.226909,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.227056,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1a.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.227057,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.227202,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/refresh.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.227204,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.227411,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.227412,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.229538,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.22954,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.2346292,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-down-triangle.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.2346308,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.235328,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/reset-right.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.23533,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.237857,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/cross.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.237859,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.239702,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.239706,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.24018,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.240183,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.242338,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-down-triangle.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.242343,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.2427928,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/cross.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.242795,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.2431018,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-left-1b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.2431061,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.243746,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-1b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.2437482,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.255397,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-down-triangle.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.255399,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.2560909,
+      "event": "response",
+      "url": "https://ev-tel.zoovu.com/events/barracuda/1427/f85ab705-a189-49d6-9ff4-e85cfd494fe8_1757446575585",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.256093,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.325498,
+      "event": "response",
+      "url": "https://www.bostontec.com/3d-workbench-builder/static/images/image-placeholder.svg?tutla",
+      "status": 404,
+      "status_text": "",
+      "response_time": 1757446576.3254988,
+      "relevance": "image_loading"
+    },
+    {
+      "timestamp": 1757446576.582479,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/default-products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Afalse%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Base%20Frame%22%2C%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%5D%2C%22ctx_timer%22%3A1%7D&layoutId=43966&locale=en-US&stageId=37602&tm=GLOBAL",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.582481,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.674214,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.680419,
+      "event": "request",
+      "url": "https://ev-tel.zoovu.com/events/barracuda/1427/f85ab705-a189-49d6-9ff4-e85cfd494fe8_1757446575585",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.792076,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.792084,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446576.9911911,
+      "event": "response",
+      "url": "https://ev-tel.zoovu.com/events/barracuda/1427/f85ab705-a189-49d6-9ff4-e85cfd494fe8_1757446575585",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446576.991194,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.128581,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.5715368,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.5737212,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.574018,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.574102,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320751/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Base%20Frame%22%2C%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=1&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082&sb=null",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.577871,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446583.577875,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.685768,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320751/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Base%20Frame%22%2C%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=1&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082&sb=null",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446583.68577,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.686054,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.707415,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082&sp=32320751%3APB3060&stageId=37602",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.707644,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.707902,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/6fe126d1-9fd3-456f-9a1c-18cba76156c6",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446583.710687,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446583.71069,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.256535,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446584.256541,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.256825,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446584.2568262,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.2574039,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446584.257406,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.257639,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/6fe126d1-9fd3-456f-9a1c-18cba76156c6",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446584.257641,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.2578602,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446584.2578619,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.258773,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082&sp=32320751%3APB3060&stageId=37602",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446584.2587771,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.260546,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446584.293486,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446584.293488,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446591.589288,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446592.8958972,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446592.895905,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.143452,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.1446762,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/1720c20b-aa1c-4f80-bb7e-1fb1320f3de4",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.1449049,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e0cab5c6-0502-4c95-a4ca-524122d3a33c",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.145213,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e25d76ab-feb7-457c-8e0f-00d4c351e787",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.14551,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/ddd8df01-3c99-405d-aeae-0e06be41b62b",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.145675,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/9bbebed6-cd8b-47a6-b7f9-09f874d5326b",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.146101,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&rpn=0&sb=null&sp=32320751%3APB3060",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.16837,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/1720c20b-aa1c-4f80-bb7e-1fb1320f3de4",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.168373,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.1697762,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e0cab5c6-0502-4c95-a4ca-524122d3a33c",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.1697779,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.171057,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/9bbebed6-cd8b-47a6-b7f9-09f874d5326b",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.171058,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.171536,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e25d76ab-feb7-457c-8e0f-00d4c351e787",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.1715379,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.1724439,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/ddd8df01-3c99-405d-aeae-0e06be41b62b",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.1724448,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.1735759,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.1735811,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.7625558,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&rpn=0&sb=null&sp=32320751%3APB3060",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.7625642,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.764302,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.764674,
+      "event": "request",
+      "url": "https://zoovu.com/wp-content/themes/zoovuthemev3/images/logo-blue.svg",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.765105,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.765344,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.7656991,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.765904,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.766474,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.766867,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.767116,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.767425,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.768939,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.768944,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.769511,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.769516,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.7699652,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.769967,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.770611,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.770615,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.771018,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.7710211,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.771442,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.771444,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.7718,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.7718022,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.7730901,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.773092,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.774025,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.774026,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446595.777822,
+      "event": "response",
+      "url": "https://zoovu.com/wp-content/themes/zoovuthemev3/images/logo-blue.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446595.777825,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446598.559235,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446598.728817,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446598.7296052,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320755/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=1&qs=30680566%3A218080900&rpn=0&sb=null&sp=32320751%3APB3060",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446598.734694,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446598.7346969,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446598.8518772,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446598.851879,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446599.43032,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320755/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Work%20Surface%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=1&qs=30680566%3A218080900&rpn=0&sb=null&sp=32320751%3APB3060",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446599.430325,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446599.430475,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446599.430669,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060&sp=32320751%3APB3060%2C32320755%3AMS3060&stageId=37602",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446599.430805,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446599.437036,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446599.437043,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446599.4378319,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446599.437834,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446600.767807,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060&sp=32320751%3APB3060%2C32320755%3AMS3060&stageId=37602",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446600.767811,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446600.775954,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446600.7794409,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&qs=30680568%3A218081060&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446600.781158,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446600.7811599,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446601.742502,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Afalse%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&qs=30680568%3A218081060&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446601.742506,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446601.7449322,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446601.855266,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446601.855272,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.233002,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&qs=30680568%3A218081060&rpn=1&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.718632,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G&stageId=37602",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.7187998,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.723714,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.726613,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Feet%20Casters%22%2C%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&qs=30680568%3A218081060&rpn=1&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446602.726617,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.726847,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.727218,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446602.72722,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446602.727693,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446602.727695,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446603.2374249,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446603.237429,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446603.237926,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G&stageId=37602",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446603.237928,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446603.580359,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446603.5807219,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&qs=30680568%3A218081060&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446603.597762,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446603.5977652,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446603.5992541,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320756/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Afalse%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Afalse%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=10&qs=30680568%3A218081060&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446603.599259,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446603.599893,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446604.100648,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446604.1006532,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.974166,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.976219,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/f70d5b40-0edc-4bdf-b162-92a8de8d4b07",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.976832,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/9f69e788-3f6b-4a6d-bb4a-bcf16d5b318e",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.977309,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/dab2891c-362d-4368-a40e-187db28fa9e0",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.977567,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e88d590a-eea3-42d4-9358-c732904e7264",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.977738,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/eda5c820-b1ce-4024-b625-bdfb9b454723",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.9779022,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/c53eeeba-0dad-4cd6-a819-16a7f49f559d",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.9783978,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/7c4722a8-b209-4c6c-8ab3-c65f3d0c00f4",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.978731,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/0ce54e0d-5dcf-4aba-84ad-065ce1411f55",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.984651,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e88d590a-eea3-42d4-9358-c732904e7264",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.9846542,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.984986,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/9f69e788-3f6b-4a6d-bb4a-bcf16d5b318e",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.984988,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.985376,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/0ce54e0d-5dcf-4aba-84ad-065ce1411f55",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.985377,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.9860501,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/c53eeeba-0dad-4cd6-a819-16a7f49f559d",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.986052,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.98649,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/eda5c820-b1ce-4024-b625-bdfb9b454723",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.986492,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.988399,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/f70d5b40-0edc-4bdf-b162-92a8de8d4b07",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.9884002,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.988578,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/7c4722a8-b209-4c6c-8ab3-c65f3d0c00f4",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.988579,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.9893818,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.989843,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/dab2891c-362d-4368-a40e-187db28fa9e0",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.989845,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.99055,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.990554,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446605.991918,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446605.991921,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.185643,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.190754,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320757/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=1&qs=30680569%3A218081159&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.1924212,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446608.1924229,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.720041,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320757/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Afalse%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Uprights%20%26%20Risers%22%2C%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=1&qs=30680569%3A218081159&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446608.7200499,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.72124,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.721639,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060%2C30680569%3A218081159&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236&stageId=37602",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.7219682,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.7226582,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446608.722662,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446608.723053,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446608.723056,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446609.758284,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060%2C30680569%3A218081159&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236&stageId=37602",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446609.758291,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446609.764935,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446609.76848,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446609.7684832,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446610.779543,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446610.782896,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446610.78351,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320773/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=50&qs=30680589%3A218080950&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446610.869791,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446610.8697941,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446610.8860931,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446610.8860958,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.441452,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320773/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Shelving%22%2C%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=50&qs=30680589%3A218080950&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.441456,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.4416482,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.8962739,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.896611,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.897002,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.8991091,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.8992882,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.899414,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.899565,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.8996758,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.899811,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.8999228,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900019,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900123,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900209,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.9003031,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900398,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900498,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900592,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900689,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.9007921,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.900888,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.918354,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.91836,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.9389062,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.9389079,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.939463,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.939465,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.939693,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.9396951,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.940456,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.940458,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.942251,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.942254,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.942658,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.942662,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.9462159,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.946218,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.947783,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.947785,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.94883,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.948831,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.949971,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.949972,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.951159,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.9511611,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.9515939,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.951596,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.954507,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.95451,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.9559,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.9559019,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.956831,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.956835,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.957782,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.9577842,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.9590049,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.959006,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.962355,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.962358,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.96674,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.966742,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446611.969289,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446611.96929,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446614.0256782,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060%2C30680569%3A218081159%2C30680589%3A218080950&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236%2C32320773%3ASH1230&stageId=37602",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446614.025793,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446614.0258718,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446614.0343628,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446614.034366,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446614.035454,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446614.035456,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.102485,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/summary/products?layoutId=43966&locale=en-US&qs=30680562%3A218081086%2C30680563%3A218081074%2C30680564%3A218081077%2C30680565%3A218081082%2C30680566%3A218080900%2C30680568%3A218081060%2C30680569%3A218081159%2C30680589%3A218080950&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236%2C32320773%3ASH1230&stageId=37602",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446615.1024902,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.1104362,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.1108391,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320773/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%2C%22Shelving%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=50&qs=30680589%3A218080950&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.1122339,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446615.112236,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.11254,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320773/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%2C%22Shelving%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=50&qs=30680589%3A218080950&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446615.112541,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.112633,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.112876,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446615.1128771,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.485806,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.4874141,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.487691,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320767/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%2C%22Shelving%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=50&qs=30680581%3A218080980&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236%2C32320773%3ASH1230",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.491404,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446615.491406,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446615.4918249,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446615.491827,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0098088,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320767/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Afalse%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%2C%22Shelving%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=50&qs=30680581%3A218080980&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236%2C32320773%3ASH1230",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.0098119,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.010308,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.011977,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0123808,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.012786,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0131688,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.013365,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.014091,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.014184,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.014268,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.014346,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.014475,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0146618,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.014765,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.014844,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0149162,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.01499,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015059,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015133,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0152059,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0152771,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015348,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0154629,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015569,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015647,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015718,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0157912,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015863,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.015933,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.016,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.016524,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.0165272,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.016656,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.0166569,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.016871,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.016872,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0170372,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.017038,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.017165,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.0171661,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.017448,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.017453,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.017754,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.0177548,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.017909,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.017911,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.018083,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.018084,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.018549,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.018553,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.018972,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.018976,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0192928,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.019295,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0197482,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.019752,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.020065,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.020067,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0202298,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.020231,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.02038,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.020381,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.020554,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.020556,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.020719,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.0207202,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.020886,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/minus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.020888,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.021096,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.021098,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.021657,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.021659,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.021984,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.021986,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.022609,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.022613,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.022982,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.022986,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.023377,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.0233788,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.023653,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.023655,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.0240982,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.024102,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.024485,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.024488,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446616.02481,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446616.024812,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.275556,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.276234,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/152673b8-c5a6-4d1e-97cc-755df0394487",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.276545,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/508e2435-5f1a-48cb-9cf9-250415fea40a",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.2769148,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/69c02870-666d-4df2-8c92-026b60214c2b",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277005,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/1a2fd119-0d8f-4e83-9cde-0b4bc67d42b5",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277081,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/473659a4-1060-409f-a7db-8ba3b7aae60c",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277153,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/006d7e26-f5a4-4143-abea-7c30a32ce85c",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277225,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/a7b24438-9c89-410f-ad43-8ac7e713a3b7",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277293,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/94b14a86-035c-4e7d-ab04-98e82e544d2f",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.2773619,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/2f4d4611-0707-4630-beef-0e35820b6bca",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277431,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e4045f2d-7712-4286-8109-1e2ff5cc02d1",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277496,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/2549fc7b-46b6-4ae0-aba2-da4eb1ad7856",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.27756,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e3c30800-58b3-4112-8ef3-93116f644f65",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.277623,
+      "event": "request",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/19d193ed-11b6-4150-9633-0ba8372953b1",
+      "method": "GET",
+      "resource_type": "image",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.278733,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/152673b8-c5a6-4d1e-97cc-755df0394487",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.2787352,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.27916,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/1a2fd119-0d8f-4e83-9cde-0b4bc67d42b5",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.279161,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.2793212,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/69c02870-666d-4df2-8c92-026b60214c2b",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.2793221,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.2795038,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/006d7e26-f5a4-4143-abea-7c30a32ce85c",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.279518,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.2803872,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/508e2435-5f1a-48cb-9cf9-250415fea40a",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.280389,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.281173,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.281177,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.285277,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/473659a4-1060-409f-a7db-8ba3b7aae60c",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.28528,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.286019,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/a7b24438-9c89-410f-ad43-8ac7e713a3b7",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.286026,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.28777,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/94b14a86-035c-4e7d-ab04-98e82e544d2f",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.287773,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.288366,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/2f4d4611-0707-4630-beef-0e35820b6bca",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.288367,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.7949,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e4045f2d-7712-4286-8109-1e2ff5cc02d1",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.7949069,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.7959738,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/2549fc7b-46b6-4ae0-aba2-da4eb1ad7856",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.795978,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.796313,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/19d193ed-11b6-4150-9633-0ba8372953b1",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.796316,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446617.796745,
+      "event": "response",
+      "url": "https://barracuda-assets.zoovu.com/zoovu/e3c30800-58b3-4112-8ef3-93116f644f65",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446617.796748,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446619.227303,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446619.230301,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446619.230303,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446620.794521,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.1007009,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.102707,
+      "event": "request",
+      "url": "https://themes-tiger.zoovu.com/custom-dev/assets/icons/circle.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.104052,
+      "event": "request",
+      "url": "https://themes-tiger.zoovu.com/custom-dev/assets/icons/circle.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.10478,
+      "event": "request",
+      "url": "https://themes-tiger.zoovu.com/custom-dev/assets/icons/chevron-right.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.1056051,
+      "event": "request",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320776/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Atrue%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%2C%22Shelving%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22selectedColor%22%3A%22Matte%20Black%22%2C%22materialColor%22%3A%22%23000000%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=5&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236%2C32320773%3ASH1230",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.12406,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.124062,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.125275,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.125277,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.7246022,
+      "event": "response",
+      "url": "https://themes-tiger.zoovu.com/custom-dev/assets/icons/chevron-right.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.724606,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.726007,
+      "event": "response",
+      "url": "https://themes-tiger.zoovu.com/custom-dev/assets/icons/circle.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7260091,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.726157,
+      "event": "response",
+      "url": "https://api-barracuda.zoovu.com/api/v1/advisors/mm9Q7f9M/configurator/32320750/sections/32320776/products?ctx=%7B%22backstopAdded%22%3Afalse%2C%22baseFrameSet%22%3Afalse%2C%22baseSet%22%3Atrue%2C%22baseWidth%22%3A60%2C%22canvasLoaderTimout%22%3A3%2C%22colorSet%22%3Atrue%2C%22completeSet%22%3Afalse%2C%22computerSet%22%3Afalse%2C%22drawersSet%22%3Afalse%2C%22emailSubject%22%3A%22%7B%7Bcompany%7D%7D%20-%20Workstation%20Ref%20%23%7B%7BrefNumber%7D%7D%22%2C%22feetCastersSet%22%3Atrue%2C%22footCasterSet%22%3Afalse%2C%22footRestsSet%22%3Afalse%2C%22footShelvesSet%22%3Afalse%2C%22generateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FgenerateRecord.php%22%2C%22isLaminate%22%3Afalse%2C%22overheadSet%22%3Atrue%2C%22preFlow%22%3Atrue%2C%22requiresATT%22%3Afalse%2C%22restoreToSection%22%3A59110%2C%22riserSet%22%3Atrue%2C%22riser_set%22%3Atrue%2C%22supportsAddOns%22%3Afalse%2C%22underWorkSurfaceShelfSet%22%3Afalse%2C%22updateRecordURL%22%3A%22https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2FupdateRecord.php%22%2C%22uprightAccessoriesSet%22%3Afalse%2C%22uprightHeight%22%3A42%2C%22upright_set%22%3Afalse%2C%22uwsSet%22%3Afalse%2C%22workSurfaceSet%22%3Atrue%2C%22serializedStateVar%22%3A%22serializedState1757446575737%22%2C%22SelectedSections%22%3A%5B%22!Tool%20Support%22%2C%22!Back%20Screen%22%2C%22!Articulating%20Arms%22%2C%22!Computer%20Accessories%22%2C%22!Power%22%2C%22!Lighting%22%2C%22!Most%20Popular%22%2C%22!Overhead%22%2C%22!Drawers%22%2C%22!Computer%22%2C%22!Power%20%26%20Lights%22%2C%22!Tools%22%2C%22!Under%20Surface%20Shelving%22%2C%22!Foot%20Shelves%22%2C%22!Foot%20Rests%22%2C%22!Color%22%2C%22!Complete%22%2C%22!Add%20ons%22%2C%22!CorrugateShelves%22%2C%22Base%20Frame%22%2C%22Work%20Surface%22%2C%22Feet%20Casters%22%2C%22Uprights%20%26%20Risers%22%2C%22Shelving%22%5D%2C%22refNumber%22%3A%2214065%22%2C%22lastSelectedObject%22%3A%22%22%2C%22laminateType%22%3A%22none%22%2C%22uprightRiserSet%22%3Atrue%2C%22uprightSet%22%3A%22%22%2C%22selectedColor%22%3A%22Matte%20Black%22%2C%22materialColor%22%3A%22%23000000%22%2C%22ctx_timer%22%3A1%7D&locale=en-US&npp=5&rpn=0&sb=null&sp=32320751%3APB3060%2C32320755%3AMS3060%2C32320756%3AFK30G%2C32320757%3AWSR1236%2C32320773%3ASH1230",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7261581,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.7262871,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.726387,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.7265248,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.726625,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.728302,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.728553,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.7286952,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.728859,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.7290618,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.729237,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.729416,
+      "event": "request",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "method": "GET",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.7300212,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7300239,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.7309608,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.730964,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.731287,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7312891,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.731628,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7316291,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.73177,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.731771,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.731905,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.731906,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.732051,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7320518,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.732183,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7321842,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.732311,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/plus.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.732312,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.732466,
+      "event": "response",
+      "url": "https://orca-experience.zoovu.com/public-assets/icons/arrow-right-3b.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.732467,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.733411,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectRecommendationEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.733412,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446621.734119,
+      "event": "response",
+      "url": "https://themes-tiger.zoovu.com/custom-dev/assets/icons/circle.svg",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446621.7341208,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.046158,
+      "event": "request",
+      "url": "https://barracuda-runner.zoovu.com/api/v1/filestorage/signedurl",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.046705,
+      "event": "request",
+      "url": "https://barracuda-runner.zoovu.com/api/v1/filestorage/signedurl",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.047037,
+      "event": "request",
+      "url": "https://barracuda-runner.zoovu.com/api/v1/filestorage/signedurl",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.048327,
+      "event": "response",
+      "url": "https://barracuda-runner.zoovu.com/api/v1/filestorage/signedurl",
+      "status": 201,
+      "status_text": "",
+      "response_time": 1757446636.0483358,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.0492558,
+      "event": "response",
+      "url": "https://barracuda-runner.zoovu.com/api/v1/filestorage/signedurl",
+      "status": 201,
+      "status_text": "",
+      "response_time": 1757446636.049258,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.050391,
+      "event": "response",
+      "url": "https://barracuda-runner.zoovu.com/api/v1/filestorage/signedurl",
+      "status": 201,
+      "status_text": "",
+      "response_time": 1757446636.050393,
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.052486,
+      "event": "request",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "method": "POST",
+      "resource_type": "xhr",
+      "relevance": "zoovu_request"
+    },
+    {
+      "timestamp": 1757446636.1020029,
+      "event": "response",
+      "url": "https://ev-co.zoovu.com/v1/CollectAdvisorEvent",
+      "status": 200,
+      "status_text": "",
+      "response_time": 1757446636.102019,
+      "relevance": "zoovu_request"
+    }
+  ],
+  "performance_metrics": [
+    {
+      "timestamp": 1757446577001,
+      "memory": {
+        "used": 105870630,
+        "total": 178946078,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 3286.7999999523163
+      },
+      "run_number": 1,
+      "step_name": "start",
+      "memory_usage_percent": 4.7092397711170255
+    },
+    {
+      "timestamp": 1757446582096,
+      "memory": {
+        "used": 159355186,
+        "total": 221900898,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 8382.700000047684
+      },
+      "run_number": 1,
+      "step_name": "page_loaded",
+      "memory_usage_percent": 7.088290488542016
+    },
+    {
+      "timestamp": 1757446582149,
+      "memory": {
+        "used": 159380826,
+        "total": 221900898,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 8434.600000023842
+      },
+      "run_number": 1,
+      "step_name": "before_step_1",
+      "memory_usage_percent": 7.089430983386823
+    },
+    {
+      "timestamp": 1757446584340,
+      "memory": {
+        "used": 167268059,
+        "total": 222354515,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 10625.799999952316
+      },
+      "run_number": 1,
+      "step_name": "after_step_1",
+      "memory_usage_percent": 7.440263611167225
+    },
+    {
+      "timestamp": 1757446589639,
+      "memory": {
+        "used": 157985935,
+        "total": 224053095,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 15929.399999976158
+      },
+      "run_number": 1,
+      "step_name": "before_step_2",
+      "memory_usage_percent": 7.027384727748472
+    },
+    {
+      "timestamp": 1757446595847,
+      "memory": {
+        "used": 160379061,
+        "total": 223689809,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 22134.100000023842
+      },
+      "run_number": 1,
+      "step_name": "after_step_2",
+      "memory_usage_percent": 7.133833552474406
+    },
+    {
+      "timestamp": 1757446596868,
+      "memory": {
+        "used": 161893468,
+        "total": 223692940,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 23154.299999952316
+      },
+      "run_number": 1,
+      "step_name": "before_step_3",
+      "memory_usage_percent": 7.201196008653783
+    },
+    {
+      "timestamp": 1757446599745,
+      "memory": {
+        "used": 180781024,
+        "total": 224919400,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 26030.799999952316
+      },
+      "run_number": 1,
+      "step_name": "after_step_3",
+      "memory_usage_percent": 8.04133486391893
+    },
+    {
+      "timestamp": 1757446601742,
+      "memory": {
+        "used": 181604119,
+        "total": 231793839,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 28028.700000047684
+      },
+      "run_number": 1,
+      "step_name": "before_step_4",
+      "memory_usage_percent": 8.077947016972214
+    },
+    {
+      "timestamp": 1757446604186,
+      "memory": {
+        "used": 193868742,
+        "total": 250988638,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 30472.200000047684
+      },
+      "run_number": 1,
+      "step_name": "after_step_4",
+      "memory_usage_percent": 8.623490671613323
+    },
+    {
+      "timestamp": 1757446605199,
+      "memory": {
+        "used": 203306661,
+        "total": 251374433,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 31485.600000023842
+      },
+      "run_number": 1,
+      "step_name": "before_step_5",
+      "memory_usage_percent": 9.043299484608779
+    },
+    {
+      "timestamp": 1757446606543,
+      "memory": {
+        "used": 191401395,
+        "total": 255993275,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 32829.60000002384
+      },
+      "run_number": 1,
+      "step_name": "after_step_5",
+      "memory_usage_percent": 8.513740416783005
+    },
+    {
+      "timestamp": 1757446607557,
+      "memory": {
+        "used": 199708601,
+        "total": 256262865,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 33843.39999997616
+      },
+      "run_number": 1,
+      "step_name": "before_step_6",
+      "memory_usage_percent": 8.883253896414343
+    },
+    {
+      "timestamp": 1757446608752,
+      "memory": {
+        "used": 196477200,
+        "total": 262969420,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 35038.700000047684
+      },
+      "run_number": 1,
+      "step_name": "after_step_6",
+      "memory_usage_percent": 8.739517695868193
+    },
+    {
+      "timestamp": 1757446609926,
+      "memory": {
+        "used": 225997539,
+        "total": 264717287,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 36212.5
+      },
+      "run_number": 1,
+      "step_name": "before_step_7",
+      "memory_usage_percent": 10.052614203139917
+    },
+    {
+      "timestamp": 1757446612156,
+      "memory": {
+        "used": 216542604,
+        "total": 274717744,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 38442.299999952316
+      },
+      "run_number": 1,
+      "step_name": "after_step_7",
+      "memory_usage_percent": 9.632048500117971
+    },
+    {
+      "timestamp": 1757446613179,
+      "memory": {
+        "used": 217700444,
+        "total": 274717816,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 39465.299999952316
+      },
+      "run_number": 1,
+      "step_name": "before_step_8",
+      "memory_usage_percent": 9.683550471690165
+    },
+    {
+      "timestamp": 1757446614071,
+      "memory": {
+        "used": 213656197,
+        "total": 280123293,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 40357.799999952316
+      },
+      "run_number": 1,
+      "step_name": "after_step_8",
+      "memory_usage_percent": 9.503658004661105
+    },
+    {
+      "timestamp": 1757446615102,
+      "memory": {
+        "used": 216711970,
+        "total": 283408690,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 41388.5
+      },
+      "run_number": 1,
+      "step_name": "before_step_9",
+      "memory_usage_percent": 9.639582082406799
+    },
+    {
+      "timestamp": 1757446616041,
+      "memory": {
+        "used": 222181732,
+        "total": 288577928,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 42327.60000002384
+      },
+      "run_number": 1,
+      "step_name": "after_step_9",
+      "memory_usage_percent": 9.882882993612716
+    },
+    {
+      "timestamp": 1757446617050,
+      "memory": {
+        "used": 231965049,
+        "total": 288602745,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 43336.39999997616
+      },
+      "run_number": 1,
+      "step_name": "before_step_10",
+      "memory_usage_percent": 10.318055482053046
+    },
+    {
+      "timestamp": 1757446617823,
+      "memory": {
+        "used": 228730688,
+        "total": 293488416,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 44109.700000047684
+      },
+      "run_number": 1,
+      "step_name": "after_step_10",
+      "memory_usage_percent": 10.17418761751545
+    },
+    {
+      "timestamp": 1757446618834,
+      "memory": {
+        "used": 238303255,
+        "total": 293491263,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 45120.10000002384
+      },
+      "run_number": 1,
+      "step_name": "before_step_11",
+      "memory_usage_percent": 10.599985718727112
+    },
+    {
+      "timestamp": 1757446619785,
+      "memory": {
+        "used": 250611717,
+        "total": 304679377,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 46071.89999997616
+      },
+      "run_number": 1,
+      "step_name": "after_step_11",
+      "memory_usage_percent": 11.147479379355017
+    },
+    {
+      "timestamp": 1757446620792,
+      "memory": {
+        "used": 231491530,
+        "total": 301258010,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 47078.89999997616
+      },
+      "run_number": 1,
+      "step_name": "before_step_12",
+      "memory_usage_percent": 10.296992846389315
+    },
+    {
+      "timestamp": 1757446621754,
+      "memory": {
+        "used": 255893595,
+        "total": 304903467,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 48040.700000047684
+      },
+      "run_number": 1,
+      "step_name": "after_step_12",
+      "memory_usage_percent": 11.382423007666175
+    },
+    {
+      "timestamp": 1757446622764,
+      "memory": {
+        "used": 241322911,
+        "total": 308849351,
+        "limit": 2248146944
+      },
+      "navigation": {
+        "load_time": 4.200000047683716,
+        "dom_content_loaded": 0,
+        "first_paint": 716,
+        "first_contentful_paint": 716
+      },
+      "timing": {
+        "now": 49050.200000047684
+      },
+      "run_number": 1,
+      "step_name": "completed",
+      "memory_usage_percent": 10.734303273371797
+    }
+  ],
+  "performance_degradation": [],
+  "memory_analysis": {
+    "total_measurements": 27,
+    "peak_memory_usage": 11.382423007666175,
+    "average_memory_usage": 8.913332843332412,
+    "memory_pressure_events": {
+      "high_usage_80_plus": 0,
+      "elevated_usage_60_plus": 0,
+      "critical_usage_90_plus": 0
+    },
+    "run_analysis": {
+      "run_1": {
+        "peak_memory": 11.382423007666175,
+        "average_memory": 8.913332843332412,
+        "memory_trend": "increasing",
+        "high_memory_events": 0
+      }
+    },
+    "pdf_bug_correlation": {
+      "high_memory_runs": [],
+      "memory_pressure_risk": "LOW"
+    }
+  },
+  "timestamp": 1757446638.175324,
+  "test_path_file": "test_path.json",
+  "target_url": "https://www.bostontec.com/3d-workbench-builder/?"
+}
