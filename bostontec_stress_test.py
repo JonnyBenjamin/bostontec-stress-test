@@ -46,6 +46,8 @@ class BostonTecStressTest:
         self.headless = headless
         self.target_url = "https://www.bostontec.com/3d-workbench-builder/?"
         self.generate_pdf = True  # Default to generating PDF reports
+        self.generate_html = False  # HTML reports are optional
+        self.deploy_reports = False  # GitHub Pages deployment is optional
         
         # Setup logging
         self.setup_logging()
@@ -642,6 +644,12 @@ class BostonTecStressTest:
         
         if self.generate_pdf:
             self.generate_pdf_report()
+        
+        if self.generate_html:
+            self.generate_html_report()
+        
+        if self.deploy_reports:
+            self.deploy_to_github_pages()
 
     def print_summary(self):
         """Print comprehensive test execution summary"""
@@ -799,6 +807,46 @@ class BostonTecStressTest:
             
         except Exception as e:
             return {'error': f'Memory analysis failed: {e}'}
+
+    def generate_html_report(self):
+        """Generate a modern HTML report with Tailwind CSS styling"""
+        try:
+            from html_report_generator import HTMLReportGenerator
+            
+            generator = HTMLReportGenerator(self.stats)
+            filename = generator.generate_html_report()
+            
+            if filename:
+                self.logger.info(f"📄 Modern HTML report generated: {filename}")
+                return filename
+            else:
+                self.logger.error("Failed to generate HTML report")
+                return None
+                
+        except Exception as e:
+            self.logger.error(f"Failed to generate HTML report: {e}")
+            return None
+
+    def deploy_to_github_pages(self):
+        """Deploy HTML reports to GitHub Pages"""
+        try:
+            import subprocess
+            import os
+            
+            self.logger.info("🚀 Deploying HTML reports to GitHub Pages...")
+            
+            # Run the deployment script
+            result = subprocess.run(['python', 'deploy_reports.py'], 
+                                  capture_output=True, text=True, cwd=os.getcwd())
+            
+            if result.returncode == 0:
+                self.logger.info("✅ Successfully deployed to GitHub Pages!")
+                self.logger.info("🔗 Reports available at: https://jonnybenjamin.github.io/bostontec_testing/")
+            else:
+                self.logger.error(f"❌ Deployment failed: {result.stderr}")
+                
+        except Exception as e:
+            self.logger.error(f"Failed to deploy to GitHub Pages: {e}")
 
     def generate_pdf_report(self):
         """Generate a professional PDF report with executive summary and technical findings"""
@@ -1496,6 +1544,10 @@ def main():
                        help='Enable verbose logging')
     parser.add_argument('--pdf-report', action='store_true',
                        help='Generate professional PDF report')
+    parser.add_argument('--html-report', action='store_true',
+                       help='Generate modern HTML report with Tailwind CSS')
+    parser.add_argument('--deploy-reports', action='store_true',
+                       help='Deploy HTML reports to GitHub Pages after generation')
     
     args = parser.parse_args()
     
@@ -1521,8 +1573,10 @@ def main():
             headless=args.headless
         )
         
-        # Set PDF report flag
+        # Set report flags
         stress_test.generate_pdf = args.pdf_report
+        stress_test.generate_html = args.html_report
+        stress_test.deploy_reports = args.deploy_reports
         
         stress_test.run_stress_test()
         return 0
