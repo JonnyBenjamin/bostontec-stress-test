@@ -152,7 +152,8 @@ def update_index_html(reports_dir):
     if start_idx != -1:
         start_idx += len(start_marker)
         # Find the closing div for the reports-list section
-        end_idx = content.find('</div>', start_idx)
+        # Look for the </div> that closes the reports-list div specifically
+        end_idx = content.find(end_marker, start_idx)
         if end_idx != -1:
             # Replace the entire reports section content
             new_content = content[:start_idx] + reports_html + content[end_idx:]
