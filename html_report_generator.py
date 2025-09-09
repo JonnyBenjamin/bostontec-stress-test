@@ -74,7 +74,7 @@ class HTMLReportGenerator:
         <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
             <div class="text-center">
                 <div class="mb-4">
-                    <img src="BOSTONtec-Logo.png" alt="BostonTec" class="h-12 mx-auto">
+                    <img src="../BOSTONtec-Logo.png" alt="BostonTec" class="h-12 mx-auto">
                 </div>
                 <h1 class="text-2xl font-semibold text-gray-800 mb-2">3D Workbench Builder</h1>
                 <h2 class="text-lg font-medium text-gray-600">Stress Test Analysis Report</h2>
