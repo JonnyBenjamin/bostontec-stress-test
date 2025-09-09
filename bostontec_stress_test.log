@@ -7706,3 +7706,217 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 2025-09-09 12:25:36,501 - INFO - 💾 Detailed data saved to: bostontec_stress_test_data_1757435136.json
 2025-09-09 12:25:36,506 - INFO - 📄 Modern HTML report generated: html_reports/bostontec_stress_test_report_20250909_122536.html
 2025-09-09 12:25:36,506 - INFO - 🚀 Deploying HTML reports to GitHub Pages...
+2025-09-09 13:54:24,731 - INFO - Loaded 12 test steps from test_path.json
+2025-09-09 13:54:24,731 - INFO - 🚀 Starting BostonTec Stress Test
+2025-09-09 13:54:24,732 - INFO - Target URL: https://www.bostontec.com/3d-workbench-builder/?
+2025-09-09 13:54:24,732 - INFO - Test path: test_path.json
+2025-09-09 13:54:24,732 - INFO - Iterations: 1
+2025-09-09 13:54:24,732 - INFO - Enhanced logging: Console, Network, Performance, Element State
+2025-09-09 13:54:24,732 - INFO - Smart filtering: Zoovu errors, PDF generation, memory pressure, image loading
+2025-09-09 13:54:24,732 - INFO - Memory monitoring: Enabled with pressure detection and PDF bug correlation
+2025-09-09 13:54:29,536 - INFO - 🌐 Launched Chromium browser
+2025-09-09 13:54:30,742 - INFO - 📡 Setup page event listeners for comprehensive logging
+2025-09-09 13:54:30,742 - INFO - 
+============================================================
+2025-09-09 13:54:30,742 - INFO - Starting Test Run 1/1
+2025-09-09 13:54:30,742 - INFO - ============================================================
+2025-09-09 13:54:31,495 - ERROR - 🚨 RELEVANT Network Request Failed: https://analytics.google.com/g/collect?v=2&tid=G-7FV9HY1DMB&gtm=45je5980h1v874323709z8812273033za200zb812273033zd812273033&_p=1757440471134&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=191033986.1757440471&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.1.1&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~105359937~105426769~105426771&sid=1757440471&sct=1&seg=0&dl=https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2F&dt=&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=605
+2025-09-09 13:54:31,495 - ERROR - 🚨 RELEVANT Network Request Failed: https://analytics.google.com/g/collect?v=2&tid=G-7FV9HY1DMB&gtm=45je5980h1v874323709z8812273033za200zb812273033zd812273033&_p=1757440471134&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=191033986.1757440471&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253DA%253FBrand%3B24.0.0.0%7CChromium%3B140.0.7339.16&uamb=0&uam=&uap=macOS&uapv=14.1.1&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAACAAQ&_s=2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~105359937~105426769~105426771&sid=1757440471&sct=1&seg=1&dl=https%3A%2F%2Fwww.bostontec.com%2F3d-workbench-builder%2F&dt=&en=page_view&_et=2&tfd=622
+2025-09-09 13:54:31,959 - INFO - Loaded page: https://www.bostontec.com/3d-workbench-builder/?
+2025-09-09 13:54:31,987 - INFO - DOM content loaded
+2025-09-09 13:54:36,988 - INFO - Waited for dynamic content
+2025-09-09 13:54:37,014 - ERROR - 🚨 RELEVANT Console Error: Access to font at 'https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat-400-normal-latin.woff2' from origin 'https://www.bostontec.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+2025-09-09 13:54:37,015 - ERROR - 🚨 RELEVANT Network Request Failed: https://tiger-experience.zoovu.com/public-assets/fonts/gf/montserrat/montserrat-400-normal-latin.woff2
+2025-09-09 13:54:37,015 - ERROR - 🚨 RELEVANT Console Error: Failed to load resource: net::ERR_FAILED
+2025-09-09 13:54:37,017 - WARNING - ⚠️  RELEVANT Network Response Error: 404 - https://www.bostontec.com/3d-workbench-builder/static/images/image-placeholder.svg?tutla
+2025-09-09 13:54:37,017 - ERROR - 🚨 RELEVANT Console Error: Failed to load resource: the server responded with a status of 404 ()
+2025-09-09 13:54:37,018 - INFO - 📝 RELEVANT Console Log: ## content on default summary update ActionEvent
+2025-09-09 13:54:37,031 - INFO - Run 1, Step 1: Choose Base Type - click
+2025-09-09 13:54:37,146 - INFO -   📊 Element state before: {'visible': True, 'enabled': False, 'classes': ['container-0-0-98'], 'text': '\n  Electric Height Adjustable Medium Duty (PB)\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98', 'disabled': ''}}
+2025-09-09 13:54:37,934 - INFO - 📝 RELEVANT Console Log: [UnityMemory] Configuration Parameters - Can be set up in boot.config
+
+2025-09-09 13:54:37,934 - INFO - 📝 RELEVANT Console Log:     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+
+2025-09-09 13:54:37,935 - INFO - 📝 RELEVANT Console Log:     "memorysetup-allocator-temp-initial-block-size-main=262144"
+
+2025-09-09 13:54:37,935 - INFO - 📝 RELEVANT Console Log:     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+
+2025-09-09 13:54:37,937 - INFO - 📝 RELEVANT Console Log:     "memorysetup-temp-allocator-size-audio-worker=65536"
+
+2025-09-09 13:54:37,937 - INFO - 📝 RELEVANT Console Log:     "memorysetup-temp-allocator-size-cloud-worker=32768"
+
+2025-09-09 13:54:37,937 - INFO - 📝 RELEVANT Console Log:     "memorysetup-temp-allocator-size-background-worker=32768"
+
+2025-09-09 13:54:37,937 - INFO - 📝 RELEVANT Console Log:     "memorysetup-bucket-allocator-granularity=16"
+
+2025-09-09 13:54:37,937 - INFO - 📝 RELEVANT Console Log:     "memorysetup-bucket-allocator-bucket-count=8"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-bucket-allocator-block-size=4194304"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-bucket-allocator-block-count=1"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-main-allocator-block-size=16777216"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-thread-allocator-block-size=16777216"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-gfx-main-allocator-block-size=16777216"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-gfx-thread-allocator-block-size=16777216"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-cache-allocator-block-size=4194304"
+
+2025-09-09 13:54:37,938 - INFO - 📝 RELEVANT Console Log:     "memorysetup-typetree-allocator-block-size=2097152"
+
+2025-09-09 13:54:37,939 - INFO - 📝 RELEVANT Console Log:     "memorysetup-profiler-bucket-allocator-granularity=16"
+
+2025-09-09 13:54:37,939 - INFO - 📝 RELEVANT Console Log:     "memorysetup-profiler-bucket-allocator-bucket-count=8"
+
+2025-09-09 13:54:37,939 - INFO - 📝 RELEVANT Console Log:     "memorysetup-profiler-bucket-allocator-block-size=4194304"
+
+2025-09-09 13:54:37,940 - INFO - 📝 RELEVANT Console Log:     "memorysetup-profiler-bucket-allocator-block-count=1"
+
+2025-09-09 13:54:37,940 - INFO - 📝 RELEVANT Console Log:     "memorysetup-profiler-allocator-block-size=16777216"
+
+2025-09-09 13:54:37,940 - INFO - 📝 RELEVANT Console Log:     "memorysetup-profiler-editor-allocator-block-size=1048576"
+
+2025-09-09 13:54:37,940 - INFO - 📝 RELEVANT Console Log:     "memorysetup-temp-allocator-size-main=4194304"
+
+2025-09-09 13:54:37,940 - INFO - 📝 RELEVANT Console Log:     "memorysetup-job-temp-allocator-block-size=2097152"
+
+2025-09-09 13:54:37,941 - INFO - 📝 RELEVANT Console Log:     "memorysetup-job-temp-allocator-block-size-background=1048576"
+
+2025-09-09 13:54:37,941 - INFO - 📝 RELEVANT Console Log:     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+
+2025-09-09 13:54:37,987 - INFO - 📝 RELEVANT Console Log: Creating WebGL 2.0 context.
+2025-09-09 13:54:38,068 - INFO - 📝 RELEVANT Console Log: Renderer: WebKit WebGL
+
+2025-09-09 13:54:38,069 - INFO - 📝 RELEVANT Console Log: Version:  OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))
+
+2025-09-09 13:54:38,069 - INFO - 📝 RELEVANT Console Log:  EXT_clip_control EXT_color_buffer_float EXT_color_buffer_half_float EXT_conservative_depth EXT_depth_clamp EXT_disjoint_timer_query_webgl2 EXT_float_blend EXT_polygon_offset_clamp EXT_render_snorm EXT_texture_compression_bptc EXT_texture_compression_rgtc EXT_texture_filter_anisotropic EXT_texture_mirror_clamp_to_edge EXT_texture_norm16 KHR_parallel_shader_compile NV_shader_noperspective_interpolation OES_draw_buffers_indexed OES_sample_variables OES_shader_multisample_interpolation OES_texture_float_linear WEBGL_blend_func_extended WEBGL_clip_cull_distance WEBGL_compressed_texture_astc WEBGL_compressed_texture_etc WEBGL_compressed_texture_etc1 WEBGL_compressed_texture_pvrtc WEBGL_compressed_texture_s3tc WEBGL_compressed_texture_s3tc_srgb WEBGL_debug_renderer_info WEBGL_debug_shaders WEBGL_lose_context WEBGL_multi_draw WEBGL_polygon_mode WEBGL_provoking_vertex WEBGL_render_shared_exponent WEBGL_stencil_texturing GL_EXT_clip_control GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_
+
+2025-09-09 13:54:38,070 - INFO - 📝 RELEVANT Console Log: depth GL_EXT_depth_clamp GL_EXT_disjoint_timer_query_webgl2 GL_EXT_float_blend GL_EXT_polygon_offset_clamp GL_EXT_render_snorm GL_EXT_texture_compression_bptc GL_EXT_texture_compression_rgtc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_KHR_parallel_shader_compile GL_NV_shader_noperspective_interpolation GL_OES_draw_buffers_indexed GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_texture_float_linear GL_WEBGL_blend_func_extended GL_WEBGL_clip_cull_distance GL_WEBGL_compressed_texture_astc GL_WEBGL_compressed_texture_etc GL_WEBGL_compressed_texture_etc1 GL_WEBGL_compressed_texture_pvrtc GL_WEBGL_compressed_texture_s3tc GL_WEBGL_compressed_texture_s3tc_srgb GL_WEBGL_debug_renderer_info GL_WEBGL_debug_shaders GL_WEBGL_lose_context GL_WEBGL_multi_draw GL_WEBGL_polygon_mode GL_WEBGL_provoking_vertex GL_WEBGL_render_shared_exponent GL_WEBGL_stencil_texturing
+
+2025-09-09 13:54:38,070 - WARNING - ⚠️  RELEVANT Console Warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+2025-09-09 13:54:38,070 - WARNING - ⚠️  RELEVANT Console Warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+2025-09-09 13:54:38,070 - WARNING - ⚠️  RELEVANT Console Warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+2025-09-09 13:54:38,070 - WARNING - ⚠️  RELEVANT Console Warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+2025-09-09 13:54:38,071 - WARNING - ⚠️  RELEVANT Console Warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+2025-09-09 13:54:38,071 - WARNING - ⚠️  RELEVANT Console Warning: WebGL: INVALID_ENUM: getInternalformatParameter: invalid internalformat
+2025-09-09 13:54:43,740 - INFO -   ✓ Clicked element: button[data-testid='selectable-button']:has-text('Electric Height Adjustable Medium Duty (PB)')
+2025-09-09 13:54:44,296 - INFO -   📊 Element state after: {'visible': True, 'enabled': False, 'classes': ['container-0-0-98', 'is-selected'], 'text': '\n  Electric Height Adjustable Medium Duty (PB)\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98 is-selected', 'disabled': ''}}
+2025-09-09 13:54:46,051 - INFO - Run 1, Step 2: Next - click
+2025-09-09 13:54:46,154 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:54:46,303 - INFO -   ✓ Clicked element: [data-testid="next-button"]
+2025-09-09 13:54:46,855 - INFO -   📊 Element state after: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:54:47,869 - INFO - Run 1, Step 3: Choose Surface Type - click
+2025-09-09 13:54:47,907 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-98'], 'text': '\n  Hardwood Maple\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98'}}
+2025-09-09 13:54:48,215 - INFO -   ✓ Clicked element: button[data-testid='selectable-button']:has-text('Hardwood Maple')
+2025-09-09 13:54:48,776 - INFO -   📊 Element state after: {'visible': True, 'enabled': False, 'classes': ['container-0-0-98', 'is-selected'], 'text': '\n  Hardwood Maple\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98 is-selected', 'disabled': ''}}
+2025-09-09 13:54:49,908 - INFO - Run 1, Step 4: Choose Feet & Casters - click
+2025-09-09 13:54:49,955 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-223', 'container-0-0-222'], 'text': '\n  \n\n Add Product', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'configurator-product-add-to-summary', 'aria-labelledby': 'product-label-fk30g', 'class': 'container-0-0-223 container-0-0-222'}}
+2025-09-09 13:54:50,139 - INFO -   ✓ Clicked element: button[data-testid='configurator-product-add-to-summary'][aria-labelledby='product-label-fk30g']
+2025-09-09 13:54:50,670 - INFO -   📊 Element state after: {'visible': True, 'enabled': False, 'classes': ['container-0-0-223', 'is-hovered', 'container-0-0-222', 'is-selected'], 'text': '\n  \n\n Remove Product', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'configurator-product-add-to-summary', 'aria-labelledby': 'product-label-fk30g', 'class': 'container-0-0-223 is-hovered container-0-0-222 is-selected', 'disabled': ''}}
+2025-09-09 13:54:51,691 - INFO - Run 1, Step 5: Next - click
+2025-09-09 13:54:51,726 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:54:51,852 - ERROR - 🚨 RELEVANT Console Error: TypeError: Cannot read properties of null (reading 'useLazyLoading')
+    at ProductListComponent.loadMoreProducts (https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.min.js:2:1160115)
+    at invokeWithErrorHandling (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2048125)
+    at c.$emit (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2075638)
+    at SectionPanelComponent.onScroll (https://orca-exd-global-components.zoovu.com/versions/5.36.0/web-design/webdesign-bundle.min.js:2:1133808)
+    at invokeWithErrorHandling (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2048125)
+    at HTMLDivElement.invoker (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2050141)
+    at S._wrapper (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2087889)
+    at HTMLDivElement.r (https://barracuda-components-library.zoovu.com/component-library/1427/LeadgenComponent/1.3.18/leadgen-component.remote-component.v1-3.min.js:58:136555)
+2025-09-09 13:54:51,857 - INFO -   ✓ Clicked element: [data-testid="next-button"]
+2025-09-09 13:54:52,380 - INFO -   📊 Element state after: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:54:53,505 - INFO - Run 1, Step 6: Choose Upright Type - click
+2025-09-09 13:54:53,677 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-98'], 'text': '\n  36" Work Surface Riser\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98'}}
+2025-09-09 13:54:54,131 - INFO -   ✓ Clicked element: button[data-testid='selectable-button']:has-text('36" Work Surface Riser')
+2025-09-09 13:54:54,660 - INFO -   📊 Element state after: {'visible': True, 'enabled': False, 'classes': ['container-0-0-98', 'is-selected'], 'text': '\n  36" Work Surface Riser\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98 is-selected', 'disabled': ''}}
+2025-09-09 13:54:55,681 - INFO - Run 1, Step 7: Next - click
+2025-09-09 13:54:55,699 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:54:55,889 - INFO -   ✓ Clicked element: [data-testid="next-button"]
+2025-09-09 13:54:56,407 - INFO -   📊 Element state after: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:54:57,425 - INFO - Run 1, Step 8: Add Steel Shelf - increment_quantity
+2025-09-09 13:54:57,582 - INFO -   ✓ Incremented quantity in section: sh1230
+2025-09-09 13:54:58,594 - INFO - Run 1, Step 9: Next - click
+2025-09-09 13:54:58,609 - INFO -   📊 Element state before: {'visible': True, 'enabled': False, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186', 'disabled': ''}}
+2025-09-09 13:54:58,898 - INFO -   ✓ Clicked element: [data-testid="next-button"]
+2025-09-09 13:54:59,430 - INFO -   📊 Element state after: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:55:00,525 - INFO - Run 1, Step 10: Next - click
+2025-09-09 13:55:00,675 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:55:01,028 - INFO -   ✓ Clicked element: [data-testid="next-button"]
+2025-09-09 13:55:01,608 - INFO -   📊 Element state after: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:55:02,625 - INFO - Run 1, Step 11: Choose Color - click
+2025-09-09 13:55:02,661 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-98'], 'text': '\n  Black\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98'}}
+2025-09-09 13:55:03,092 - INFO -   ✓ Clicked element: button[data-testid='selectable-button']:has-text('Black')
+2025-09-09 13:55:03,631 - INFO -   📊 Element state after: {'visible': True, 'enabled': True, 'classes': ['container-0-0-98', 'is-selected'], 'text': '\n  Black\n', 'tag_name': 'BUTTON', 'attributes': {'data-v-8f83ccf6': '', 'data-testid': 'selectable-button', 'type': 'button', 'class': 'container-0-0-98 is-selected'}}
+2025-09-09 13:55:04,652 - INFO - Run 1, Step 12: Final Next - click
+2025-09-09 13:55:04,874 - INFO -   📊 Element state before: {'visible': True, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:55:05,042 - ERROR - 🚨 RELEVANT Console Error: TypeError: Cannot read properties of undefined (reading 'parameters')
+    at ConfiguratorTriggerModel.eval (eval at CodeContextActionExecutor.execute (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:810185), <anonymous>:181:53)
+    at EventBus.executeCallback (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1569790)
+    at EventBus.triggerEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1569489)
+    at EventBus.triggerEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1569562)
+    at BaseModel.triggerActionEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1584578)
+    at triggerGlobalEvent (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1560188)
+    at afterActionExecuted (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1560836)
+    at actionInvocation (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1560885)
+    at C.value [as select] (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1561538)
+    at target.<computed> (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:1610088)
+    at t.handleButtonClick (https://barracuda-components-library.zoovu.com/component-library/1427/SectionNavigationComponent/0.1.47/section-navigation-component.remote-component.v0-1.min.js:2:66931)
+    at click (https://barracuda-components-library.zoovu.com/component-library/1427/SectionNavigationComponent/0.1.47/section-navigation-component.remote-component.v0-1.min.js:2:68564)
+    at invokeWithErrorHandling (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2048125)
+    at HTMLButtonElement.invoker (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2050141)
+    at S._wrapper (https://barracuda-cdn.zoovu.com/core-js/runner-browser-api-5.176-latest.min.js:1:2087889)
+    at HTMLButtonElement.r (https://barracuda-components-library.zoovu.com/component-library/1427/LeadgenComponent/1.3.18/leadgen-component.remote-component.v1-3.min.js:58:136555)
+2025-09-09 13:55:05,502 - INFO -   ✓ Clicked element: [data-testid="next-button"]
+2025-09-09 13:55:06,421 - INFO -   📊 Element state after: {'visible': False, 'enabled': True, 'classes': ['container-0-0-183', 'reversed-0-0-186'], 'text': '\n\n\n \n    Next\n  ', 'tag_name': 'BUTTON', 'attributes': {'data-testid': 'next-button', 'aria-label': 'Next', 'type': 'button', 'class': 'container-0-0-183 reversed-0-0-186'}}
+2025-09-09 13:55:08,129 - INFO - Test run 1 completed successfully in 36.17 seconds
+2025-09-09 13:55:08,217 - INFO - ✅ Test run 1 completed successfully
+2025-09-09 13:55:09,282 - INFO - Screenshot saved: run_1_final_state.png
+2025-09-09 13:55:09,282 - INFO - 
+🔍 All 1 iterations completed!
+2025-09-09 13:55:09,282 - INFO - Browser will remain open for manual inspection.
+2025-09-09 13:55:09,282 - INFO - Close the browser window when you're done, or press Enter to close automatically...
+2025-09-09 13:55:15,278 - INFO - 🔒 Browser closed
+2025-09-09 13:55:15,299 - INFO - 
+============================================================
+2025-09-09 13:55:15,299 - INFO - BOSTONTEC STRESS TEST SUMMARY
+2025-09-09 13:55:15,299 - INFO - ============================================================
+2025-09-09 13:55:15,299 - INFO - Total Runs: 1
+2025-09-09 13:55:15,299 - INFO - Successful: 1
+2025-09-09 13:55:15,299 - INFO - Failed: 0
+2025-09-09 13:55:15,299 - INFO - Average Run Time: 36.17 seconds
+2025-09-09 13:55:15,299 - INFO - Fastest Run: 36.17 seconds
+2025-09-09 13:55:15,300 - INFO - Slowest Run: 36.17 seconds
+2025-09-09 13:55:15,300 - INFO - Success Rate: 100.0%
+2025-09-09 13:55:15,300 - INFO - 
+📊 ENHANCED LOGGING STATISTICS:
+2025-09-09 13:55:15,300 - INFO - Console Logs Captured: 44
+2025-09-09 13:55:15,300 - INFO - Network Requests Tracked: 401
+2025-09-09 13:55:15,300 - INFO - Performance Metrics Captured: 27
+2025-09-09 13:55:15,300 - INFO - Performance Degradation Events: 0
+2025-09-09 13:55:15,300 - INFO - Relevant Console Errors: 5
+2025-09-09 13:55:15,301 - INFO - Relevant Console Warnings: 6
+2025-09-09 13:55:15,301 - INFO - 📊 Console Log Breakdown:
+2025-09-09 13:55:15,301 - INFO -   zoovu_error: 3 logs
+2025-09-09 13:55:15,301 - INFO -   image_loading: 2 logs
+2025-09-09 13:55:15,301 - INFO -   configurator_error: 1 logs
+2025-09-09 13:55:15,301 - INFO -   pdf_generation: 38 logs
+2025-09-09 13:55:15,302 - INFO - Relevant Failed Network Requests: 3
+2025-09-09 13:55:15,302 - INFO - Relevant Error Responses (4xx/5xx): 1
+2025-09-09 13:55:15,302 - INFO - 📊 Network Request Breakdown:
+2025-09-09 13:55:15,302 - INFO -   zoovu_request: 396 requests
+2025-09-09 13:55:15,302 - INFO -   other: 2 requests
+2025-09-09 13:55:15,302 - INFO -   pdf_generation: 2 requests
+2025-09-09 13:55:15,302 - INFO -   image_loading: 1 requests
+2025-09-09 13:55:15,302 - INFO - Peak Memory Usage: 9.6%
+2025-09-09 13:55:15,302 - INFO - Average Memory Usage: 7.4%
+2025-09-09 13:55:15,302 - INFO - 
+📁 Detailed logs saved to: bostontec_stress_test.log
+2025-09-09 13:55:15,302 - INFO - 📸 Screenshots saved for each run
+2025-09-09 13:55:15,302 - INFO - 🔍 Check console logs and network requests for debugging insights
+2025-09-09 13:55:15,308 - INFO - 💾 Detailed data saved to: bostontec_stress_test_data_1757440515.json
+2025-09-09 13:55:15,329 - INFO - 📄 Modern HTML report generated: html_reports/bostontec_stress_test_report_20250909_135515.html
+2025-09-09 13:55:15,329 - INFO - 🚀 Deploying HTML reports to GitHub Pages...
