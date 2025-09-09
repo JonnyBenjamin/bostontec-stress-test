@@ -7920,3 +7920,5 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 2025-09-09 13:55:15,308 - INFO - 💾 Detailed data saved to: bostontec_stress_test_data_1757440515.json
 2025-09-09 13:55:15,329 - INFO - 📄 Modern HTML report generated: html_reports/bostontec_stress_test_report_20250909_135515.html
 2025-09-09 13:55:15,329 - INFO - 🚀 Deploying HTML reports to GitHub Pages...
+2025-09-09 13:55:17,018 - INFO - ✅ Successfully deployed to GitHub Pages!
+2025-09-09 13:55:17,018 - INFO - 🔗 Reports available at: https://jonnybenjamin.github.io/bostontec_testing/
