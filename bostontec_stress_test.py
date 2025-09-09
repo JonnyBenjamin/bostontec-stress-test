@@ -841,7 +841,7 @@ class BostonTecStressTest:
             
             if result.returncode == 0:
                 self.logger.info("✅ Successfully deployed to GitHub Pages!")
-                self.logger.info("🔗 Reports available at: https://jonnybenjamin.github.io/bostontec_testing/")
+                self.logger.info("🔗 Reports available at: https://jonnybenjamin.github.io/bostontec-stress-test/")
             else:
                 self.logger.error(f"❌ Deployment failed: {result.stderr}")
                 
