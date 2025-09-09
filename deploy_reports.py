@@ -84,7 +84,7 @@ def deploy_reports():
         return False
     
     print("✅ Successfully deployed to GitHub Pages!")
-    print("🔗 Your reports will be available at: https://jonnybenjamin.github.io/bostontec_testing/")
+    print("🔗 Your reports will be available at: https://jonnybenjamin.github.io/bostontec-stress-test/")
     
     # Switch back to original branch
     if current_branch != 'gh-pages':

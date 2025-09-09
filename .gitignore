@@ -19,7 +19,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # Virtual Environment
 venv/
@@ -36,21 +35,11 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Logs and temporary files
-*.log
-*.tmp
-*.temp
-
-# Screenshots (optional - you might want to keep these)
-# *.png
-# *.jpg
-# *.jpeg
-
-# Data files (optional - you might want to keep these for analysis)
-# bostontec_stress_test_data_*.json
-
 # Generated Reports
 pdf_reports/
+html_reports/
+
+# Generated test files
 bostontec_stress_test.log
 run_*.png
 bostontec_stress_test_data_*.json
