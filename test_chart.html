@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
+</head>
+<body>
+    <canvas id="testChart" width="400" height="200"></canvas>
+    <script>
+        const ctx = document.getElementById('testChart').getContext('2d');
+        const testChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['A', 'B', 'C'],
+                datasets: [{
+                    label: 'Test Data',
+                    data: [1, 2, 3],
+                    borderColor: '#3B82F6',
+                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+    </script>
+</body>
+</html>

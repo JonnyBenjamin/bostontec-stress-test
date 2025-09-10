@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BostonTec 3D Workbench Builder - Stress Test Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans text-sm text-gray-700">
+    <div class="max-w-screen-lg mx-auto py-8 px-4">
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div class="text-center">
+                <div class="mb-4">
+                    <img src="../BOSTONtec-Logo.png" alt="BostonTec" class="h-12 mx-auto">
+                </div>
+                <h1 class="text-2xl font-semibold text-gray-800 mb-2">3D Workbench Builder</h1>
+                <h2 class="text-lg font-medium text-gray-600">Stress Test Analysis Report</h2>
+                <div class="mt-4 text-sm text-gray-500">
+                    Generated on September 10, 2025 at 11:23 AM
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Test Summary</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="text-center p-4 bg-blue-50 rounded-lg">
+                    <div class="text-2xl font-semibold text-blue-600">1</div>
+                    <div class="text-sm text-gray-600">Total Runs</div>
+                </div>
+                <div class="text-center p-4 bg-green-50 rounded-lg">
+                    <div class="text-2xl font-semibold text-green-600">100.0%</div>
+                    <div class="text-sm text-gray-600">Success Rate</div>
+                </div>
+                <div class="text-center p-4 bg-purple-50 rounded-lg">
+                    <div class="text-2xl font-semibold text-purple-600">28.5s</div>
+                    <div class="text-sm text-gray-600">Avg Runtime</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Executive Summary</h3>
+            
+            <div class="space-y-4">
+                <p class="text-gray-700">
+                    The BostonTec 3D Workbench Builder stress test was conducted to identify potential 
+                    performance issues and memory pressure patterns that could contribute to intermittent 
+                    PDF export failures. The test executed 1 complete configuration 
+                    cycles with comprehensive monitoring of browser performance, memory usage, and error patterns.
+                </p>
+                
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-gray-800 mb-2">Key Findings</h4>
+                    <ul class="space-y-1 text-sm text-gray-700">
+                        <li>• <strong>Success Rate:</strong> 100.0% - All test runs completed successfully</li>
+                        <li>• <strong>Performance:</strong> Average runtime of 28.5 seconds per cycle</li>
+                        <li>• <strong>Memory Usage:</strong> Peak usage of 11.7% with 27 performance measurements</li>
+                        <li>• <strong>Error Monitoring:</strong> 44 relevant console logs captured</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-blue-800 mb-2">Testing Scope & Limitations</h4>
+                    <div class="text-sm text-blue-700 space-y-2">
+                        <p><strong>What We Cannot Control:</strong> Customer environments, device limitations, browser restrictions, 
+                        network conditions, or unique hardware constraints that may affect PDF generation.</p>
+                        <p><strong>What We Can Control:</strong> Application performance, memory usage patterns, error handling, 
+                        and optimization opportunities within our configurator and PDF generation process.</p>
+                        <p><strong>Testing Strategy:</strong> Focus on measurable, controllable factors that can help identify 
+                        and mitigate PDF generation failures in production environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Technical Findings</h3>
+            
+            <div class="space-y-6">
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Performance Metrics</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full table-auto text-left text-sm">
+                            <thead>
+                                <tr class="text-xs uppercase text-gray-500 font-medium border-b border-gray-200">
+                                    <th class="pb-2">Metric</th>
+                                    <th class="pb-2">Value</th>
+                                    <th class="pb-2">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Total Test Runs</td>
+                                    <td class="py-2">1</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Complete</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Successful Runs</td>
+                                    <td class="py-2">1</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Excellent</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Failed Runs</td>
+                                    <td class="py-2">0</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">None</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Success Rate</td>
+                                    <td class="py-2">100.0%</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Excellent</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Average Run Time</td>
+                                    <td class="py-2">28.5s</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">Normal</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Data Collection Statistics</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full table-auto text-left text-sm">
+                            <thead>
+                                <tr class="text-xs uppercase text-gray-500 font-medium border-b border-gray-200">
+                                    <th class="pb-2">Data Type</th>
+                                    <th class="pb-2">Count</th>
+                                    <th class="pb-2">Filtering Applied</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Console Logs</td>
+                                    <td class="py-2">44</td>
+                                    <td class="py-2">Relevant errors only</td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Network Requests</td>
+                                    <td class="py-2">402</td>
+                                    <td class="py-2">Zoovu-specific</td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Performance Metrics</td>
+                                    <td class="py-2">27</td>
+                                    <td class="py-2">Memory & timing</td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Screenshots</td>
+                                    <td class="py-2">1</td>
+                                    <td class="py-2">One per test run</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="bg-yellow-50 rounded-lg p-4">
+                    <p class="text-sm text-yellow-700">
+                        <em>Note: Testing performed in controlled environment. Customer environments may vary significantly 
+                        due to device limitations, browser restrictions, and network conditions beyond our control.</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h4 class="text-lg font-semibold text-gray-800 mb-4">Memory Usage Timeline</h4>
+            <div class="h-80 flex items-end justify-between px-4 border-b border-l border-gray-200">
+                
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 49.1093552238106px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        1
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 62.53836430989189px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        2
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 62.53836430989189px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        3
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 61.59710442185048px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        4
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 59.15848874774512px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        5
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 60.27732552810644px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        6
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 63.01615766141102px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        7
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 69.23182280375191px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        8
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 71.38984747088377px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        9
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 71.97566983372026px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        10
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 75.79750939805386px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        11
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 75.31865798592273px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        12
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 78.7111298865623px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        13
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 77.53794296083507px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        14
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 79.582417608644px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        15
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 88.70085821292653px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        16
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 81.92735571010937px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        17
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 88.38559100252229px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        18
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 90.34123439684969px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        19
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 91.13802525696374px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        20
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 87.12196849581912px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        21
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 94.76786034630328px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        22
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 88.63070951411854px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        23
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 91.60371398594938px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        24
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 95.3319578040276px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        25
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 96.00487450380206px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        26
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-8 bg-blue-500 rounded-t" style="height: 100.0px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-1 transform -rotate-45 origin-top-left" style="width: 60px; text-align: left;">
+                        27
+                    </div>
+                </div>
+            
+            </div>
+            <div class="mt-4 text-sm text-gray-600">
+                <div class="flex justify-between">
+                    <span>0%</span>
+                    <span>11.7%</span>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Memory Analysis</h3>
+            
+            <div class="space-y-6">
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Memory Usage Summary</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full table-auto text-left text-sm">
+                            <thead>
+                                <tr class="text-xs uppercase text-gray-500 font-medium border-b border-gray-200">
+                                    <th class="pb-2">Metric</th>
+                                    <th class="pb-2">Value</th>
+                                    <th class="pb-2">Risk Level</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Peak Memory Usage</td>
+                                    <td class="py-2">11.7%</td>
+                                    <td class="py-2">
+                                        <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                                            LOW
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Average Memory Usage</td>
+                                    <td class="py-2">9.2%</td>
+                                    <td class="py-2">
+                                        <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                                            LOW
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Overall Risk Assessment</td>
+                                    <td class="py-2">LOW</td>
+                                    <td class="py-2">
+                                        <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                                            LOW
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-blue-800 mb-2">Memory Pressure Analysis</h4>
+                    <p class="text-sm text-blue-700">
+                        Memory usage patterns are critical for identifying potential PDF generation failures. 
+                        High memory pressure during canvas-to-blob conversion can cause image rendering issues 
+                        in the final PDF output.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h4 class="text-lg font-semibold text-gray-800 mb-4">Performance Trends</h4>
+            <div class="overflow-x-auto">
+                <table class="w-full table-auto text-left text-sm">
+                    <thead>
+                        <tr class="text-xs uppercase text-gray-500 font-medium border-b border-gray-200">
+                            <th class="pb-2">Run</th>
+                            <th class="pb-2">Runtime</th>
+                            <th class="pb-2">Success Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100">
+                        
+                <tr class="even:bg-gray-50">
+                    <td class="py-2 px-4">Run 1</td>
+                    <td class="py-2 px-4">28.5s</td>
+                    <td class="py-2 px-4 text-green-600">100%</td>
+                </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h4 class="text-lg font-semibold text-gray-800 mb-4">Error Pattern Analysis</h4>
+            <div class="h-80 flex items-end justify-between px-4 border-b border-l border-gray-200">
+                
+                <div class="flex flex-col items-center">
+                    <div class="w-16 bg-red-500 rounded-t" style="height: 100.0px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-2 text-center">
+                        Pdf Generation<br/>
+                        <span class="font-semibold">38</span>
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-16 bg-amber-500 rounded-t" style="height: 7.894736842105263px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-2 text-center">
+                        Zoovu Error<br/>
+                        <span class="font-semibold">3</span>
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-16 bg-blue-500 rounded-t" style="height: 5.263157894736842px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-2 text-center">
+                        Image Loading<br/>
+                        <span class="font-semibold">2</span>
+                    </div>
+                </div>
+            
+                <div class="flex flex-col items-center">
+                    <div class="w-16 bg-emerald-500 rounded-t" style="height: 2.631578947368421px; min-height: 2px;"></div>
+                    <div class="text-xs text-gray-600 mt-2 text-center">
+                        Configurator Error<br/>
+                        <span class="font-semibold">1</span>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="mt-4 text-sm text-gray-600">
+                <div class="flex justify-between">
+                    <span>0</span>
+                    <span>38</span>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Error Analysis</h3>
+            
+            <div class="space-y-6">
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Error Breakdown by Category</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full table-auto text-left text-sm">
+                            <thead>
+                                <tr class="text-xs uppercase text-gray-500 font-medium border-b border-gray-200">
+                                    <th class="pb-2">Category</th>
+                                    <th class="pb-2">Total Logs</th>
+                                    <th class="pb-2">Errors</th>
+                                    <th class="pb-2">Warnings</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Image Loading</td>
+                                    <td class="py-2">2</td>
+                                    <td class="py-2">2</td>
+                                    <td class="py-2">0</td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Zoovu Error</td>
+                                    <td class="py-2">3</td>
+                                    <td class="py-2">3</td>
+                                    <td class="py-2">0</td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Configurator Error</td>
+                                    <td class="py-2">1</td>
+                                    <td class="py-2">0</td>
+                                    <td class="py-2">0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-blue-800 mb-2">JavaScript Error Context</h4>
+                    <p class="text-sm text-blue-700">
+                        The JavaScript errors captured are primarily related to Unity WebGL rendering and 3D model processing. 
+                        These errors are part of the normal 3D rendering pipeline and do not impact the user experience 
+                        or functionality of the configurator.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="text-xs text-gray-400 text-center mt-12 pt-4 border-t border-gray-200">
+            BostonTec 3D Workbench Builder - Stress Test Report | Generated: September 10, 2025 at 11:23 AM
+        </div>
+        
+    </div>
+</body>
+</html>

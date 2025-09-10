@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/chart.js@4.4.0/dist/chart.min.js"></script>
+</head>
+<body>
+    <h1>Chart.js Test - Unpkg CDN</h1>
+    <canvas id="testChart" width="400" height="200"></canvas>
+    <div id="status">Loading...</div>
+    <script>
+        console.log('Script started');
+        
+        if (typeof Chart === 'undefined') {
+            document.getElementById('status').innerHTML = 'Chart.js failed to load from unpkg';
+            console.error('Chart.js not loaded');
+        } else {
+            document.getElementById('status').innerHTML = 'Chart.js loaded successfully from unpkg';
+            console.log('Chart.js loaded:', Chart);
+            
+            try {
+                const ctx = document.getElementById('testChart').getContext('2d');
+                const testChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: ['A', 'B', 'C'],
+                        datasets: [{
+                            label: 'Test Data',
+                            data: [1, 2, 3],
+                            borderColor: '#3B82F6',
+                            backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true
+                    }
+                });
+                console.log('Chart created successfully');
+            } catch (error) {
+                console.error('Error creating chart:', error);
+                document.getElementById('status').innerHTML = 'Error creating chart: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>

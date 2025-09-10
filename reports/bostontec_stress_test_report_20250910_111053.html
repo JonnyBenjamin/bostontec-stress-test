@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BostonTec 3D Workbench Builder - Stress Test Report</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -30,7 +29,7 @@
                 <h1 class="text-2xl font-semibold text-gray-800 mb-2">3D Workbench Builder</h1>
                 <h2 class="text-lg font-medium text-gray-600">Stress Test Analysis Report</h2>
                 <div class="mt-4 text-sm text-gray-500">
-                    Generated on September 10, 2025 at 10:35 AM
+                    Generated on September 10, 2025 at 11:10 AM
                 </div>
             </div>
         </div>
@@ -48,7 +47,7 @@
                     <div class="text-sm text-gray-600">Success Rate</div>
                 </div>
                 <div class="text-center p-4 bg-purple-50 rounded-lg">
-                    <div class="text-2xl font-semibold text-purple-600">25.5s</div>
+                    <div class="text-2xl font-semibold text-purple-600">28.5s</div>
                     <div class="text-sm text-gray-600">Avg Runtime</div>
                 </div>
             </div>
@@ -70,8 +69,8 @@
                     <h4 class="font-semibold text-gray-800 mb-2">Key Findings</h4>
                     <ul class="space-y-1 text-sm text-gray-700">
                         <li>• <strong>Success Rate:</strong> 100.0% - All test runs completed successfully</li>
-                        <li>• <strong>Performance:</strong> Average runtime of 25.5 seconds per cycle</li>
-                        <li>• <strong>Memory Usage:</strong> Peak usage of 9.7% with 27 performance measurements</li>
+                        <li>• <strong>Performance:</strong> Average runtime of 28.5 seconds per cycle</li>
+                        <li>• <strong>Memory Usage:</strong> Peak usage of 11.7% with 27 performance measurements</li>
                         <li>• <strong>Error Monitoring:</strong> 44 relevant console logs captured</li>
                     </ul>
                 </div>
@@ -129,7 +128,7 @@
                                 </tr>
                                 <tr class="even:bg-gray-50">
                                     <td class="py-2">Average Run Time</td>
-                                    <td class="py-2">25.5s</td>
+                                    <td class="py-2">28.5s</td>
                                     <td class="py-2"><span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">Normal</span></td>
                                 </tr>
                             </tbody>
@@ -156,7 +155,7 @@
                                 </tr>
                                 <tr class="even:bg-gray-50">
                                     <td class="py-2">Network Requests</td>
-                                    <td class="py-2">403</td>
+                                    <td class="py-2">402</td>
                                     <td class="py-2">Zoovu-specific</td>
                                 </tr>
                                 <tr class="even:bg-gray-50">
@@ -185,54 +184,6 @@
         
         
         <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
-            <h4 class="text-lg font-semibold text-gray-800 mb-4">Memory Usage Timeline</h4>
-            <div class="relative h-80">
-                <canvas id="memoryChart"></canvas>
-            </div>
-            <script>
-                const memoryChart = new Chart(
-                    document.getElementById('memoryChart'),
-                    {
-                        type: 'line',
-                        data: {"labels": ["Iteration 1", "Iteration 2", "Iteration 3", "Iteration 4", "Iteration 5", "Iteration 6", "Iteration 7", "Iteration 8", "Iteration 9", "Iteration 10", "Iteration 11", "Iteration 12", "Iteration 13", "Iteration 14", "Iteration 15", "Iteration 16", "Iteration 17", "Iteration 18", "Iteration 19", "Iteration 20", "Iteration 21", "Iteration 22", "Iteration 23", "Iteration 24", "Iteration 25", "Iteration 26", "Iteration 27"], "datasets": [{"label": "Memory Usage %", "data": [4.528430326661067, 7.35744366894907, 7.35744366894907, 7.250354183253957, 6.9783388233896515, 7.243622683767062, 7.570651129110535, 7.526574294958542, 7.589988966486347, 7.701691406876293, 8.39262110973472, 7.225462838784972, 7.631366955700206, 7.334191363249253, 7.578293423154461, 8.686803970763933, 7.905576923000279, 8.67962939525718, 8.809033436561698, 8.89313372213449, 8.458356759441433, 9.355084531342806, 8.647916388155808, 8.820473347137224, 9.25915121142544, 9.05756309850892, 9.734535217285156], "borderColor": "#3B82F6", "backgroundColor": "rgba(59, 130, 246, 0.1)", "borderWidth": 2, "fill": true, "tension": 0.4}]},
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            plugins: {
-                                legend: {
-                                    position: 'top',
-                                },
-                                tooltip: {
-                                    mode: 'index',
-                                    intersect: false,
-                                }
-                            },
-                            scales: {
-                                x: {
-                                    display: true,
-                                    title: {
-                                        display: true,
-                                        text: 'Test Iteration'
-                                    }
-                                },
-                                y: {
-                                    display: true,
-                                    title: {
-                                        display: true,
-                                        text: 'Memory Usage (%)'
-                                    },
-                                    min: 0,
-                                    max: 100
-                                }
-                            }
-                        }
-                    }
-                );
-            </script>
-        </div>
-        
-        
-        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-4">Memory Analysis</h3>
             
             <div class="space-y-6">
@@ -250,7 +201,7 @@
                             <tbody class="divide-y divide-gray-100">
                                 <tr class="even:bg-gray-50">
                                     <td class="py-2">Peak Memory Usage</td>
-                                    <td class="py-2">9.7%</td>
+                                    <td class="py-2">11.7%</td>
                                     <td class="py-2">
                                         <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
                                             LOW
@@ -259,7 +210,7 @@
                                 </tr>
                                 <tr class="even:bg-gray-50">
                                     <td class="py-2">Average Memory Usage</td>
-                                    <td class="py-2">8.0%</td>
+                                    <td class="py-2">9.2%</td>
                                     <td class="py-2">
                                         <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
                                             LOW
@@ -293,115 +244,6 @@
         
         
         <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
-            <h4 class="text-lg font-semibold text-gray-800 mb-4">Performance Trends</h4>
-            <div class="relative h-80">
-                <canvas id="performanceChart"></canvas>
-            </div>
-            <script>
-                const performanceChart = new Chart(
-                    document.getElementById('performanceChart'),
-                    {
-                        type: 'line',
-                        data: {"labels": ["Iteration 1"], "datasets": [{"label": "Runtime (seconds)", "data": [25.53580093383789], "borderColor": "#3B82F6", "backgroundColor": "rgba(59, 130, 246, 0.1)", "borderWidth": 2, "yAxisID": "y"}, {"label": "Success Rate (%)", "data": [100], "borderColor": "#10B981", "backgroundColor": "rgba(16, 185, 129, 0.1)", "borderWidth": 2, "yAxisID": "y1"}]},
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            plugins: {
-                                legend: {
-                                    position: 'top',
-                                },
-                                tooltip: {
-                                    mode: 'index',
-                                    intersect: false,
-                                }
-                            },
-                            scales: {
-                                x: {
-                                    display: true,
-                                    title: {
-                                        display: true,
-                                        text: 'Test Iteration'
-                                    }
-                                },
-                                y: {
-                                    type: 'linear',
-                                    display: true,
-                                    position: 'left',
-                                    title: {
-                                        display: true,
-                                        text: 'Runtime (seconds)'
-                                    }
-                                },
-                                y1: {
-                                    type: 'linear',
-                                    display: true,
-                                    position: 'right',
-                                    title: {
-                                        display: true,
-                                        text: 'Success Rate (%)'
-                                    },
-                                    min: 0,
-                                    max: 100,
-                                    grid: {
-                                        drawOnChartArea: false,
-                                    },
-                                }
-                            }
-                        }
-                    }
-                );
-            </script>
-        </div>
-        
-        
-        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
-            <h4 class="text-lg font-semibold text-gray-800 mb-4">Error Pattern Analysis</h4>
-            <div class="relative h-80">
-                <canvas id="errorChart"></canvas>
-            </div>
-            <script>
-                const errorChart = new Chart(
-                    document.getElementById('errorChart'),
-                    {
-                        type: 'bar',
-                        data: {"labels": ["Pdf Generation", "Zoovu Error", "Image Loading", "Configurator Error"], "datasets": [{"label": "Error Count", "data": [38, 3, 2, 1], "backgroundColor": ["#EF4444", "#F59E0B", "#3B82F6", "#10B981", "#8B5CF6", "#F97316"], "borderWidth": 1, "borderColor": "#ffffff"}]},
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            plugins: {
-                                legend: {
-                                    position: 'top',
-                                },
-                                tooltip: {
-                                    mode: 'index',
-                                    intersect: false,
-                                }
-                            },
-                            scales: {
-                                x: {
-                                    display: true,
-                                    title: {
-                                        display: true,
-                                        text: 'Error Category'
-                                    }
-                                },
-                                y: {
-                                    display: true,
-                                    title: {
-                                        display: true,
-                                        text: 'Count'
-                                    },
-                                    beginAtZero: true
-                                }
-                            }
-                        }
-                    }
-                );
-            </script>
-        </div>
-        
-        
-        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-4">Error Analysis</h3>
             
             <div class="space-y-6">
@@ -420,15 +262,15 @@
                             <tbody class="divide-y divide-gray-100">
                                 
                                 <tr class="even:bg-gray-50">
-                                    <td class="py-2">Zoovu Error</td>
-                                    <td class="py-2">3</td>
-                                    <td class="py-2">3</td>
-                                    <td class="py-2">0</td>
-                                </tr>
-                                <tr class="even:bg-gray-50">
                                     <td class="py-2">Image Loading</td>
                                     <td class="py-2">2</td>
                                     <td class="py-2">2</td>
+                                    <td class="py-2">0</td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Zoovu Error</td>
+                                    <td class="py-2">3</td>
+                                    <td class="py-2">3</td>
                                     <td class="py-2">0</td>
                                 </tr>
                                 <tr class="even:bg-gray-50">
@@ -455,7 +297,7 @@
         
         
         <div class="text-xs text-gray-400 text-center mt-12 pt-4 border-t border-gray-200">
-            BostonTec 3D Workbench Builder - Stress Test Report | Generated: September 10, 2025 at 10:35 AM
+            BostonTec 3D Workbench Builder - Stress Test Report | Generated: September 10, 2025 at 11:10 AM
         </div>
         
     </div>
