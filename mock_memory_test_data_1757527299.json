@@ -1,0 +1,5141 @@
+{
+  "test_summary": {
+    "total_runs": 40,
+    "successful_runs": 38,
+    "failed_runs": 2,
+    "success_rate": 95.0,
+    "run_times": [
+      25.310399036462453,
+      31.79095095796478,
+      30.9138580829766,
+      30.915937117009342,
+      25.58946889522013,
+      27.784109921452192,
+      25.733262034169883,
+      27.10786901107008,
+      29.246849163242608,
+      29.017269382413705,
+      31.532136857412908,
+      27.81320683547832,
+      28.717071449598425,
+      27.50224707855736,
+      26.47950226895377,
+      29.423701076277567,
+      25.972601848674145,
+      29.027613816336512,
+      29.791561563502597,
+      30.915760213153582,
+      30.47598866716079,
+      30.39454142357861,
+      28.02743324261882,
+      26.302682723312117,
+      30.453381699969047,
+      31.52465702727396,
+      31.387106698603414,
+      26.703403015743692,
+      29.94760327097332,
+      28.988654328658594,
+      27.18556075133567,
+      25.731535202203702,
+      28.359184041377922,
+      30.957835281919834,
+      26.010669305479393,
+      27.105072893114567,
+      31.672051317644687,
+      27.132047268377566,
+      28.344834393896527,
+      31.531662445539993
+    ],
+    "average_run_time": 28.5
+  },
+  "performance_metrics": [
+    {
+      "timestamp": 1757527329.037276,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 1,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.1923198889826745,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7093534620175026,
+        "first_contentful_paint": 2.198841987492608
+      }
+    },
+    {
+      "timestamp": 1757527333.037276,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 1,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.6130179956112993,
+        "dom_content_loaded": 0,
+        "first_paint": 1.908511811336057,
+        "first_contentful_paint": 1.7666846883682736
+      }
+    },
+    {
+      "timestamp": 1757527337.037276,
+      "memory": {
+        "used": 166000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.3,
+      "run_number": 1,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.346850342107507,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0005846166700783,
+        "first_contentful_paint": 1.6610069820297753
+      }
+    },
+    {
+      "timestamp": 1757527341.037276,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 1,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.72516008507292,
+        "dom_content_loaded": 0,
+        "first_paint": 1.436678242577845,
+        "first_contentful_paint": 1.9761986767517892
+      }
+    },
+    {
+      "timestamp": 1757527345.037276,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 1,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.1755915623040396,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6017280684160333,
+        "first_contentful_paint": 2.371316269964
+      }
+    },
+    {
+      "timestamp": 1757527349.037276,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 1,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.1367192021791013,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1231885380310176,
+        "first_contentful_paint": 2.301715453921151
+      }
+    },
+    {
+      "timestamp": 1757527353.037276,
+      "memory": {
+        "used": 176000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.8,
+      "run_number": 1,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.8830072372946685,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5688032736852924,
+        "first_contentful_paint": 1.6577809789940607
+      }
+    },
+    {
+      "timestamp": 1757527359.037305,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 2,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.508681481232356,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6068457337230533,
+        "first_contentful_paint": 2.2947735811937364
+      }
+    },
+    {
+      "timestamp": 1757527363.037305,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 2,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.18398846049485,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7629099493900657,
+        "first_contentful_paint": 1.9622071010932307
+      }
+    },
+    {
+      "timestamp": 1757527367.037305,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 2,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.269582287534163,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3881341891396064,
+        "first_contentful_paint": 2.377653862309894
+      }
+    },
+    {
+      "timestamp": 1757527371.037305,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 2,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.158636118927376,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8963731338651764,
+        "first_contentful_paint": 1.5823849840554476
+      }
+    },
+    {
+      "timestamp": 1757527375.037305,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 2,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.399462257066273,
+        "dom_content_loaded": 0,
+        "first_paint": 1.631677154498651,
+        "first_contentful_paint": 2.4633279946015216
+      }
+    },
+    {
+      "timestamp": 1757527379.037305,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 2,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.363197554872904,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9727592629040531,
+        "first_contentful_paint": 2.2349447585121816
+      }
+    },
+    {
+      "timestamp": 1757527383.037305,
+      "memory": {
+        "used": 158000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.9,
+      "run_number": 2,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.5411226370306115,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9813708860942225,
+        "first_contentful_paint": 1.7739938994033186
+      }
+    },
+    {
+      "timestamp": 1757527389.037316,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 3,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.3887977623811296,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9165460007223718,
+        "first_contentful_paint": 1.5319663139497335
+      }
+    },
+    {
+      "timestamp": 1757527393.037316,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 3,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.568303724412123,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9177662242504057,
+        "first_contentful_paint": 1.5873840461492288
+      }
+    },
+    {
+      "timestamp": 1757527397.037316,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 3,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.6570790925014007,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4978488315568126,
+        "first_contentful_paint": 2.1007800425003156
+      }
+    },
+    {
+      "timestamp": 1757527401.037316,
+      "memory": {
+        "used": 210000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.5,
+      "run_number": 3,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.2629068324316237,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3987705094448595,
+        "first_contentful_paint": 1.7821451616149675
+      }
+    },
+    {
+      "timestamp": 1757527405.037316,
+      "memory": {
+        "used": 198000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.9,
+      "run_number": 3,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.305128536334653,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0339441954204562,
+        "first_contentful_paint": 1.682591892897493
+      }
+    },
+    {
+      "timestamp": 1757527409.037316,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 3,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.6661732233771303,
+        "dom_content_loaded": 0,
+        "first_paint": 1.20900385650752,
+        "first_contentful_paint": 1.625569846566606
+      }
+    },
+    {
+      "timestamp": 1757527413.037316,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 3,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.776229551730665,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2751636696676578,
+        "first_contentful_paint": 1.7070065921323865
+      }
+    },
+    {
+      "timestamp": 1757527419.037355,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 4,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.148893374883566,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6568581080274811,
+        "first_contentful_paint": 1.9636095374964104
+      }
+    },
+    {
+      "timestamp": 1757527423.037355,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 4,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.2852870296089045,
+        "dom_content_loaded": 0,
+        "first_paint": 1.268066994339282,
+        "first_contentful_paint": 2.488836541348883
+      }
+    },
+    {
+      "timestamp": 1757527427.037355,
+      "memory": {
+        "used": 130000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.5,
+      "run_number": 4,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.6189584838147577,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0724194385899066,
+        "first_contentful_paint": 1.6530666206696343
+      }
+    },
+    {
+      "timestamp": 1757527431.037355,
+      "memory": {
+        "used": 136000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.8,
+      "run_number": 4,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.5551433477327032,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3455827423663522,
+        "first_contentful_paint": 1.8569157671774343
+      }
+    },
+    {
+      "timestamp": 1757527435.037355,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 4,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.446290443094989,
+        "dom_content_loaded": 0,
+        "first_paint": 1.835308235737627,
+        "first_contentful_paint": 2.024290931069816
+      }
+    },
+    {
+      "timestamp": 1757527439.037355,
+      "memory": {
+        "used": 150000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.5,
+      "run_number": 4,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.066732310369793,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3311405109930383,
+        "first_contentful_paint": 2.364169905498431
+      }
+    },
+    {
+      "timestamp": 1757527443.037355,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 4,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.2914795903378478,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0996999085215293,
+        "first_contentful_paint": 1.778581190170744
+      }
+    },
+    {
+      "timestamp": 1757527449.037363,
+      "memory": {
+        "used": 114000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.7,
+      "run_number": 5,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.872770076283277,
+        "dom_content_loaded": 0,
+        "first_paint": 1.520509431933279,
+        "first_contentful_paint": 2.409568917827044
+      }
+    },
+    {
+      "timestamp": 1757527453.037363,
+      "memory": {
+        "used": 112000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.6,
+      "run_number": 5,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.1680980091829936,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2007646179664626,
+        "first_contentful_paint": 2.4583017567166547
+      }
+    },
+    {
+      "timestamp": 1757527457.037363,
+      "memory": {
+        "used": 108000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.4,
+      "run_number": 5,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.4707426039978237,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4512389756750959,
+        "first_contentful_paint": 1.927305214448936
+      }
+    },
+    {
+      "timestamp": 1757527461.037363,
+      "memory": {
+        "used": 122000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.1,
+      "run_number": 5,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.2126057487824897,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9726927368887086,
+        "first_contentful_paint": 2.2388702507051668
+      }
+    },
+    {
+      "timestamp": 1757527465.037363,
+      "memory": {
+        "used": 112000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.6,
+      "run_number": 5,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.709289471702985,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0386990906797835,
+        "first_contentful_paint": 2.0761598665732124
+      }
+    },
+    {
+      "timestamp": 1757527469.037363,
+      "memory": {
+        "used": 134000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.7,
+      "run_number": 5,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.908064053172302,
+        "dom_content_loaded": 0,
+        "first_paint": 1.851449400451672,
+        "first_contentful_paint": 2.1197357634077907
+      }
+    },
+    {
+      "timestamp": 1757527473.037363,
+      "memory": {
+        "used": 130000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.5,
+      "run_number": 5,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.545470452865854,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2585012953275225,
+        "first_contentful_paint": 2.1310522963903695
+      }
+    },
+    {
+      "timestamp": 1757527479.03737,
+      "memory": {
+        "used": 166000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.3,
+      "run_number": 6,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.0828122250387437,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0554273913107903,
+        "first_contentful_paint": 1.620033201520747
+      }
+    },
+    {
+      "timestamp": 1757527483.03737,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 6,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.263697630438012,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5616379406667225,
+        "first_contentful_paint": 1.8797021364962987
+      }
+    },
+    {
+      "timestamp": 1757527487.03737,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 6,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.2503355807022984,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6896148521853465,
+        "first_contentful_paint": 2.4831852591567465
+      }
+    },
+    {
+      "timestamp": 1757527491.03737,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 6,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.926182113459264,
+        "dom_content_loaded": 0,
+        "first_paint": 1.370496693457931,
+        "first_contentful_paint": 1.5097649385673046
+      }
+    },
+    {
+      "timestamp": 1757527495.03737,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 6,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.220862153560734,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0181580981520275,
+        "first_contentful_paint": 1.685625218122014
+      }
+    },
+    {
+      "timestamp": 1757527499.03737,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 6,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.821750730346558,
+        "dom_content_loaded": 0,
+        "first_paint": 1.150814955216829,
+        "first_contentful_paint": 1.951140800320294
+      }
+    },
+    {
+      "timestamp": 1757527503.03737,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 6,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.8414231176690103,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7296827458713384,
+        "first_contentful_paint": 1.8512094264307173
+      }
+    },
+    {
+      "timestamp": 1757527509.037376,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 7,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.0374414107789107,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5875086317374014,
+        "first_contentful_paint": 1.9988418503745273
+      }
+    },
+    {
+      "timestamp": 1757527513.037376,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 7,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.9664050975208296,
+        "dom_content_loaded": 0,
+        "first_paint": 1.284281097647201,
+        "first_contentful_paint": 1.585463320457249
+      }
+    },
+    {
+      "timestamp": 1757527517.037376,
+      "memory": {
+        "used": 196000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.8,
+      "run_number": 7,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.862345154763748,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7266306008191266,
+        "first_contentful_paint": 1.7878949660287615
+      }
+    },
+    {
+      "timestamp": 1757527521.037376,
+      "memory": {
+        "used": 202000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.1,
+      "run_number": 7,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.8966046123864997,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5461733073821795,
+        "first_contentful_paint": 1.7588625564828664
+      }
+    },
+    {
+      "timestamp": 1757527525.037376,
+      "memory": {
+        "used": 194000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.7,
+      "run_number": 7,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.6778644853983407,
+        "dom_content_loaded": 0,
+        "first_paint": 1.601070756902489,
+        "first_contentful_paint": 2.3472763791210105
+      }
+    },
+    {
+      "timestamp": 1757527529.037376,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 7,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.6375820669151153,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9048985119297068,
+        "first_contentful_paint": 1.9027587643339845
+      }
+    },
+    {
+      "timestamp": 1757527533.037376,
+      "memory": {
+        "used": 204000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.2,
+      "run_number": 7,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.3696042028755255,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4199998566953576,
+        "first_contentful_paint": 2.2769700594419358
+      }
+    },
+    {
+      "timestamp": 1757527539.037413,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 8,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.8531029482379426,
+        "dom_content_loaded": 0,
+        "first_paint": 1.455370049946784,
+        "first_contentful_paint": 2.0554487986460908
+      }
+    },
+    {
+      "timestamp": 1757527543.037413,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 8,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.660973930490001,
+        "dom_content_loaded": 0,
+        "first_paint": 1.247291408252393,
+        "first_contentful_paint": 2.2738540181696356
+      }
+    },
+    {
+      "timestamp": 1757527547.037413,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 8,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.534439592482759,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8009675845952673,
+        "first_contentful_paint": 2.368279286449867
+      }
+    },
+    {
+      "timestamp": 1757527551.037413,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 8,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.537914091295731,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6901712839573322,
+        "first_contentful_paint": 2.185207328432288
+      }
+    },
+    {
+      "timestamp": 1757527555.037413,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 8,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.9376815154468963,
+        "dom_content_loaded": 0,
+        "first_paint": 1.36074205683997,
+        "first_contentful_paint": 2.347516679679751
+      }
+    },
+    {
+      "timestamp": 1757527559.037413,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 8,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.744981543274376,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7774421436620642,
+        "first_contentful_paint": 1.9044048833976515
+      }
+    },
+    {
+      "timestamp": 1757527563.037413,
+      "memory": {
+        "used": 160000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.0,
+      "run_number": 8,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.441371186687355,
+        "dom_content_loaded": 0,
+        "first_paint": 1.776041607030905,
+        "first_contentful_paint": 1.729132714099246
+      }
+    },
+    {
+      "timestamp": 1757527569.037429,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 9,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.294524275919142,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4055813285812402,
+        "first_contentful_paint": 1.9999329810834074
+      }
+    },
+    {
+      "timestamp": 1757527573.037429,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 9,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.5317877704992253,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6731353639620712,
+        "first_contentful_paint": 1.9526309375186277
+      }
+    },
+    {
+      "timestamp": 1757527577.037429,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 9,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.3217875079784593,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1946636209141963,
+        "first_contentful_paint": 2.2394235963907123
+      }
+    },
+    {
+      "timestamp": 1757527581.037429,
+      "memory": {
+        "used": 136000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.8,
+      "run_number": 9,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.397838918715565,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9749030153736256,
+        "first_contentful_paint": 1.6884642565380423
+      }
+    },
+    {
+      "timestamp": 1757527585.037429,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 9,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.3590940018517492,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0972820379068042,
+        "first_contentful_paint": 2.474901260572802
+      }
+    },
+    {
+      "timestamp": 1757527589.037429,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 9,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.939195105337066,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9603826358525325,
+        "first_contentful_paint": 2.4558128252519973
+      }
+    },
+    {
+      "timestamp": 1757527593.037429,
+      "memory": {
+        "used": 142000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.1,
+      "run_number": 9,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.1193736413658866,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1399925777319253,
+        "first_contentful_paint": 2.239130090244649
+      }
+    },
+    {
+      "timestamp": 1757527599.037439,
+      "memory": {
+        "used": 124000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.2,
+      "run_number": 10,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.8355097216114076,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7401450885394545,
+        "first_contentful_paint": 1.5523856197420525
+      }
+    },
+    {
+      "timestamp": 1757527603.037439,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 10,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.6176169107804976,
+        "dom_content_loaded": 0,
+        "first_paint": 1.059212132198454,
+        "first_contentful_paint": 1.97261582822318
+      }
+    },
+    {
+      "timestamp": 1757527607.037439,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 10,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.0310871552502827,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4352351426007828,
+        "first_contentful_paint": 2.2875046854437553
+      }
+    },
+    {
+      "timestamp": 1757527611.037439,
+      "memory": {
+        "used": 142000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.1,
+      "run_number": 10,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.512955633363287,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0228121341799135,
+        "first_contentful_paint": 2.091184996162319
+      }
+    },
+    {
+      "timestamp": 1757527615.037439,
+      "memory": {
+        "used": 138000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.9,
+      "run_number": 10,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.3637472213639277,
+        "dom_content_loaded": 0,
+        "first_paint": 1.432682875725522,
+        "first_contentful_paint": 1.572906594374504
+      }
+    },
+    {
+      "timestamp": 1757527619.037439,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 10,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.607816904313988,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8534002075333054,
+        "first_contentful_paint": 2.491712523155963
+      }
+    },
+    {
+      "timestamp": 1757527623.037439,
+      "memory": {
+        "used": 128000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.4,
+      "run_number": 10,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.797461673516619,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1739144290818044,
+        "first_contentful_paint": 1.703568276660445
+      }
+    },
+    {
+      "timestamp": 1757527629.037447,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 11,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.1239661382346107,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3705288856212894,
+        "first_contentful_paint": 2.0572970089829536
+      }
+    },
+    {
+      "timestamp": 1757527633.037447,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 11,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.3717613272272517,
+        "dom_content_loaded": 0,
+        "first_paint": 1.861259866230194,
+        "first_contentful_paint": 1.9054189224094453
+      }
+    },
+    {
+      "timestamp": 1757527637.037447,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 11,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.7474977258786293,
+        "dom_content_loaded": 0,
+        "first_paint": 1.844349506237633,
+        "first_contentful_paint": 2.4579809334112253
+      }
+    },
+    {
+      "timestamp": 1757527641.037447,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 11,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.1044853284360516,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6560778839112704,
+        "first_contentful_paint": 2.3514120055138896
+      }
+    },
+    {
+      "timestamp": 1757527645.037447,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 11,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.380775323648672,
+        "dom_content_loaded": 0,
+        "first_paint": 1.891952622779668,
+        "first_contentful_paint": 1.6147766868640243
+      }
+    },
+    {
+      "timestamp": 1757527649.037447,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 11,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.495296590876174,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5875148907238055,
+        "first_contentful_paint": 1.9584229509707012
+      }
+    },
+    {
+      "timestamp": 1757527653.037447,
+      "memory": {
+        "used": 158000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.9,
+      "run_number": 11,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.3345734147629997,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4994626450054436,
+        "first_contentful_paint": 2.1003789426715325
+      }
+    },
+    {
+      "timestamp": 1757527659.037457,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 12,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.8289781495075026,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9270270021264224,
+        "first_contentful_paint": 1.7065324844003191
+      }
+    },
+    {
+      "timestamp": 1757527663.037457,
+      "memory": {
+        "used": 170000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.5,
+      "run_number": 12,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.800617562174809,
+        "dom_content_loaded": 0,
+        "first_paint": 1.546862998700614,
+        "first_contentful_paint": 2.2913008832996633
+      }
+    },
+    {
+      "timestamp": 1757527667.037457,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 12,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.991111391219191,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7573171246880874,
+        "first_contentful_paint": 1.5886658374412153
+      }
+    },
+    {
+      "timestamp": 1757527671.037457,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 12,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.312967587639979,
+        "dom_content_loaded": 0,
+        "first_paint": 1.491611819726055,
+        "first_contentful_paint": 2.2350390581256816
+      }
+    },
+    {
+      "timestamp": 1757527675.037457,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 12,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.9190080294673786,
+        "dom_content_loaded": 0,
+        "first_paint": 1.913582093265827,
+        "first_contentful_paint": 2.133533515994175
+      }
+    },
+    {
+      "timestamp": 1757527679.037457,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 12,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.568234991656304,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1995041782218672,
+        "first_contentful_paint": 1.5533236652251632
+      }
+    },
+    {
+      "timestamp": 1757527683.037457,
+      "memory": {
+        "used": 194000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.7,
+      "run_number": 12,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.910709204500237,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8999389986019635,
+        "first_contentful_paint": 1.724365323660366
+      }
+    },
+    {
+      "timestamp": 1757527689.037465,
+      "memory": {
+        "used": 160000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.0,
+      "run_number": 13,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.4573001183431398,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5562674698821635,
+        "first_contentful_paint": 2.070511299671069
+      }
+    },
+    {
+      "timestamp": 1757527693.037465,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 13,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.5933913203855647,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4947162028481353,
+        "first_contentful_paint": 1.7228275235741342
+      }
+    },
+    {
+      "timestamp": 1757527697.037465,
+      "memory": {
+        "used": 176000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.8,
+      "run_number": 13,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.472794227877105,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2206939303897808,
+        "first_contentful_paint": 2.3516722590331263
+      }
+    },
+    {
+      "timestamp": 1757527701.037465,
+      "memory": {
+        "used": 170000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.5,
+      "run_number": 13,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.924573289993139,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1550770928691096,
+        "first_contentful_paint": 2.131135247049061
+      }
+    },
+    {
+      "timestamp": 1757527705.037465,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 13,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.17455605965389,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6426242732321714,
+        "first_contentful_paint": 2.28902600947629
+      }
+    },
+    {
+      "timestamp": 1757527709.037465,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 13,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.1269705642143184,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4570556108845023,
+        "first_contentful_paint": 2.29239358501878
+      }
+    },
+    {
+      "timestamp": 1757527713.037465,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 13,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.322740655289251,
+        "dom_content_loaded": 0,
+        "first_paint": 1.027405604957934,
+        "first_contentful_paint": 2.013933691646617
+      }
+    },
+    {
+      "timestamp": 1757527719.037479,
+      "memory": {
+        "used": 148000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.4,
+      "run_number": 14,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.911605080316023,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6415355385843378,
+        "first_contentful_paint": 2.4431231870675907
+      }
+    },
+    {
+      "timestamp": 1757527723.037479,
+      "memory": {
+        "used": 160000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.0,
+      "run_number": 14,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.9993295614007685,
+        "dom_content_loaded": 0,
+        "first_paint": 1.557024942240746,
+        "first_contentful_paint": 1.6416173186770613
+      }
+    },
+    {
+      "timestamp": 1757527727.037479,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 14,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.7326680095997955,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9408122428936962,
+        "first_contentful_paint": 2.1669566131404108
+      }
+    },
+    {
+      "timestamp": 1757527731.037479,
+      "memory": {
+        "used": 160000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.0,
+      "run_number": 14,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.2958232348014374,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4901557514409522,
+        "first_contentful_paint": 1.8730874436029956
+      }
+    },
+    {
+      "timestamp": 1757527735.037479,
+      "memory": {
+        "used": 140000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.0,
+      "run_number": 14,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.9441399778262842,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4858805338813643,
+        "first_contentful_paint": 2.426382155427935
+      }
+    },
+    {
+      "timestamp": 1757527739.037479,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 14,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.1957238320283015,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3678914698386102,
+        "first_contentful_paint": 1.62288290719493
+      }
+    },
+    {
+      "timestamp": 1757527743.037479,
+      "memory": {
+        "used": 150000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.5,
+      "run_number": 14,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.6490425135880575,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1372607296868953,
+        "first_contentful_paint": 2.321977956760125
+      }
+    },
+    {
+      "timestamp": 1757527749.037601,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 15,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.2328262795783713,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8115639033581283,
+        "first_contentful_paint": 1.9528126963397516
+      }
+    },
+    {
+      "timestamp": 1757527753.037601,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 15,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.7023478372948073,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2344769640383586,
+        "first_contentful_paint": 1.5501851839371361
+      }
+    },
+    {
+      "timestamp": 1757527757.037601,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 15,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.942123492216354,
+        "dom_content_loaded": 0,
+        "first_paint": 1.72535922457084,
+        "first_contentful_paint": 1.7000434705478311
+      }
+    },
+    {
+      "timestamp": 1757527761.037601,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 15,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.9059243260437504,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6569451953649534,
+        "first_contentful_paint": 2.144857836126729
+      }
+    },
+    {
+      "timestamp": 1757527765.037601,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 15,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.0361293809633816,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9099405653956905,
+        "first_contentful_paint": 2.238304780418871
+      }
+    },
+    {
+      "timestamp": 1757527769.037601,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 15,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.3124618173987166,
+        "dom_content_loaded": 0,
+        "first_paint": 1.575226029288484,
+        "first_contentful_paint": 2.168836949121336
+      }
+    },
+    {
+      "timestamp": 1757527773.037601,
+      "memory": {
+        "used": 190000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.5,
+      "run_number": 15,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.034993264963725,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5885109191048832,
+        "first_contentful_paint": 2.251006597676214
+      }
+    },
+    {
+      "timestamp": 1757527779.037618,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 16,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.766296155668165,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8837140832659116,
+        "first_contentful_paint": 1.513380102608259
+      }
+    },
+    {
+      "timestamp": 1757527783.037618,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 16,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.2963145613750298,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5173352391563184,
+        "first_contentful_paint": 2.202214955843738
+      }
+    },
+    {
+      "timestamp": 1757527787.037618,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 16,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.5780692984056466,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3850693599293895,
+        "first_contentful_paint": 1.5688123443486486
+      }
+    },
+    {
+      "timestamp": 1757527791.037618,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 16,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.096326445330055,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7783937808174755,
+        "first_contentful_paint": 1.9104141524729106
+      }
+    },
+    {
+      "timestamp": 1757527795.037618,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 16,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.9076760181844006,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8965727185142365,
+        "first_contentful_paint": 2.4787214441119936
+      }
+    },
+    {
+      "timestamp": 1757527799.037618,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 16,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.0611847231165754,
+        "dom_content_loaded": 0,
+        "first_paint": 1.495090554132104,
+        "first_contentful_paint": 1.9301363468684487
+      }
+    },
+    {
+      "timestamp": 1757527803.037618,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 16,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.094712744535653,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8197412894512741,
+        "first_contentful_paint": 1.8602358544062751
+      }
+    },
+    {
+      "timestamp": 1757527809.037628,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 17,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.095184308623682,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0129510107848592,
+        "first_contentful_paint": 1.7185071959043183
+      }
+    },
+    {
+      "timestamp": 1757527813.037628,
+      "memory": {
+        "used": 138000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.9,
+      "run_number": 17,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.6358670918654745,
+        "dom_content_loaded": 0,
+        "first_paint": 1.476657329925943,
+        "first_contentful_paint": 1.967274826940708
+      }
+    },
+    {
+      "timestamp": 1757527817.037628,
+      "memory": {
+        "used": 130000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.5,
+      "run_number": 17,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.4126395284220363,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8964542980483725,
+        "first_contentful_paint": 2.1024578163785472
+      }
+    },
+    {
+      "timestamp": 1757527821.037628,
+      "memory": {
+        "used": 110000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.5,
+      "run_number": 17,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.9731008558200527,
+        "dom_content_loaded": 0,
+        "first_paint": 1.840362405570914,
+        "first_contentful_paint": 1.7425748863491624
+      }
+    },
+    {
+      "timestamp": 1757527825.037628,
+      "memory": {
+        "used": 126000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.3,
+      "run_number": 17,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.1347031095162583,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9622163433504476,
+        "first_contentful_paint": 2.432666609131352
+      }
+    },
+    {
+      "timestamp": 1757527829.037628,
+      "memory": {
+        "used": 138000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.9,
+      "run_number": 17,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.4479402431876105,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2696849072742178,
+        "first_contentful_paint": 2.308455611745164
+      }
+    },
+    {
+      "timestamp": 1757527833.037628,
+      "memory": {
+        "used": 118000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.9,
+      "run_number": 17,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.5768187846268646,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4640897874380343,
+        "first_contentful_paint": 1.5905751857972068
+      }
+    },
+    {
+      "timestamp": 1757527839.037637,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 18,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.6706708994248403,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6721765529248547,
+        "first_contentful_paint": 2.2192343348943258
+      }
+    },
+    {
+      "timestamp": 1757527843.037637,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 18,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.7084483525919913,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2866226644040322,
+        "first_contentful_paint": 1.948068344717079
+      }
+    },
+    {
+      "timestamp": 1757527847.037637,
+      "memory": {
+        "used": 148000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.4,
+      "run_number": 18,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.3114069500156953,
+        "dom_content_loaded": 0,
+        "first_paint": 1.49677937563938,
+        "first_contentful_paint": 1.5674515414440313
+      }
+    },
+    {
+      "timestamp": 1757527851.037637,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 18,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.795769099744742,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5602478801398605,
+        "first_contentful_paint": 2.276808601048668
+      }
+    },
+    {
+      "timestamp": 1757527855.037637,
+      "memory": {
+        "used": 126000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.3,
+      "run_number": 18,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.068428654151092,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0640930828900248,
+        "first_contentful_paint": 2.0031383682999238
+      }
+    },
+    {
+      "timestamp": 1757527859.037637,
+      "memory": {
+        "used": 158000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.9,
+      "run_number": 18,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.0438544079210854,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0022146599633572,
+        "first_contentful_paint": 2.2358733962456983
+      }
+    },
+    {
+      "timestamp": 1757527863.037637,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 18,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.877443828469859,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6793362049106044,
+        "first_contentful_paint": 1.779364747650221
+      }
+    },
+    {
+      "timestamp": 1757527869.037646,
+      "memory": {
+        "used": 142000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.1,
+      "run_number": 19,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.534912907479351,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9372893780934888,
+        "first_contentful_paint": 1.511068653744962
+      }
+    },
+    {
+      "timestamp": 1757527873.037646,
+      "memory": {
+        "used": 140000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.0,
+      "run_number": 19,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.7847178242678416,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0785464200268773,
+        "first_contentful_paint": 2.2458986512132064
+      }
+    },
+    {
+      "timestamp": 1757527877.037646,
+      "memory": {
+        "used": 118000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.9,
+      "run_number": 19,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.596946390089905,
+        "dom_content_loaded": 0,
+        "first_paint": 1.297591077719249,
+        "first_contentful_paint": 2.2426302096025292
+      }
+    },
+    {
+      "timestamp": 1757527881.037646,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 19,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.9258139880207064,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9915993295122933,
+        "first_contentful_paint": 2.0168782541101953
+      }
+    },
+    {
+      "timestamp": 1757527885.037646,
+      "memory": {
+        "used": 122000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.1,
+      "run_number": 19,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.9280999855533056,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8695807977493322,
+        "first_contentful_paint": 2.4011063307407046
+      }
+    },
+    {
+      "timestamp": 1757527889.037646,
+      "memory": {
+        "used": 136000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.8,
+      "run_number": 19,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.791260789761611,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4224593305721762,
+        "first_contentful_paint": 2.0805852722430043
+      }
+    },
+    {
+      "timestamp": 1757527893.037646,
+      "memory": {
+        "used": 132000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.6,
+      "run_number": 19,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.443709613160625,
+        "dom_content_loaded": 0,
+        "first_paint": 1.374487178634186,
+        "first_contentful_paint": 2.2766243851917896
+      }
+    },
+    {
+      "timestamp": 1757527899.037654,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 20,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.3334767806136663,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5192243250479645,
+        "first_contentful_paint": 2.4021252267095465
+      }
+    },
+    {
+      "timestamp": 1757527903.037654,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 20,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.4631403710704314,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7501609677066943,
+        "first_contentful_paint": 1.9421876849520143
+      }
+    },
+    {
+      "timestamp": 1757527907.037654,
+      "memory": {
+        "used": 120000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.0,
+      "run_number": 20,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.542373860295532,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9382904371223713,
+        "first_contentful_paint": 2.0233233087503946
+      }
+    },
+    {
+      "timestamp": 1757527911.037654,
+      "memory": {
+        "used": 136000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.8,
+      "run_number": 20,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.762881854497758,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7965875573366785,
+        "first_contentful_paint": 2.1828859752692393
+      }
+    },
+    {
+      "timestamp": 1757527915.037654,
+      "memory": {
+        "used": 134000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.7,
+      "run_number": 20,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.8554785815849653,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2725638793360707,
+        "first_contentful_paint": 2.186064153779792
+      }
+    },
+    {
+      "timestamp": 1757527919.037654,
+      "memory": {
+        "used": 128000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.4,
+      "run_number": 20,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.4019594659269523,
+        "dom_content_loaded": 0,
+        "first_paint": 1.420001179013699,
+        "first_contentful_paint": 2.3042990373299608
+      }
+    },
+    {
+      "timestamp": 1757527923.037654,
+      "memory": {
+        "used": 158000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.9,
+      "run_number": 20,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.051691792420977,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5622723503704399,
+        "first_contentful_paint": 2.464097850330041
+      }
+    },
+    {
+      "timestamp": 1757527929.037663,
+      "memory": {
+        "used": 118000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.9,
+      "run_number": 21,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.900142034014394,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1950597844173356,
+        "first_contentful_paint": 2.1991638298955705
+      }
+    },
+    {
+      "timestamp": 1757527933.037663,
+      "memory": {
+        "used": 132000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.6,
+      "run_number": 21,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.31727126113104,
+        "dom_content_loaded": 0,
+        "first_paint": 1.58286106088239,
+        "first_contentful_paint": 1.7044765060556455
+      }
+    },
+    {
+      "timestamp": 1757527937.037663,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 21,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.0449839650856627,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1568208312812498,
+        "first_contentful_paint": 2.3571245414199087
+      }
+    },
+    {
+      "timestamp": 1757527941.037663,
+      "memory": {
+        "used": 122000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.1,
+      "run_number": 21,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.5901429711563253,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4340179438618126,
+        "first_contentful_paint": 2.026312595029128
+      }
+    },
+    {
+      "timestamp": 1757527945.037663,
+      "memory": {
+        "used": 130000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.5,
+      "run_number": 21,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.4820673714754995,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9256701528799651,
+        "first_contentful_paint": 2.2631093935729396
+      }
+    },
+    {
+      "timestamp": 1757527949.037663,
+      "memory": {
+        "used": 126000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.3,
+      "run_number": 21,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.6061828152471977,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7873986736118725,
+        "first_contentful_paint": 2.3287504119579188
+      }
+    },
+    {
+      "timestamp": 1757527953.037663,
+      "memory": {
+        "used": 134000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.7,
+      "run_number": 21,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.8802548637608627,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7334100136769308,
+        "first_contentful_paint": 2.003698996786917
+      }
+    },
+    {
+      "timestamp": 1757527959.037671,
+      "memory": {
+        "used": 192000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.6,
+      "run_number": 22,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.325775216925166,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0157333911463904,
+        "first_contentful_paint": 2.3088994603480266
+      }
+    },
+    {
+      "timestamp": 1757527963.037671,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 22,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.5256306134027087,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5782825901919857,
+        "first_contentful_paint": 2.308836102342387
+      }
+    },
+    {
+      "timestamp": 1757527967.037671,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 22,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.3887522640848022,
+        "dom_content_loaded": 0,
+        "first_paint": 1.161973529978411,
+        "first_contentful_paint": 1.5276290773116177
+      }
+    },
+    {
+      "timestamp": 1757527971.037671,
+      "memory": {
+        "used": 198000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.9,
+      "run_number": 22,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.3824115374067643,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2764442220181405,
+        "first_contentful_paint": 1.7633688928115434
+      }
+    },
+    {
+      "timestamp": 1757527975.037671,
+      "memory": {
+        "used": 190000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.5,
+      "run_number": 22,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.4309695299251013,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4412807667847027,
+        "first_contentful_paint": 1.6473562990925608
+      }
+    },
+    {
+      "timestamp": 1757527979.037671,
+      "memory": {
+        "used": 176000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.8,
+      "run_number": 22,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.0033029746071422,
+        "dom_content_loaded": 0,
+        "first_paint": 1.605605145894501,
+        "first_contentful_paint": 1.9171399754754082
+      }
+    },
+    {
+      "timestamp": 1757527983.037671,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 22,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.402357504153486,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0719549381785516,
+        "first_contentful_paint": 2.384956619014353
+      }
+    },
+    {
+      "timestamp": 1757527989.03768,
+      "memory": {
+        "used": 166000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.3,
+      "run_number": 23,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.107316127304121,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0352712488145108,
+        "first_contentful_paint": 2.1155748820762508
+      }
+    },
+    {
+      "timestamp": 1757527993.03768,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 23,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.4672307134256255,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5932427844199137,
+        "first_contentful_paint": 1.5138151529729327
+      }
+    },
+    {
+      "timestamp": 1757527997.03768,
+      "memory": {
+        "used": 190000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.5,
+      "run_number": 23,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.6701298118470014,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3841751720986157,
+        "first_contentful_paint": 1.563020429562623
+      }
+    },
+    {
+      "timestamp": 1757528001.03768,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 23,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.4573106047548676,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1186684290387605,
+        "first_contentful_paint": 1.622363732528126
+      }
+    },
+    {
+      "timestamp": 1757528005.03768,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 23,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.7635510721733487,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0112506634264267,
+        "first_contentful_paint": 2.0361028821659897
+      }
+    },
+    {
+      "timestamp": 1757528009.03768,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 23,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.702752125385215,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3971136443924639,
+        "first_contentful_paint": 2.3850648094973126
+      }
+    },
+    {
+      "timestamp": 1757528013.03768,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 23,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.676622780602148,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6813284635010457,
+        "first_contentful_paint": 1.7922844576623
+      }
+    },
+    {
+      "timestamp": 1757528019.037689,
+      "memory": {
+        "used": 214000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.7,
+      "run_number": 24,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.5233820242646043,
+        "dom_content_loaded": 0,
+        "first_paint": 1.810337542314985,
+        "first_contentful_paint": 2.375911277163448
+      }
+    },
+    {
+      "timestamp": 1757528023.037689,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 24,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.7605664537512657,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7145791675322561,
+        "first_contentful_paint": 1.9049150226200418
+      }
+    },
+    {
+      "timestamp": 1757528027.037689,
+      "memory": {
+        "used": 208000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.4,
+      "run_number": 24,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.3568905809205054,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0180597595213647,
+        "first_contentful_paint": 2.0842110824589004
+      }
+    },
+    {
+      "timestamp": 1757528031.037689,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 24,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.1033386966517957,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1758291120437825,
+        "first_contentful_paint": 2.3654828407482853
+      }
+    },
+    {
+      "timestamp": 1757528035.037689,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 24,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.064117100395062,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6463914912668058,
+        "first_contentful_paint": 2.409970801852971
+      }
+    },
+    {
+      "timestamp": 1757528039.037689,
+      "memory": {
+        "used": 202000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.1,
+      "run_number": 24,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.5807893752199584,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6957632315309024,
+        "first_contentful_paint": 2.4499770868600197
+      }
+    },
+    {
+      "timestamp": 1757528043.037689,
+      "memory": {
+        "used": 194000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.7,
+      "run_number": 24,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.460939449161654,
+        "dom_content_loaded": 0,
+        "first_paint": 1.86512333961173,
+        "first_contentful_paint": 1.6729199314123355
+      }
+    },
+    {
+      "timestamp": 1757528049.037697,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 25,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.9588127002104994,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9407786754376146,
+        "first_contentful_paint": 1.9750403164626196
+      }
+    },
+    {
+      "timestamp": 1757528053.037697,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 25,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.8544682044436747,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7467604732824142,
+        "first_contentful_paint": 1.6798414191751885
+      }
+    },
+    {
+      "timestamp": 1757528057.037697,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 25,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.215392567949889,
+        "dom_content_loaded": 0,
+        "first_paint": 1.188926111847476,
+        "first_contentful_paint": 2.4775252540793846
+      }
+    },
+    {
+      "timestamp": 1757528061.037697,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 25,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.091959416754354,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2221147264616667,
+        "first_contentful_paint": 1.6107720149315332
+      }
+    },
+    {
+      "timestamp": 1757528065.037697,
+      "memory": {
+        "used": 140000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.0,
+      "run_number": 25,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.081155024822331,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8157160844982965,
+        "first_contentful_paint": 2.118895255071889
+      }
+    },
+    {
+      "timestamp": 1757528069.037697,
+      "memory": {
+        "used": 148000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.4,
+      "run_number": 25,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.622012952660266,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6814854007279179,
+        "first_contentful_paint": 2.2706432647832613
+      }
+    },
+    {
+      "timestamp": 1757528073.037697,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 25,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.980045862383047,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6705012366998466,
+        "first_contentful_paint": 1.79168705402205
+      }
+    },
+    {
+      "timestamp": 1757528079.037706,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 26,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.079680874620614,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2856018666771272,
+        "first_contentful_paint": 1.7167677372205317
+      }
+    },
+    {
+      "timestamp": 1757528083.037706,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 26,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.1860900250713535,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5336628595603645,
+        "first_contentful_paint": 2.199777545323009
+      }
+    },
+    {
+      "timestamp": 1757528087.037706,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 26,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.662312200492673,
+        "dom_content_loaded": 0,
+        "first_paint": 1.146643010190528,
+        "first_contentful_paint": 2.273450146465048
+      }
+    },
+    {
+      "timestamp": 1757528091.037706,
+      "memory": {
+        "used": 160000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.0,
+      "run_number": 26,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.514733249172542,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1630923927755756,
+        "first_contentful_paint": 1.531349272893678
+      }
+    },
+    {
+      "timestamp": 1757528095.037706,
+      "memory": {
+        "used": 158000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.9,
+      "run_number": 26,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.978325190587774,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7896165708973824,
+        "first_contentful_paint": 1.6025834750075545
+      }
+    },
+    {
+      "timestamp": 1757528099.037706,
+      "memory": {
+        "used": 140000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.0,
+      "run_number": 26,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.2646494562471093,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0400422742446929,
+        "first_contentful_paint": 1.7336877877805117
+      }
+    },
+    {
+      "timestamp": 1757528103.037706,
+      "memory": {
+        "used": 130000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.5,
+      "run_number": 26,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.1082049502969715,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7194041795169932,
+        "first_contentful_paint": 1.570618270065934
+      }
+    },
+    {
+      "timestamp": 1757528109.037714,
+      "memory": {
+        "used": 142000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.1,
+      "run_number": 27,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.842917622636741,
+        "dom_content_loaded": 0,
+        "first_paint": 1.416898343456283,
+        "first_contentful_paint": 2.3414371790367348
+      }
+    },
+    {
+      "timestamp": 1757528113.037714,
+      "memory": {
+        "used": 112000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.6,
+      "run_number": 27,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.661331766261572,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4192873501696934,
+        "first_contentful_paint": 2.4526053269539716
+      }
+    },
+    {
+      "timestamp": 1757528117.037714,
+      "memory": {
+        "used": 148000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.4,
+      "run_number": 27,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.122063116347041,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1103123693060986,
+        "first_contentful_paint": 1.527145204569948
+      }
+    },
+    {
+      "timestamp": 1757528121.037714,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 27,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.950345943625819,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4250972831438855,
+        "first_contentful_paint": 2.487106370507824
+      }
+    },
+    {
+      "timestamp": 1757528125.037714,
+      "memory": {
+        "used": 114000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 5.7,
+      "run_number": 27,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.3268380477587627,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9913849741433487,
+        "first_contentful_paint": 2.1034508407047925
+      }
+    },
+    {
+      "timestamp": 1757528129.037714,
+      "memory": {
+        "used": 128000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.4,
+      "run_number": 27,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.534360402891415,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0196314635665984,
+        "first_contentful_paint": 1.546841542335191
+      }
+    },
+    {
+      "timestamp": 1757528133.037714,
+      "memory": {
+        "used": 138000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.9,
+      "run_number": 27,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.5089067574719928,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4302874169456938,
+        "first_contentful_paint": 1.6309812020802337
+      }
+    },
+    {
+      "timestamp": 1757528139.037723,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 28,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.5602798342521678,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4616488839366109,
+        "first_contentful_paint": 2.0153423872541376
+      }
+    },
+    {
+      "timestamp": 1757528143.037723,
+      "memory": {
+        "used": 166000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.3,
+      "run_number": 28,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.9956173487597626,
+        "dom_content_loaded": 0,
+        "first_paint": 1.128420948964769,
+        "first_contentful_paint": 1.7936009738138363
+      }
+    },
+    {
+      "timestamp": 1757528147.037723,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 28,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.628285274154231,
+        "dom_content_loaded": 0,
+        "first_paint": 1.048306714673636,
+        "first_contentful_paint": 1.9813160971456711
+      }
+    },
+    {
+      "timestamp": 1757528151.037723,
+      "memory": {
+        "used": 170000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.5,
+      "run_number": 28,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.002395039725314,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4888303398373397,
+        "first_contentful_paint": 2.231747476832565
+      }
+    },
+    {
+      "timestamp": 1757528155.037723,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 28,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.2079095474644497,
+        "dom_content_loaded": 0,
+        "first_paint": 1.521429282048824,
+        "first_contentful_paint": 1.9850063983117976
+      }
+    },
+    {
+      "timestamp": 1757528159.037723,
+      "memory": {
+        "used": 192000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.6,
+      "run_number": 28,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.5040476481314613,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1126476291884253,
+        "first_contentful_paint": 1.6123075404914826
+      }
+    },
+    {
+      "timestamp": 1757528163.037723,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 28,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.4931309603010066,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8224798448142303,
+        "first_contentful_paint": 1.967749709766144
+      }
+    },
+    {
+      "timestamp": 1757528169.03773,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 29,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.715849880420002,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2192705095667442,
+        "first_contentful_paint": 2.4725155246804964
+      }
+    },
+    {
+      "timestamp": 1757528173.03773,
+      "memory": {
+        "used": 176000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.8,
+      "run_number": 29,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.334424285445438,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5280082487661304,
+        "first_contentful_paint": 2.4398927794396013
+      }
+    },
+    {
+      "timestamp": 1757528177.03773,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 29,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.834657323637035,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1572731882885279,
+        "first_contentful_paint": 1.9720007837579523
+      }
+    },
+    {
+      "timestamp": 1757528181.03773,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 29,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.687871579949772,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9780697943872116,
+        "first_contentful_paint": 1.8812500273488113
+      }
+    },
+    {
+      "timestamp": 1757528185.03773,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 29,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.450480141116615,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8937960830214555,
+        "first_contentful_paint": 1.7687029672778714
+      }
+    },
+    {
+      "timestamp": 1757528189.03773,
+      "memory": {
+        "used": 160000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.0,
+      "run_number": 29,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.451538655360715,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4734564334759366,
+        "first_contentful_paint": 2.1897556244300675
+      }
+    },
+    {
+      "timestamp": 1757528193.03773,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 29,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.0371622106789706,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1287215641924213,
+        "first_contentful_paint": 1.591400026748619
+      }
+    },
+    {
+      "timestamp": 1757528199.037751,
+      "memory": {
+        "used": 162000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.1,
+      "run_number": 30,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.257439011873747,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3507153785621386,
+        "first_contentful_paint": 2.3183283306397446
+      }
+    },
+    {
+      "timestamp": 1757528203.037751,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 30,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.8806154157024255,
+        "dom_content_loaded": 0,
+        "first_paint": 1.153543203135126,
+        "first_contentful_paint": 2.273291979789965
+      }
+    },
+    {
+      "timestamp": 1757528207.037751,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 30,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.9767826261088173,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4467272113623757,
+        "first_contentful_paint": 1.7602343173517283
+      }
+    },
+    {
+      "timestamp": 1757528211.037751,
+      "memory": {
+        "used": 156000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.8,
+      "run_number": 30,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.2018559937798314,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9121598721063253,
+        "first_contentful_paint": 2.255395363498198
+      }
+    },
+    {
+      "timestamp": 1757528215.037751,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 30,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.676747162629886,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6735642611084978,
+        "first_contentful_paint": 2.040321533049923
+      }
+    },
+    {
+      "timestamp": 1757528219.037751,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 30,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.3134169591547353,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6987422958295184,
+        "first_contentful_paint": 1.875838094884207
+      }
+    },
+    {
+      "timestamp": 1757528223.037751,
+      "memory": {
+        "used": 158000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.9,
+      "run_number": 30,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.395467760665971,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3880279368755581,
+        "first_contentful_paint": 1.6986868831303852
+      }
+    },
+    {
+      "timestamp": 1757528229.03776,
+      "memory": {
+        "used": 134000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.7,
+      "run_number": 31,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.8689223884343815,
+        "dom_content_loaded": 0,
+        "first_paint": 1.728765565313612,
+        "first_contentful_paint": 2.1065400939322343
+      }
+    },
+    {
+      "timestamp": 1757528233.03776,
+      "memory": {
+        "used": 134000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.7,
+      "run_number": 31,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.246445662598859,
+        "dom_content_loaded": 0,
+        "first_paint": 1.384902136489882,
+        "first_contentful_paint": 1.9565210071727208
+      }
+    },
+    {
+      "timestamp": 1757528237.03776,
+      "memory": {
+        "used": 130000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.5,
+      "run_number": 31,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.802764351126961,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1033758926254635,
+        "first_contentful_paint": 1.6117812042638775
+      }
+    },
+    {
+      "timestamp": 1757528241.03776,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 31,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.155007809084539,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1478128457037056,
+        "first_contentful_paint": 1.5781212888970595
+      }
+    },
+    {
+      "timestamp": 1757528245.03776,
+      "memory": {
+        "used": 152000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.6,
+      "run_number": 31,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.175023337430745,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8001105422543302,
+        "first_contentful_paint": 2.0961153313997913
+      }
+    },
+    {
+      "timestamp": 1757528249.03776,
+      "memory": {
+        "used": 136000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.8,
+      "run_number": 31,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.6958069107632627,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1116779297514643,
+        "first_contentful_paint": 1.6154687067529725
+      }
+    },
+    {
+      "timestamp": 1757528253.03776,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 31,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.3312341034557393,
+        "dom_content_loaded": 0,
+        "first_paint": 1.529513187381434,
+        "first_contentful_paint": 1.918664147604912
+      }
+    },
+    {
+      "timestamp": 1757528259.037768,
+      "memory": {
+        "used": 190000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.5,
+      "run_number": 32,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.5603242791545986,
+        "dom_content_loaded": 0,
+        "first_paint": 1.825211050899063,
+        "first_contentful_paint": 2.34250379209648
+      }
+    },
+    {
+      "timestamp": 1757528263.037768,
+      "memory": {
+        "used": 198000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.9,
+      "run_number": 32,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.6398478644982832,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6089447756816502,
+        "first_contentful_paint": 2.336920335733379
+      }
+    },
+    {
+      "timestamp": 1757528267.037768,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 32,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.3526971263086027,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3877775783621105,
+        "first_contentful_paint": 2.305332055633249
+      }
+    },
+    {
+      "timestamp": 1757528271.037768,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 32,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.010113118124066,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9571792342534367,
+        "first_contentful_paint": 1.9209559039486677
+      }
+    },
+    {
+      "timestamp": 1757528275.037768,
+      "memory": {
+        "used": 200000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.0,
+      "run_number": 32,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.158866847675476,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9328878833734762,
+        "first_contentful_paint": 1.62549475191415
+      }
+    },
+    {
+      "timestamp": 1757528279.037768,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 32,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.8214575002771722,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4209813362738044,
+        "first_contentful_paint": 2.366200691765777
+      }
+    },
+    {
+      "timestamp": 1757528283.037768,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 32,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.2389578811840734,
+        "dom_content_loaded": 0,
+        "first_paint": 1.36277186981151,
+        "first_contentful_paint": 2.1611447820443885
+      }
+    },
+    {
+      "timestamp": 1757528289.037834,
+      "memory": {
+        "used": 212000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.6,
+      "run_number": 33,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.9482304215254582,
+        "dom_content_loaded": 0,
+        "first_paint": 1.218725980452524,
+        "first_contentful_paint": 2.1905006097175757
+      }
+    },
+    {
+      "timestamp": 1757528293.037834,
+      "memory": {
+        "used": 212000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.6,
+      "run_number": 33,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.0774440409490325,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6390832064621201,
+        "first_contentful_paint": 2.2864205873080987
+      }
+    },
+    {
+      "timestamp": 1757528297.037834,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 33,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.8045333614389363,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7472429202343385,
+        "first_contentful_paint": 1.6552614825811736
+      }
+    },
+    {
+      "timestamp": 1757528301.037834,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 33,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.6668136931426747,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8389946777876731,
+        "first_contentful_paint": 2.0140922998521043
+      }
+    },
+    {
+      "timestamp": 1757528305.037834,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 33,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.972862702518095,
+        "dom_content_loaded": 0,
+        "first_paint": 1.839943800280932,
+        "first_contentful_paint": 2.020832965584226
+      }
+    },
+    {
+      "timestamp": 1757528309.037834,
+      "memory": {
+        "used": 192000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.6,
+      "run_number": 33,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.5917368694660787,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5251926580206248,
+        "first_contentful_paint": 1.886864323078796
+      }
+    },
+    {
+      "timestamp": 1757528313.037834,
+      "memory": {
+        "used": 198000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.9,
+      "run_number": 33,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.8788959985466107,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5346807949341708,
+        "first_contentful_paint": 2.0243105340717737
+      }
+    },
+    {
+      "timestamp": 1757528319.037858,
+      "memory": {
+        "used": 198000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.9,
+      "run_number": 34,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.5281430773469284,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4384497989262417,
+        "first_contentful_paint": 1.8767672204515864
+      }
+    },
+    {
+      "timestamp": 1757528323.037858,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 34,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.608536850733899,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2356944172132092,
+        "first_contentful_paint": 1.5309322438444317
+      }
+    },
+    {
+      "timestamp": 1757528327.037858,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 34,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.8498454708527796,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3321929404489568,
+        "first_contentful_paint": 2.270826961605822
+      }
+    },
+    {
+      "timestamp": 1757528331.037858,
+      "memory": {
+        "used": 196000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.8,
+      "run_number": 34,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.031986576316945,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6387681543357466,
+        "first_contentful_paint": 1.7470262331173196
+      }
+    },
+    {
+      "timestamp": 1757528335.037858,
+      "memory": {
+        "used": 192000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.6,
+      "run_number": 34,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.209524578702445,
+        "dom_content_loaded": 0,
+        "first_paint": 1.035743356062886,
+        "first_contentful_paint": 1.7279096466824546
+      }
+    },
+    {
+      "timestamp": 1757528339.037858,
+      "memory": {
+        "used": 212000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.6,
+      "run_number": 34,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.5982092505801475,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8726381547948314,
+        "first_contentful_paint": 2.0467211817213147
+      }
+    },
+    {
+      "timestamp": 1757528343.037858,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 34,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.4501090668158416,
+        "dom_content_loaded": 0,
+        "first_paint": 1.876532118458226,
+        "first_contentful_paint": 1.9857615968844398
+      }
+    },
+    {
+      "timestamp": 1757528349.037871,
+      "memory": {
+        "used": 120000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.0,
+      "run_number": 35,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.1952458572083655,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2024908508908734,
+        "first_contentful_paint": 1.953889326011991
+      }
+    },
+    {
+      "timestamp": 1757528353.037871,
+      "memory": {
+        "used": 144000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.2,
+      "run_number": 35,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.772678423399708,
+        "dom_content_loaded": 0,
+        "first_paint": 1.723155241281029,
+        "first_contentful_paint": 1.537219912974467
+      }
+    },
+    {
+      "timestamp": 1757528357.037871,
+      "memory": {
+        "used": 138000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.9,
+      "run_number": 35,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.2256752140254035,
+        "dom_content_loaded": 0,
+        "first_paint": 1.572426154335376,
+        "first_contentful_paint": 1.5272896654504233
+      }
+    },
+    {
+      "timestamp": 1757528361.037871,
+      "memory": {
+        "used": 128000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.4,
+      "run_number": 35,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.6670678357567983,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8074799861617845,
+        "first_contentful_paint": 1.6381982971426132
+      }
+    },
+    {
+      "timestamp": 1757528365.037871,
+      "memory": {
+        "used": 154000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.7,
+      "run_number": 35,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.6715414163506663,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6610380989307596,
+        "first_contentful_paint": 2.4139440907355514
+      }
+    },
+    {
+      "timestamp": 1757528369.037871,
+      "memory": {
+        "used": 148000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.4,
+      "run_number": 35,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.817882925438456,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9135941149253441,
+        "first_contentful_paint": 2.3422314523444285
+      }
+    },
+    {
+      "timestamp": 1757528373.037871,
+      "memory": {
+        "used": 136000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 6.8,
+      "run_number": 35,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.2842511531101635,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7073988662824213,
+        "first_contentful_paint": 1.774616980788433
+      }
+    },
+    {
+      "timestamp": 1757528379.03788,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 36,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.2259913523966417,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9804261249721078,
+        "first_contentful_paint": 1.9152611794471084
+      }
+    },
+    {
+      "timestamp": 1757528383.03788,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 36,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.0022423144257164,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3404770308187661,
+        "first_contentful_paint": 1.7829171759493367
+      }
+    },
+    {
+      "timestamp": 1757528387.03788,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 36,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.985787407492302,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1440356834336398,
+        "first_contentful_paint": 2.131992682969681
+      }
+    },
+    {
+      "timestamp": 1757528391.03788,
+      "memory": {
+        "used": 218000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.9,
+      "run_number": 36,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.8400624114389537,
+        "dom_content_loaded": 0,
+        "first_paint": 1.491472904915696,
+        "first_contentful_paint": 1.7690966093083196
+      }
+    },
+    {
+      "timestamp": 1757528395.03788,
+      "memory": {
+        "used": 204000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.2,
+      "run_number": 36,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.2561039352753185,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2502325100519611,
+        "first_contentful_paint": 2.2186241372783524
+      }
+    },
+    {
+      "timestamp": 1757528399.03788,
+      "memory": {
+        "used": 200000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.0,
+      "run_number": 36,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.1070252978975805,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1843529698188302,
+        "first_contentful_paint": 2.089319920696437
+      }
+    },
+    {
+      "timestamp": 1757528403.03788,
+      "memory": {
+        "used": 202000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.1,
+      "run_number": 36,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.4866316304959075,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5972607049679395,
+        "first_contentful_paint": 2.2133101924792067
+      }
+    },
+    {
+      "timestamp": 1757528409.037902,
+      "memory": {
+        "used": 208000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.4,
+      "run_number": 37,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.113294847154045,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4260520145960383,
+        "first_contentful_paint": 2.2963806490848766
+      }
+    },
+    {
+      "timestamp": 1757528413.037902,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 37,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.7875666092763263,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5869202983639572,
+        "first_contentful_paint": 2.184685825222895
+      }
+    },
+    {
+      "timestamp": 1757528417.037902,
+      "memory": {
+        "used": 204000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.2,
+      "run_number": 37,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.612943410531455,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6831243032434586,
+        "first_contentful_paint": 1.9480049812663038
+      }
+    },
+    {
+      "timestamp": 1757528421.037902,
+      "memory": {
+        "used": 206000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.3,
+      "run_number": 37,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.5283842850154605,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6801200887032777,
+        "first_contentful_paint": 1.598934032322504
+      }
+    },
+    {
+      "timestamp": 1757528425.037902,
+      "memory": {
+        "used": 192000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.6,
+      "run_number": 37,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.032017477510468,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3400436919833711,
+        "first_contentful_paint": 2.2740616995486955
+      }
+    },
+    {
+      "timestamp": 1757528429.037902,
+      "memory": {
+        "used": 184000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.2,
+      "run_number": 37,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.492547641748745,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6056382326920287,
+        "first_contentful_paint": 2.440695904542955
+      }
+    },
+    {
+      "timestamp": 1757528433.037902,
+      "memory": {
+        "used": 196000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.8,
+      "run_number": 37,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.2717508202103955,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2612840603173225,
+        "first_contentful_paint": 2.1862091025527723
+      }
+    },
+    {
+      "timestamp": 1757528439.037907,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 38,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 3.088447631278382,
+        "dom_content_loaded": 0,
+        "first_paint": 1.9539393307632902,
+        "first_contentful_paint": 1.9517256690943703
+      }
+    },
+    {
+      "timestamp": 1757528443.037907,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 38,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 2.588301624721873,
+        "dom_content_loaded": 0,
+        "first_paint": 1.8646611664295363,
+        "first_contentful_paint": 2.194146960402149
+      }
+    },
+    {
+      "timestamp": 1757528447.037907,
+      "memory": {
+        "used": 168000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.4,
+      "run_number": 38,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.127467976428749,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7554463382082024,
+        "first_contentful_paint": 1.9491479904014009
+      }
+    },
+    {
+      "timestamp": 1757528451.037907,
+      "memory": {
+        "used": 188000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.4,
+      "run_number": 38,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.0251539741663085,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5667432531668954,
+        "first_contentful_paint": 2.2195862140983516
+      }
+    },
+    {
+      "timestamp": 1757528455.037907,
+      "memory": {
+        "used": 192000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.6,
+      "run_number": 38,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.3150597819783667,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5756260718507389,
+        "first_contentful_paint": 1.6896445055482727
+      }
+    },
+    {
+      "timestamp": 1757528459.037907,
+      "memory": {
+        "used": 178000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.9,
+      "run_number": 38,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.5729072979093015,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4555367539410158,
+        "first_contentful_paint": 2.17592766832517
+      }
+    },
+    {
+      "timestamp": 1757528463.037907,
+      "memory": {
+        "used": 180000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.0,
+      "run_number": 38,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.885161179895181,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4621611453484737,
+        "first_contentful_paint": 1.6749911821777865
+      }
+    },
+    {
+      "timestamp": 1757528469.037913,
+      "memory": {
+        "used": 194000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.7,
+      "run_number": 39,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.9189871247338157,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0981119325002262,
+        "first_contentful_paint": 1.575862836215299
+      }
+    },
+    {
+      "timestamp": 1757528473.037913,
+      "memory": {
+        "used": 174000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.7,
+      "run_number": 39,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.498663323469186,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2838826619638346,
+        "first_contentful_paint": 1.794928965829041
+      }
+    },
+    {
+      "timestamp": 1757528477.037913,
+      "memory": {
+        "used": 186000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.3,
+      "run_number": 39,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 2.8692727097106845,
+        "dom_content_loaded": 0,
+        "first_paint": 1.2640979554810712,
+        "first_contentful_paint": 2.0584232824546045
+      }
+    },
+    {
+      "timestamp": 1757528481.037913,
+      "memory": {
+        "used": 190000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.5,
+      "run_number": 39,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 2.6875608804051527,
+        "dom_content_loaded": 0,
+        "first_paint": 1.5147629289870297,
+        "first_contentful_paint": 1.6038833944491178
+      }
+    },
+    {
+      "timestamp": 1757528485.037913,
+      "memory": {
+        "used": 204000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 10.2,
+      "run_number": 39,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 2.920105345564288,
+        "dom_content_loaded": 0,
+        "first_paint": 1.0006909538214113,
+        "first_contentful_paint": 2.0993863082644433
+      }
+    },
+    {
+      "timestamp": 1757528489.037913,
+      "memory": {
+        "used": 192000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.6,
+      "run_number": 39,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 3.0155847117446246,
+        "dom_content_loaded": 0,
+        "first_paint": 1.7432827286606596,
+        "first_contentful_paint": 2.4324082583145996
+      }
+    },
+    {
+      "timestamp": 1757528493.037913,
+      "memory": {
+        "used": 196000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.8,
+      "run_number": 39,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 3.24415387808571,
+        "dom_content_loaded": 0,
+        "first_paint": 1.728214904873052,
+        "first_contentful_paint": 2.316349332124986
+      }
+    },
+    {
+      "timestamp": 1757528499.037919,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 40,
+      "step_name": "step_1",
+      "navigation": {
+        "load_time": 2.7717912395463924,
+        "dom_content_loaded": 0,
+        "first_paint": 1.1258589295797603,
+        "first_contentful_paint": 1.9915256192424349
+      }
+    },
+    {
+      "timestamp": 1757528503.037919,
+      "memory": {
+        "used": 164000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.2,
+      "run_number": 40,
+      "step_name": "step_2",
+      "navigation": {
+        "load_time": 3.0248832333919284,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4944072633736158,
+        "first_contentful_paint": 1.7363542066404154
+      }
+    },
+    {
+      "timestamp": 1757528507.037919,
+      "memory": {
+        "used": 172000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 8.6,
+      "run_number": 40,
+      "step_name": "step_3",
+      "navigation": {
+        "load_time": 3.4799701516038737,
+        "dom_content_loaded": 0,
+        "first_paint": 1.504817646050173,
+        "first_contentful_paint": 2.165151563885591
+      }
+    },
+    {
+      "timestamp": 1757528511.037919,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 40,
+      "step_name": "step_4",
+      "navigation": {
+        "load_time": 3.048749780011568,
+        "dom_content_loaded": 0,
+        "first_paint": 1.4077236641702706,
+        "first_contentful_paint": 1.865745082943186
+      }
+    },
+    {
+      "timestamp": 1757528515.037919,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 40,
+      "step_name": "step_5",
+      "navigation": {
+        "load_time": 3.4941617748233256,
+        "dom_content_loaded": 0,
+        "first_paint": 1.489650094325709,
+        "first_contentful_paint": 2.2976069857425814
+      }
+    },
+    {
+      "timestamp": 1757528519.037919,
+      "memory": {
+        "used": 146000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 7.3,
+      "run_number": 40,
+      "step_name": "step_6",
+      "navigation": {
+        "load_time": 2.9307305584888583,
+        "dom_content_loaded": 0,
+        "first_paint": 1.3606667489330748,
+        "first_contentful_paint": 2.3936880798457794
+      }
+    },
+    {
+      "timestamp": 1757528523.037919,
+      "memory": {
+        "used": 182000000,
+        "total": 200000000,
+        "limit": 2000000000
+      },
+      "memory_usage_percent": 9.1,
+      "run_number": 40,
+      "step_name": "step_7",
+      "navigation": {
+        "load_time": 2.9656535976747027,
+        "dom_content_loaded": 0,
+        "first_paint": 1.6944776422163899,
+        "first_contentful_paint": 2.2967284553405607
+      }
+    }
+  ],
+  "console_logs": [
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    },
+    {
+      "message": "PDF generation completed successfully",
+      "relevance": "pdf_generation"
+    },
+    {
+      "message": "Canvas to blob conversion successful",
+      "relevance": "canvas_memory"
+    },
+    {
+      "message": "Memory cleanup completed",
+      "relevance": "memory_management"
+    }
+  ],
+  "network_requests": [
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    },
+    {
+      "url": "https://api.zoovu.com/products",
+      "status": 200,
+      "relevance": "zoovu_request"
+    }
+  ],
+  "memory_analysis": {
+    "peak_memory_across_runs": 11.1,
+    "average_memory_across_runs": 8.004999999999999,
+    "memory_stability": "STABLE",
+    "trend_analysis": "SLIGHT_INCREASE"
+  },
+  "timestamp": 1757527299.037947,
+  "test_path_file": "test_path.json",
+  "target_url": "https://www.bostontec.com/3d-workbench-builder/?"
+}
