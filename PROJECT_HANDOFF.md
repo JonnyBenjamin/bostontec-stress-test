@@ -8,12 +8,14 @@ Automated stress testing system for the BostonTec 3D Workbench Builder web confi
 ## Current Status: ✅ FULLY FUNCTIONAL
 - ✅ Core stress testing automation working
 - ✅ PDF report generation working
-- ✅ HTML report generation working
+- ✅ HTML report generation working with 100-run memory visualization
 - ✅ GitHub Pages deployment working
 - ✅ Performance monitoring implemented
 - ✅ Smart filtering for relevant logs
-- ✅ Professional report styling
-- ✅ HTML/CSS visualizations working (Chart.js alternative)
+- ✅ Professional report styling with Tailwind CSS
+- ✅ Memory scatter plot with individual risk assessment
+- ✅ Organized file structure with archive system
+- ✅ Comprehensive documentation (README, Architecture, Handoff)
 
 ## Key Files & Structure
 
@@ -21,13 +23,25 @@ Automated stress testing system for the BostonTec 3D Workbench Builder web confi
 - **`bostontec_stress_test.py`** - Main automation script (single consolidated script)
 - **`test_path.json`** - Test configuration with 12 steps
 - **`html_report_generator.py`** - HTML report generator with Tailwind CSS
+- **`mock_memory_data.py`** - Mock data generator for development
 - **`deploy_reports.py`** - GitHub Pages deployment automation
+- **`cleanup_files.py`** - File organization utility
 - **`index.html`** - GitHub Pages landing page
 
 ### Report Directories
 - **`pdf_reports/`** - Generated PDF reports
 - **`html_reports/`** - Generated HTML reports
-- **`.gitignore`** - Excludes report directories from git
+- **`archive/`** - Organized historical data
+  - `old_test_data/` - Historical JSON test data
+  - `old_reports/` - Historical HTML reports
+  - `old_mock_data/` - Historical mock data
+  - `debug_files/` - Debug images and logs
+
+### Documentation
+- **`README.md`** - User guide and setup instructions
+- **`PROJECT_HANDOFF.md`** - This file (project handoff guide)
+- **`ARCHITECTURE.md`** - System architecture documentation
+- **`NEXT_STEPS.md`** - Current status and tasks
 
 ### Assets
 - **`BOSTONtec-Logo.png`** - Company logo for reports
