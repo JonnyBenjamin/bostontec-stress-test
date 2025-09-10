@@ -1,0 +1,83 @@
+{
+  "bug_type": "pdf_export_failure",
+  "description": "Test path to reproduce PDF export issues with missing images",
+  "expected_behavior": "PDF should generate with all images and proper formatting",
+  "steps": [
+    {
+      "step": "Choose Base Type",
+      "action": "click",
+      "selector_type": "text",
+      "selector_value": "Electric Height Adjustable Medium Duty (PB)",
+      "base": "button[data-testid='selectable-button']"
+    },
+    {
+      "step": "Next",
+      "action": "click",
+      "selector_type": "testid",
+      "selector_value": "next-button"
+    },
+    {
+      "step": "Choose Surface Type",
+      "action": "click",
+      "selector_type": "text",
+      "selector_value": "Hardwood Maple",
+      "base": "button[data-testid='selectable-button']"
+    },
+    {
+      "step": "Choose Feet & Casters",
+      "action": "click",
+      "selector_type": "composite",
+      "selector_value": "button[data-testid='configurator-product-add-to-summary'][aria-labelledby='product-label-fk30g']"
+    },
+    {
+      "step": "Next",
+      "action": "click",
+      "selector_type": "testid",
+      "selector_value": "next-button"
+    },
+    {
+      "step": "Choose Upright Type",
+      "action": "click",
+      "selector_type": "text",
+      "selector_value": "36\" Work Surface Riser",
+      "base": "button[data-testid='selectable-button']"
+    },
+    {
+      "step": "Next",
+      "action": "click",
+      "selector_type": "testid",
+      "selector_value": "next-button"
+    },
+    {
+      "step": "Add Steel Shelf",
+      "action": "increment_quantity",
+      "selector_type": "section_product",
+      "selector_value": "sh1230"
+    },
+    {
+      "step": "Next",
+      "action": "click",
+      "selector_type": "testid",
+      "selector_value": "next-button"
+    },
+    {
+      "step": "Next",
+      "action": "click",
+      "selector_type": "testid",
+      "selector_value": "next-button"
+    },
+    {
+      "step": "Choose Color",
+      "action": "click",
+      "selector_type": "text",
+      "selector_value": "Black",
+      "base": "button[data-testid='selectable-button']"
+    },
+    {
+      "step": "Final Next",
+      "action": "click",
+      "selector_type": "testid",
+      "selector_value": "next-button"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+2025-09-10 15:01:27,596 - core.test_engine - INFO - Setting up test for bostontec - pdf_export_bug
+2025-09-10 15:01:27,601 - core.test_engine - INFO - Test setup complete: 1 iterations
+2025-09-10 15:01:27,601 - __main__ - INFO - Running test: bostontec - pdf_export_bug (1 iterations)
+2025-09-10 15:01:27,601 - core.test_engine - INFO - Starting test execution: 1 iterations
+2025-09-10 15:01:31,631 - core.browser_manager - INFO - Browser started successfully
+2025-09-10 15:01:38,859 - core.browser_manager - INFO - Navigated to: https://www.bostontec.com/3d-workbench-builder/?
+2025-09-10 15:02:08,886 - core.browser_manager - ERROR - Page load timeout: Timeout 30000ms exceeded.
+2025-09-10 15:02:08,887 - core.test_engine - INFO - Executing test run 1/1
+2025-09-10 15:02:09,119 - core.test_executor - INFO - Starting test run 1
+2025-09-10 15:02:09,119 - core.test_executor - INFO - Run 1, Step 1: Choose Base Type
+2025-09-10 15:02:12,551 - core.test_executor - INFO - Run 1, Step 2: Next
+2025-09-10 15:02:17,880 - core.test_executor - INFO - Run 1, Step 3: Choose Surface Type
+2025-09-10 15:02:20,703 - core.test_executor - INFO - Run 1, Step 4: Choose Feet & Casters
+2025-09-10 15:02:26,184 - core.test_executor - INFO - Run 1, Step 5: Next
+2025-09-10 15:02:32,453 - core.test_executor - INFO - Run 1, Step 6: Choose Upright Type
+2025-09-10 15:02:35,507 - core.test_executor - INFO - Run 1, Step 7: Next
+2025-09-10 15:02:41,734 - core.test_executor - INFO - Run 1, Step 8: Add Steel Shelf
+2025-09-10 15:02:41,831 - core.test_executor - ERROR - Could not find increment button for sh1230
+2025-09-10 15:02:41,831 - core.test_executor - ERROR - Test run 1 failed at step 8
+2025-09-10 15:02:44,236 - core.browser_manager - INFO - Screenshot saved: run_1_final_state.png
+2025-09-10 15:02:44,236 - core.test_engine - ERROR - Test run 1 failed
+2025-09-10 15:02:47,650 - core.browser_manager - INFO - Browser closed
+2025-09-10 15:02:47,651 - core.test_engine - INFO - Test execution complete: 0 successful, 1 failed
+2025-09-10 15:02:47,659 - core.test_engine - INFO - Results saved to results/BostonTec_pdf_export_failure_20250910_150247.json
+2025-09-10 15:03:40,572 - core.test_engine - INFO - Setting up test for bostontec - pdf_export_bug
+2025-09-10 15:03:40,577 - core.test_engine - INFO - Test setup complete: 1 iterations
+2025-09-10 15:03:40,577 - __main__ - INFO - Running test: bostontec - pdf_export_bug (1 iterations)
+2025-09-10 15:03:40,577 - core.test_engine - INFO - Starting test execution: 1 iterations
+2025-09-10 15:03:43,221 - core.browser_manager - INFO - Browser started successfully
+2025-09-10 15:03:44,679 - core.browser_manager - INFO - Navigated to: https://www.bostontec.com/3d-workbench-builder/?
+2025-09-10 15:04:14,680 - core.browser_manager - ERROR - Page load timeout: Timeout 30000ms exceeded.
+2025-09-10 15:04:14,684 - core.test_engine - INFO - Executing test run 1/1
+2025-09-10 15:04:14,942 - core.test_executor - INFO - Starting test run 1
+2025-09-10 15:04:14,951 - core.test_executor - INFO - Run 1, Step 1: Choose Base Type
+2025-09-10 15:04:17,712 - core.test_executor - INFO - Run 1, Step 2: Next
+2025-09-10 15:04:22,793 - core.test_executor - INFO - Run 1, Step 3: Choose Surface Type
+2025-09-10 15:04:25,592 - core.test_executor - INFO - Run 1, Step 4: Choose Feet & Casters
+2025-09-10 15:04:30,899 - core.test_executor - INFO - Run 1, Step 5: Next
+2025-09-10 15:04:37,128 - core.test_executor - INFO - Run 1, Step 6: Choose Upright Type
+2025-09-10 15:04:40,069 - core.test_executor - INFO - Run 1, Step 7: Next
+2025-09-10 15:04:46,374 - core.test_executor - INFO - Run 1, Step 8: Add Steel Shelf
+2025-09-10 15:04:46,533 - core.test_executor - ERROR - Section not found for product ID: sh1230
+2025-09-10 15:04:46,533 - core.test_executor - ERROR - Could not find increment button for sh1230
+2025-09-10 15:04:46,534 - core.test_executor - ERROR - Test run 1 failed at step 8
+2025-09-10 15:04:48,770 - core.browser_manager - INFO - Screenshot saved: run_1_final_state.png
+2025-09-10 15:04:48,770 - core.test_engine - ERROR - Test run 1 failed
+2025-09-10 15:04:51,679 - core.browser_manager - INFO - Browser closed
+2025-09-10 15:04:51,679 - core.test_engine - INFO - Test execution complete: 0 successful, 1 failed
+2025-09-10 15:04:51,686 - core.test_engine - INFO - Results saved to results/BostonTec_pdf_export_failure_20250910_150451.json

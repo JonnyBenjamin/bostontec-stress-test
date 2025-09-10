@@ -1,0 +1,38 @@
+# Global Default Configuration
+# These settings apply to all customers unless overridden
+
+browser:
+  headless: false
+  viewport: { width: 1920, height: 1080 }
+  timeout: 30000
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+
+data_collection:
+  memory_monitoring: true
+  performance_tracking: true
+  error_capture: true
+  screenshot_on_failure: true
+  network_monitoring: true
+  cpu_monitoring: false
+  accessibility_testing: false
+  security_testing: false
+
+reporting:
+  formats: ["html", "pdf", "json"]
+  include_memory_analysis: true
+  include_performance_metrics: true
+  include_network_analysis: true
+  include_error_analysis: true
+  include_accessibility_report: false
+
+test_environment:
+  device_type: "desktop"
+  connection: "broadband"
+  mobile_testing: false
+  tablet_testing: false
+
+# Global settings
+max_iterations: 100
+default_iterations: 5
+screenshot_quality: 90
+log_level: "INFO"

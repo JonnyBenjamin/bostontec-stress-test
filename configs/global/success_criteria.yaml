@@ -1,0 +1,43 @@
+# Global Success Criteria - Applied to All Customers
+# These are standardized benchmarks that apply universally
+
+performance_benchmarks:
+  # Web Vitals (Google's Core Web Vitals)
+  first_contentful_paint: 2000      # < 2 seconds
+  largest_contentful_paint: 4000    # < 4 seconds
+  cumulative_layout_shift: 0.1      # < 0.1
+  first_input_delay: 100            # < 100ms
+  time_to_interactive: 5000         # < 5 seconds
+  
+  # Memory Usage
+  max_memory_usage: 80              # < 80% of available memory
+  memory_leak_threshold: 20         # < 20% increase over test duration
+  
+  # Network Performance
+  max_network_timeout: 10000        # < 10 seconds
+  max_404_errors: 0                 # Zero 404 errors
+  max_5xx_errors: 0                 # Zero server errors
+  
+  # User Experience
+  max_console_errors: 0             # Zero JavaScript errors
+  max_console_warnings: 5           # < 5 warnings
+  max_failed_requests: 2            # < 2 failed network requests
+
+success_indicators:
+  - "All pages load within performance benchmarks"
+  - "Memory usage stays within acceptable limits"
+  - "No critical JavaScript errors"
+  - "All images and resources load successfully"
+  - "User interactions are responsive"
+  - "No memory leaks detected"
+  - "Network requests complete successfully"
+
+failure_indicators:
+  - "Page load time exceeds benchmarks"
+  - "Memory usage exceeds thresholds"
+  - "Critical JavaScript errors present"
+  - "Resources fail to load"
+  - "UI becomes unresponsive"
+  - "Memory leaks detected"
+  - "Excessive network failures"
+  - "Console errors exceed threshold"

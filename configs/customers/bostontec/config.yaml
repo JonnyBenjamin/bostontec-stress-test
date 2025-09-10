@@ -1,0 +1,47 @@
+# BostonTec Customer Configuration
+# Inherits from global defaults, overrides specific settings
+
+customer:
+  name: "BostonTec"
+  domain: "bostontec.com"
+  target_url: "https://www.bostontec.com/3d-workbench-builder/?"
+  
+browser:
+  headless: false
+  viewport: { width: 1920, height: 1080 }
+  timeout: 30000
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+
+data_collection:
+  memory_monitoring: true          # Flag: Test memory usage (critical for PDF bugs)
+  performance_tracking: true       # Flag: Test performance metrics
+  error_capture: true             # Flag: Capture JavaScript errors
+  screenshot_on_failure: true     # Flag: Take screenshots on failures
+  network_monitoring: true        # Flag: Monitor network requests
+  cpu_monitoring: false           # Flag: Skip CPU monitoring (not relevant for web)
+  accessibility_testing: false    # Flag: Skip accessibility tests
+  security_testing: false         # Flag: Skip security tests
+
+reporting:
+  formats: ["html", "pdf", "json"]
+  include_memory_analysis: true     # Flag: Include memory analysis in reports
+  include_performance_metrics: true # Flag: Include performance metrics
+  include_network_analysis: true    # Flag: Include network analysis
+  include_error_analysis: true      # Flag: Include error analysis
+  include_accessibility_report: false # Flag: Skip accessibility reporting
+  customer_branding:
+    logo: "assets/bostontec_logo.png"
+    primary_color: "#1e40af"
+    secondary_color: "#3b82f6"
+
+test_environment:
+  device_type: "desktop"
+  connection: "broadband"
+  mobile_testing: false
+  tablet_testing: false
+
+# BostonTec specific settings
+max_iterations: 50
+default_iterations: 5
+screenshot_quality: 90
+log_level: "INFO"
