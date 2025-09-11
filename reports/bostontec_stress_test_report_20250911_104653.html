@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BostonTec 3D Workbench Builder - Stress Test Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-sans text-sm text-gray-700">
+    <div class="max-w-screen-lg mx-auto py-8 px-4">
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <div class="text-center">
+                <div class="mb-4">
+                    <img src="../BOSTONtec-Logo.png" alt="BostonTec" class="h-12 mx-auto">
+                </div>
+                <h1 class="text-2xl font-semibold text-gray-800 mb-2">3D Workbench Builder</h1>
+                <h2 class="text-lg font-medium text-gray-600">Stress Test Analysis Report</h2>
+                <div class="mt-4 text-sm text-gray-500">
+                    Generated on September 11, 2025 at 10:46 AM
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Test Summary</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="text-center p-4 bg-blue-50 rounded-lg">
+                    <div class="text-2xl font-semibold text-blue-600">5</div>
+                    <div class="text-sm text-gray-600">Total Runs</div>
+                </div>
+                <div class="text-center p-4 bg-green-50 rounded-lg">
+                    <div class="text-2xl font-semibold text-green-600">100.0%</div>
+                    <div class="text-sm text-gray-600">Success Rate</div>
+                </div>
+                <div class="text-center p-4 bg-purple-50 rounded-lg">
+                    <div class="text-2xl font-semibold text-purple-600">26.6s</div>
+                    <div class="text-sm text-gray-600">Avg Runtime</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Executive Summary</h3>
+            
+            <div class="space-y-4">
+                <p class="text-gray-700">
+                    The BostonTec 3D Workbench Builder stress test was conducted to identify potential 
+                    performance issues and memory pressure patterns that could contribute to intermittent 
+                    PDF export failures. The test executed 5 complete configuration 
+                    cycles with comprehensive monitoring of browser performance, memory usage, and error patterns.
+                </p>
+                
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-gray-800 mb-2">Key Findings</h4>
+                    <ul class="space-y-1 text-sm text-gray-700">
+                        <li>• <strong>Success Rate:</strong> 100.0% - All test runs completed successfully</li>
+                        <li>• <strong>Performance:</strong> Average runtime of 26.6 seconds per cycle</li>
+                        <li>• <strong>Memory Usage:</strong> Peak usage of 13.5% with 135 performance measurements</li>
+                        <li>• <strong>Image Capture:</strong> 10 images captured successfully PDF export image analysis</li>
+                        <li>• <strong>Error Monitoring:</strong> 234 relevant console logs captured</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-blue-800 mb-2">Testing Scope & Limitations</h4>
+                    <div class="text-sm text-blue-700 space-y-2">
+                        <p><strong>What We Cannot Control:</strong> Customer environments, device limitations, browser restrictions, 
+                        network conditions, or unique hardware constraints that may affect PDF generation.</p>
+                        <p><strong>What We Can Control:</strong> Application performance, memory usage patterns, error handling, 
+                        and optimization opportunities within our configurator and PDF generation process.</p>
+                        <p><strong>Testing Strategy:</strong> Focus on measurable, controllable factors that can help identify 
+                        and mitigate PDF generation failures in production environments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Technical Findings</h3>
+            
+            <div class="space-y-6">
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Performance Metrics</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full table-auto text-left text-sm">
+                            <thead>
+                                <tr class="text-xs uppercase text-gray-500 font-medium border-b border-gray-200">
+                                    <th class="pb-2">Metric</th>
+                                    <th class="pb-2">Value</th>
+                                    <th class="pb-2">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Total Test Runs</td>
+                                    <td class="py-2">5</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Complete</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Successful Runs</td>
+                                    <td class="py-2">5</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Excellent</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Failed Runs</td>
+                                    <td class="py-2">0</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">None</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Success Rate</td>
+                                    <td class="py-2">100.0%</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Excellent</span></td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Average Run Time</td>
+                                    <td class="py-2">26.6s</td>
+                                    <td class="py-2"><span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">Normal</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Technical Validation</h4>
+                    <div class="space-y-2 text-sm text-gray-700">
+                        <div class="flex items-center">
+                            <span class="text-green-600 mr-2">✅</span>
+                            <span>Comprehensive monitoring deployed across all test phases</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-green-600 mr-2">✅</span>
+                            <span>Complete telemetry data captured successfully</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-green-600 mr-2">✅</span>
+                            <span>Test environment maintained full stability</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-green-600 mr-2">✅</span>
+                            <span>All critical system components remained operational</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="text-green-600 mr-2">✅</span>
+                            <span>Monitoring infrastructure performed as expected</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">PDF Image Capture Analysis</h3>
+            
+            <div class="space-y-6">
+                <!-- Summary Statistics -->
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Image Capture Summary</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="text-center p-4 bg-green-50 rounded-lg">
+                            <div class="text-2xl font-semibold text-green-600">10</div>
+                            <div class="text-sm text-gray-600">Images Captured</div>
+                        </div>
+                        <div class="text-center p-4 bg-red-50 rounded-lg">
+                            <div class="text-2xl font-semibold text-red-600">0</div>
+                            <div class="text-sm text-gray-600">Capture Failures</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Correlation Analysis -->
+                
+                
+                <!-- Key Insights -->
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-blue-800 mb-2">📊 Summary</h4>
+                    <div class="text-sm text-blue-700">
+                        <p><strong>✅ Excellent:</strong> 10 images generated successfully for PDF export functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Memory Analysis Across Test Runs</h3>
+            
+            <div class="space-y-6">
+                <!-- Memory Trend Visualization -->
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Peak Memory Usage by Test Run</h4>
+                    <div class="relative h-80 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-100 shadow-lg">
+                        <!-- Grid lines -->
+                        <div class="absolute inset-0 opacity-20">
+                            <div class="absolute top-0 left-0 w-full h-px bg-gray-300"></div>
+                            <div class="absolute top-1/4 left-0 w-full h-px bg-gray-300"></div>
+                            <div class="absolute top-1/2 left-0 w-full h-px bg-gray-300"></div>
+                            <div class="absolute top-3/4 left-0 w-full h-px bg-gray-300"></div>
+                            <div class="absolute bottom-0 left-0 w-full h-px bg-gray-300"></div>
+                        </div>
+                        
+                        <div class="relative w-full h-full">
+                            
+                <div class="absolute w-4 h-4 bg-green-400 hover:bg-green-500 rounded-full shadow-lg shadow-green-200 cursor-pointer transition-all duration-200 hover:scale-125 hover:shadow-xl" 
+                     style="left: 0.0%; bottom: 40.76255666675852px;"
+                     title="Run 1: 10.2%"
+                     onmouseover="this.style.transform='scale(1.25)'"
+                     onmouseout="this.style.transform='scale(1)'"></div>
+            
+                    <div class="absolute bg-gray-300 opacity-30" 
+                         style="left: 0.0%; bottom: 40.76255666675852px; width: 28.325235908271967px; height: 1px; 
+                                transform-origin: left center; transform: rotate(0.5326447059859092rad);"></div>
+                
+                <div class="absolute w-4 h-4 bg-green-400 hover:bg-green-500 rounded-full shadow-lg shadow-green-200 cursor-pointer transition-all duration-200 hover:scale-125 hover:shadow-xl" 
+                     style="left: 25.0%; bottom: 54.07867431640625px;"
+                     title="Run 2: 13.5%"
+                     onmouseover="this.style.transform='scale(1.25)'"
+                     onmouseout="this.style.transform='scale(1)'"></div>
+            
+                    <div class="absolute bg-gray-300 opacity-30" 
+                         style="left: 25.0%; bottom: 54.07867431640625px; width: 27.285998142108316px; height: 1px; 
+                                transform-origin: left center; transform: rotate(-0.4373112294211316rad);"></div>
+                
+                <div class="absolute w-4 h-4 bg-green-400 hover:bg-green-500 rounded-full shadow-lg shadow-green-200 cursor-pointer transition-all duration-200 hover:scale-125 hover:shadow-xl" 
+                     style="left: 50.0%; bottom: 43.14589358087796px;"
+                     title="Run 3: 10.8%"
+                     onmouseover="this.style.transform='scale(1.25)'"
+                     onmouseout="this.style.transform='scale(1)'"></div>
+            
+                    <div class="absolute bg-gray-300 opacity-30" 
+                         style="left: 50.0%; bottom: 43.14589358087796px; width: 25.074415476326013px; height: 1px; 
+                                transform-origin: left center; transform: rotate(0.07721462534434749rad);"></div>
+                
+                <div class="absolute w-4 h-4 bg-green-400 hover:bg-green-500 rounded-full shadow-lg shadow-green-200 cursor-pointer transition-all duration-200 hover:scale-125 hover:shadow-xl" 
+                     style="left: 75.0%; bottom: 45.07625921448665px;"
+                     title="Run 4: 11.3%"
+                     onmouseover="this.style.transform='scale(1.25)'"
+                     onmouseout="this.style.transform='scale(1)'"></div>
+            
+                    <div class="absolute bg-gray-300 opacity-30" 
+                         style="left: 75.0%; bottom: 45.07625921448665px; width: 25.03595221856396px; height: 1px; 
+                                transform-origin: left center; transform: rotate(-0.053649283167141563rad);"></div>
+                
+                <div class="absolute w-4 h-4 bg-green-400 hover:bg-green-500 rounded-full shadow-lg shadow-green-200 cursor-pointer transition-all duration-200 hover:scale-125 hover:shadow-xl" 
+                     style="left: 100.0%; bottom: 43.73502713530811px;"
+                     title="Run 5: 10.9%"
+                     onmouseover="this.style.transform='scale(1.25)'"
+                     onmouseout="this.style.transform='scale(1)'"></div>
+            
+                        </div>
+                        
+                        <!-- Y-axis labels with subtle styling -->
+                        <div class="absolute left-0 top-0 h-full flex flex-col justify-between text-xs font-medium text-gray-500 pl-2">
+                            <span>50%</span>
+                            <span>40%</span>
+                            <span>30%</span>
+                            <span>20%</span>
+                            <span>10%</span>
+                            <span>0%</span>
+                        </div>
+                        
+                        <!-- X-axis labels with subtle styling -->
+                        <div class="absolute bottom-0 left-0 w-full flex justify-between text-xs font-medium text-gray-500 pb-2">
+                            <span class="ml-12">Run 1</span>
+                            <span class="mr-12">Run 5</span>
+                        </div>
+                        
+                        <!-- Legend -->
+                        <div class="absolute top-4 right-4 bg-white rounded-lg shadow-md p-3">
+                            <div class="text-xs font-semibold text-gray-700 mb-2">Memory Usage</div>
+                            <div class="space-y-1">
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                                    <span class="text-xs text-gray-600">Normal (≤35%)</span>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                                    <span class="text-xs text-gray-600">Caution (35-50%)</span>
+                                </div>
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                                    <span class="text-xs text-gray-600">High Risk (>50%)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4 p-4 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg border border-green-200">
+                        <p class="text-sm text-gray-700">
+                            <span class="font-semibold text-blue-800">📊 Memory Pattern Analysis:</span> 
+                            Each dot represents the peak memory usage for one test run. 
+                            5 test runs analyzed - see detailed analysis below for memory impact assessment.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Summary Statistics -->
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Memory Usage Summary</h4>
+                    <div class="overflow-x-auto">
+                        <table class="w-full table-auto text-left text-sm">
+                            <thead>
+                                <tr class="text-xs uppercase text-gray-500 font-medium border-b border-gray-200">
+                                    <th class="pb-2">Metric</th>
+                                    <th class="pb-2">Value</th>
+                                    <th class="pb-2">Risk Level</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100">
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Highest Peak Memory</td>
+                                    <td class="py-2">13.5%</td>
+                                    <td class="py-2">
+                                        <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                                            LOW
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Average Peak Memory</td>
+                                    <td class="py-2">11.3%</td>
+                                    <td class="py-2">
+                                        <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">
+                                            LOW
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr class="even:bg-gray-50">
+                                    <td class="py-2">Memory Range</td>
+                                    <td class="py-2">10.2% - 13.5%</td>
+                                    <td class="py-2">
+                                        <span class="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">
+                                            N/A
+                                        </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h4 class="font-semibold text-blue-800 mb-2">Memory Stability Analysis</h4>
+                    <p class="text-sm text-blue-700">
+                        Memory usage remains generally low across 5 test runs, with peak usage of 13.5% 
+                and average of 11.3%. This represents minimal concern and suggests that memory pressure 
+                is not a primary contributing factor to PDF generation issues.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">Technical Appendix</h3>
+            <p class="text-sm text-gray-600 mb-6 italic">Detailed metrics for technical teams and quality assurance</p>
+            
+            <!-- Data Collection Summary -->
+            <div class="mb-8">
+                <h4 class="text-lg font-semibold text-gray-800 mb-4">Data Collection Summary</h4>
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <div class="overflow-x-auto">
+                        <table class="w-full table-auto text-left text-sm">
+                            <thead>
+                                <tr class="text-xs uppercase text-gray-500 font-medium border-b-2 border-gray-300">
+                                    <th class="pb-3 pr-6">Metric</th>
+                                    <th class="pb-3 pr-6 text-center">Count</th>
+                                    <th class="pb-3">Purpose</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr class="hover:bg-gray-100">
+                                    <td class="py-3 pr-6 font-medium text-gray-800">Console Events</td>
+                                    <td class="py-3 pr-6 text-center text-blue-600 font-semibold">234</td>
+                                    <td class="py-3 text-gray-600">System behavior monitoring</td>
+                                </tr>
+                                <tr class="hover:bg-gray-100">
+                                    <td class="py-3 pr-6 font-medium text-gray-800">Network Operations</td>
+                                    <td class="py-3 pr-6 text-center text-blue-600 font-semibold">2032</td>
+                                    <td class="py-3 text-gray-600">Request/response tracking</td>
+                                </tr>
+                                <tr class="hover:bg-gray-100">
+                                    <td class="py-3 pr-6 font-medium text-gray-800">Performance Snapshots</td>
+                                    <td class="py-3 pr-6 text-center text-blue-600 font-semibold">135</td>
+                                    <td class="py-3 text-gray-600">Memory & timing analysis</td>
+                                </tr>
+                                <tr class="hover:bg-gray-100">
+                                    <td class="py-3 pr-6 font-medium text-gray-800">Network Monitoring</td>
+                                    <td class="py-3 pr-6 text-center text-blue-600 font-semibold">9</td>
+                                    <td class="py-3 text-gray-600">Continuous network quality tracking</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <!-- Console Log Categories -->
+                <div class="bg-blue-50 rounded-lg p-4">
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Console Log Categories</h4>
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-center"><span class="text-sm text-gray-700">Zoovu Error</span><span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">15 events</span></div><div class="flex justify-between items-center"><span class="text-sm text-gray-700">Image Loading</span><span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">21 events</span></div><div class="flex justify-between items-center"><span class="text-sm text-gray-700">Configurator Error</span><span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-medium">8 events</span></div>
+                    </div>
+                </div>
+                
+                <!-- Network Request Breakdown -->
+                <div class="bg-green-50 rounded-lg p-4">
+                    <h4 class="text-lg font-semibold text-gray-800 mb-3">Network Request Breakdown</h4>
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-center"><span class="text-sm text-gray-700">Zoovu Request</span><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">1986 requests</span></div><div class="flex justify-between items-center"><span class="text-sm text-gray-700">Other</span><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">26 requests</span></div><div class="flex justify-between items-center"><span class="text-sm text-gray-700">Pdf Generation</span><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">10 requests</span></div><div class="flex justify-between items-center"><span class="text-sm text-gray-700">Image Loading</span><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">10 requests</span></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Network Monitoring Summary -->
+            <div class="bg-purple-50 rounded-lg p-4">
+                <h4 class="text-lg font-semibold text-gray-800 mb-3">Network Monitoring Summary</h4>
+                
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                <div class="text-center">
+                    <div class="text-lg font-semibold text-purple-600">8.2ms</div>
+                    <div class="text-gray-600">Average Ping</div>
+                    <div class="text-xs text-gray-500">8 measurements</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-lg font-semibold text-purple-600">163.0 Mbps</div>
+                    <div class="text-gray-600">Average Download</div>
+                    <div class="text-xs text-gray-500">2 measurements</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-lg font-semibold text-purple-600">154.4 Mbps</div>
+                    <div class="text-gray-600">Average Upload</div>
+                    <div class="text-xs text-gray-500">2 measurements</div>
+                </div>
+            </div>
+            <div class="mt-3 text-xs text-gray-600 text-center">
+                Monitoring: 2 full speed tests, 6 ping-only measurements
+            </div>
+            
+            </div>
+        </div>
+        
+        
+        <div class="text-xs text-gray-400 text-center mt-12 pt-4 border-t border-gray-200">
+            BostonTec 3D Workbench Builder - Stress Test Report | Generated: September 11, 2025 at 10:46 AM
+        </div>
+        
+    </div>
+</body>
+</html>
